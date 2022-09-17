@@ -9,6 +9,7 @@ function Header() {
     return(        <header className={`Header `}>
         <nav className={`nav`}>
             <div className="nav-item nav-home"><NavLink to={"/"}  exact="true">Home</NavLink></div>
+            <div className="nav-item nav-home"><NavLink to={"/respawn_rb"}  exact="true">Spawn</NavLink></div>
             <div className="nav-item nav-auth"><NavLink to={"/auth"}  exact="true">Auth</NavLink></div>
         </nav>
     </header>);

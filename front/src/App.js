@@ -5,6 +5,7 @@ import {Routes, Route} from 'react-router-dom';
 import Home from "./components/Home/Home";
 import Auth from "./components/Auth/Auth";
 import Header from "./components/Header/Header";
+import RespawnRb from "./components/RespawnRb/RespawnRb";
 
 
 class App extends Component{
@@ -22,6 +23,7 @@ class App extends Component{
           <Header/>
           <Routes>
             <Route exact={true} path={'/'} element={<Home/>}/>
+            <Route exact={true} path={'/respawn_rb'} element={<RespawnRb/>}/>
             <Route exact={true} path={'/auth'} element={<Auth/>}/>
           </Routes>
         </div>
