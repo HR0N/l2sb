@@ -1,29 +1,77 @@
 .Card{
-  display: flex;
+  display: inline-flex;
   justify-content: center;
-  padding-top: 100px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 100px;
+  width: auto;
+  max-width: 310px;
+  padding: 25px;
+  box-shadow: 1px 1px 5px black;
+  color: rgb(255, 232, 155);
+  border-radius: .25rem;
+  cursor: pointer;
+  background-color: rgb(33,34,38);
+
+  .title{
+    margin-top: 6px;
+    margin-bottom: 25px;
+  }
+  &__info{
+    text-align: left;
+    .resp{
+      width: 100%;
+      font-size: .8em;
+      font-weight: bold;
+    }
+    .info__row{
+      font-weight: bold;
+    }
+  }
   .interface{
     position: relative;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
     .progress-ring{
       width: 120px;
       height: 120px;
       .progress-ring__circle{
-        stroke: cornflowerblue;
-        stroke-width: 4px;
-        fill: rgba(0, 0, 0, 0.05);
+        stroke: rgba(128, 204, 237, 0.6);
+        stroke-width: 6px;
+        fill: rgba(78, 152, 184, 0.11);
         transform-origin: center;
         transform: rotate(-90deg);
         transition: linear all 1s;
       }
     }
-    .start span{
-      left: 50%;
-      bottom: 50%;
-      padding-bottom: 51px;
+    .flag-words{
       position: absolute;
-      transform-origin: bottom;
-      transform: rotate(0deg);
+      left: 50%;
+      top: 50%;
+      .flag span{
+        width: 3px;
+        left: 50%;
+        bottom: 50%;
+        padding-bottom: 60px;
+        position: absolute;
+        transform-origin: bottom;
+        transform: rotate(0deg);
+        font-weight: bold;
+        opacity: .2;
+      }
+      .killed span{
+        padding-bottom: 56px;
+      }
+    }
+    .percent{
+      font-weight: bold;
+      opacity: .7;
+      position: absolute;
+      top: calc(50% - 12px);
+      left: calc(50% - 13px);
     }
   }
+  &:hover .flag-words .flag span{opacity: .8;}
 }
