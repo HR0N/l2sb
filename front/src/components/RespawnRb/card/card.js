@@ -31,13 +31,11 @@ function Card() {
             let array = [...string.getElementsByTagName('span')];
             array.map((v, k)=>{
                 v.style.transition = `ease-in all ${2.5 - ((k+9)/10)}s`;
-                v.style.transform = `rotate(${poOffset+(k+1)*9}deg)`;
+                v.style.transform = `rotate(${poOffset+(k*8.5)}deg)`;
             });
         };
-        setTimeout(()=>{stringGap(document.querySelector('.progress_time'), 320);}, 200);
-        // setTimeout(()=>{stringGap(document.querySelector('.start'));}, 200);
-        // setTimeout(()=>{stringGap(document.querySelector('.killed'), 156);}, 200);
-        // setTimeout(()=>{stringGap(document.querySelector('.stop'), 310);}, 200);
+        // setTimeout(()=>{stringGap(document.querySelector('.resp_time_left'), 300);}, 200);
+        setTimeout(()=>{stringGap(document.querySelector('.resp_time_passed'), 305);}, 200);
     }, []);
 
 
@@ -55,41 +53,46 @@ function Card() {
         </div>
         <div className="interface">
             <div className="flag-words">
-                <div className="flag progress_time">
-                    <span>p</span>
-                    <span>r</span>
-                    <span>o</span>
-                    <span>g</span>
-                    <span>r</span>
-                    <span>e</span>
-                    <span>s</span>
-                    <span>s</span>
-                </div>
-                {/*<div className="flag start">
-                    <span>s</span>
-                    <span>t</span>
-                    <span>a</span>
-                    <span>r</span>
-                    <span>t</span>
-                </div>
-                <div className="flag killed">
-                    <span>d</span>
-                    <span>e</span>
-                    <span>a</span>
-                    <span>t</span>
-                    <span>h</span>
-                </div>
-                <div className="flag stop">
-                    <span>e</span>
-                    <span>n</span>
-                    <span>d</span>
+                {/*<div className="flag resp_time_left">
+                    <span>д</span>
+                    <span>о</span>
+                    <span> </span>
+                    <span>н</span>
+                    <span>а</span>
+                    <span>ч</span>
+                    <span>а</span>
+                    <span>л</span>
+                    <span>а</span>
+                    <span> </span>
+                    <span>р</span>
+                    <span>е</span>
+                    <span>с</span>
+                    <span>п</span>
+                    <span>а</span>
                 </div>*/}
+                <div className="flag resp_time_passed">
+                    <span>д</span>
+                    <span>о</span>
+                    <span> </span>
+                    <span>к</span>
+                    <span>о</span>
+                    <span>н</span>
+                    <span>ц</span>
+                    <span>а</span>
+                    <span> </span>
+                    <span>р</span>
+                    <span>е</span>
+                    <span>с</span>
+                    <span>п</span>
+                    <span>а</span>
+                </div>
             </div>
             <svg className="progress-ring">
                 <circle className="progress-ring__circle" cx={'60'} cy={'60'} r={`${radius}`}
                         strokeDashoffset={`${circumference}`}/>
             </svg>
-            <div className="percent">75%</div>
+            <div className="percent">{18 - (18 - 18)}:00</div>
+            {/*<div className="percent">9ч / 12</div>*/}
         </div>
     </div>);
 }

@@ -48,7 +48,7 @@
     }
     .flag-words{
       position: absolute;
-      left: 50%;
+      left: 49.5%;
       top: 50%;
       .flag span{
         width: 3px;
@@ -70,7 +70,8 @@
       opacity: .7;
       position: absolute;
       top: calc(50% - 12px);
-      left: calc(50% - 13px);
+      margin: 0 auto;
+      //left: calc(50% - 13px);
     }
   }
   &:hover .flag-words .flag span{opacity: .8;}

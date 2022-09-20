@@ -5,7 +5,8 @@ import Card from "./card/card";
 
 
 function RespawnRb() {
-    return(<div className={`RespawnRb`}>
+    return(<div className={`RespawnRb`}
+    >
         <Card/>
     </div>);
 }

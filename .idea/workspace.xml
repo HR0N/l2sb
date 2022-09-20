@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bc7846bd-ad00-4195-a9e4-3e3764461d52" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/RespawnRb/RespawnRb.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/RespawnRb/RespawnRb.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/components/RespawnRb/card/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/RespawnRb/card/card.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/components/RespawnRb/card/card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/RespawnRb/card/card.scss" afterDir="false" />
     </list>
@@ -196,7 +197,9 @@
       <workItem from="1661767359362" duration="54000" />
       <workItem from="1662823453721" duration="764000" />
       <workItem from="1663419360208" duration="9292000" />
-      <workItem from="1663502676530" duration="7302000" />
+      <workItem from="1663502676530" duration="7620000" />
+      <workItem from="1663595166624" duration="39000" />
+      <workItem from="1663681093195" duration="4476000" />
     </task>
     <servers />
   </component>
@@ -214,10 +217,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1661092456937" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1661767411545">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1663595208617">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1661767411545" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1663595208617" />
     <state x="492" y="227" key="NewPhpClassDialog" timestamp="1661093466734">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
