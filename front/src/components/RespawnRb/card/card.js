@@ -1,6 +1,6 @@
 import "./card.scss";
 import {connect} from 'react-redux';
-import React, {useEffect} from "react";
+import React, {useEffect, useState} from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faSkullCrossbones, faHourglassStart, faHourglassEnd} from "@fortawesome/free-solid-svg-icons";
 
@@ -15,6 +15,9 @@ const circumference = 2 * Math.PI * radius;
 
 
 function Card() {
+    const [begun, setBegun] = useState(false);
+    const [killed, setKilled] = useState(false);
+    console.log(new Date());
 
     useEffect(()=>{
         const circle = document.querySelector('.progress-ring__circle');
@@ -34,8 +37,11 @@ function Card() {
                 v.style.transform = `rotate(${poOffset+(k*8.5)}deg)`;
             });
         };
-        // setTimeout(()=>{stringGap(document.querySelector('.resp_time_left'), 300);}, 200);
-        setTimeout(()=>{stringGap(document.querySelector('.resp_time_passed'), 305);}, 200);
+        if(begun){
+            setTimeout(()=>{stringGap(document.querySelector('.resp_time_left'), 300);}, 200);
+        }else{
+            setTimeout(()=>{stringGap(document.querySelector('.resp_time_passed'), 305);}, 200);
+        }
     }, []);
 
 
@@ -53,7 +59,7 @@ function Card() {
         </div>
         <div className="interface">
             <div className="flag-words">
-                {/*<div className="flag resp_time_left">
+                {begun ? <div className="flag resp_time_left">
                     <span>д</span>
                     <span>о</span>
                     <span> </span>
@@ -69,8 +75,8 @@ function Card() {
                     <span>с</span>
                     <span>п</span>
                     <span>а</span>
-                </div>*/}
-                <div className="flag resp_time_passed">
+                </div> : false}
+                {!begun ? <div className="flag resp_time_passed">
                     <span>д</span>
                     <span>о</span>
                     <span> </span>
@@ -85,7 +91,7 @@ function Card() {
                     <span>с</span>
                     <span>п</span>
                     <span>а</span>
-                </div>
+                </div> : false}
             </div>
             <svg className="progress-ring">
                 <circle className="progress-ring__circle" cx={'60'} cy={'60'} r={`${radius}`}
