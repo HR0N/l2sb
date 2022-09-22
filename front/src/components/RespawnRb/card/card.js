@@ -3,21 +3,22 @@ import {connect} from 'react-redux';
 import React, {useEffect, useState} from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faSkullCrossbones, faHourglassStart, faHourglassEnd} from "@fortawesome/free-solid-svg-icons";
+import Time from "../../../sublimate/time";
 
-
+const time = new Time();
 const width       = 120;
 const height      = 120;
 const strokeWidth = 4;
 const radius = (width / 2) - (strokeWidth * 2);
 const circumference = 2 * Math.PI * radius;
 
-
+time.now();
+// time.ast_format_refactoring("2022-09-22 07:46:55: Убит босс Longhorn Golkonda");
 
 
 function Card() {
     const [begun, setBegun] = useState(false);
     const [killed, setKilled] = useState(false);
-    console.log(new Date());
 
     useEffect(()=>{
         const circle = document.querySelector('.progress-ring__circle');
