@@ -16,6 +16,13 @@ class ApiClient {
             },
             withCredentials: false,
         });
+        this.axios2 = axios.create({
+            baseURL: "https://l2sb.evilcode.space/",
+            timeout: 5000,
+            headers: {
+            },
+            withCredentials: false,
+        });
     }
     login(data, callbackError = ()=>{}, callbackSuccess = ()=>{}){
         let {email, pass} = data;
@@ -54,6 +61,16 @@ class ApiClient {
                     })
             });
     }
-
+    get_rss_x5(){
+        this.axios2.get('php/get_asterios_rss_x5.php'
+            , {
+                headers: {
+                    'Content-Type': 'application/json',
+                    "Access-Control-Allow-Origin": "*",
+                },})
+            .then(res =>{
+                console.log(res);
+            })
+    }
 }
 export default ApiClient;

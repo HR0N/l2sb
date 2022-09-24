@@ -28,6 +28,8 @@
 - import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 - <FontAwesomeIcon className={`faCaretLeft`} icon={faCaretLeft}/>
 - // shadow for SVG => filter: drop-shadow(1px 1px 2px black);
+##### moment.js
+link - momentjs.com/docs/#/displaying/difference/
 
 
 
