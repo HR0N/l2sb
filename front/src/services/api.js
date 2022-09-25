@@ -20,6 +20,10 @@ class ApiClient {
             baseURL: "https://l2sb.evilcode.space/",
             timeout: 5000,
             headers: {
+                'X-Requested-Width': 'XMLHttpRequest',
+                "Access-Control-Allow-Origin": "*",
+                'Access-Control-Allow-Headers': "*",
+                'Access-Control-Allow-Methods': "*",
             },
             withCredentials: false,
         });

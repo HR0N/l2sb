@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc7846bd-ad00-4195-a9e4-3e3764461d52" name="Default Changelist" comment="" />
+    <list default="true" id="bc7846bd-ad00-4195-a9e4-3e3764461d52" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/php/get_asterios_rss_x5.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/php/get_asterios_rss_x5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/services/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/services/api.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -201,6 +205,8 @@
       <workItem from="1663843598655" duration="6467000" />
       <workItem from="1663917798339" duration="615000" />
       <workItem from="1664024646115" duration="6770000" />
+      <workItem from="1664032489914" duration="220000" />
+      <workItem from="1664112343829" duration="3098000" />
     </task>
     <servers />
   </component>
