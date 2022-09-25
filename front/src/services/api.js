@@ -21,9 +21,6 @@ class ApiClient {
             timeout: 5000,
             headers: {
                 'X-Requested-Width': 'XMLHttpRequest',
-                "Access-Control-Allow-Origin": "*",
-                'Access-Control-Allow-Headers': "*",
-                'Access-Control-Allow-Methods': "*",
             },
             withCredentials: false,
         });
@@ -73,7 +70,8 @@ class ApiClient {
                     "Access-Control-Allow-Origin": "*",
                 },})
             .then(res =>{
-                console.log(res);
+                let data = res.data;
+                console.log(data);
             })
     }
 }

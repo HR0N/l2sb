@@ -13,4 +13,4 @@ use env\Env;
 $db = new \mydb\myDB(Env::class);
 $res = [...$db->get_all()[0]];
 
-echo str_replace("'", '"', $res[1]);
+echo str_replace("`", '"', $res[1]);
