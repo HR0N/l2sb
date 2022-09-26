@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc7846bd-ad00-4195-a9e4-3e3764461d52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/front/src/redux/actions/rss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/redux/reducers/rss.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/php/get_asterios_rss_x5.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/php/get_asterios_rss_x5.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/services/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/services/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/RespawnRb/RespawnRb.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/RespawnRb/RespawnRb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/redux/actions/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/redux/actions/actionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/redux/reducers/rootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/redux/reducers/rootReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +152,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pAsterios" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -206,7 +209,9 @@
       <workItem from="1663917798339" duration="615000" />
       <workItem from="1664024646115" duration="6770000" />
       <workItem from="1664032489914" duration="220000" />
-      <workItem from="1664112343829" duration="5649000" />
+      <workItem from="1664112343829" duration="6215000" />
+      <workItem from="1664191564303" duration="596000" />
+      <workItem from="1664193804865" duration="5311000" />
     </task>
     <servers />
   </component>
@@ -224,10 +229,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1661092456937" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1664118107563">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1664193528141">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1664118107563" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1664193528141" />
     <state x="492" y="227" key="NewPhpClassDialog" timestamp="1661093466734">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -240,10 +245,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="330" y="148" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1660743079041" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1661358981495">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1664201541412">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1661358981495" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1664201541412" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1660999719062">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
