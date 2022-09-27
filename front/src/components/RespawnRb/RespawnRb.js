@@ -11,7 +11,9 @@ function RespawnRb(props) {
     useEffect(()=>{}, [rss_x5]);
     return(<div className={`RespawnRb`}
     >
-        <Card/>
+        {rss_x5 ?
+            <Card data ={rss_x5[1].Cabrio}/>
+            : false}
     </div>);
 }
 

@@ -12,13 +12,23 @@ const strokeWidth = 4;
 const radius = (width / 2) - (strokeWidth * 2);
 const circumference = 2 * Math.PI * radius;
 
-time.now();
 // time.ast_format_refactoring("2022-09-22 07:46:55: Убит босс Longhorn Golkonda");
 
+const asterios_date_to_normal = (props)=>{
+    let sKilled_date = props.data[0].split(' ')[0].split('-');
+    sKilled_date = `${sKilled_date[2]}.${sKilled_date[1]}.${sKilled_date[0]}`;
+    let sKilled_time = props.data[0].split(' ')[1].substr(0, 5);
+    return [sKilled_date, sKilled_time];
+};
 
-function Card() {
+
+function Card(props) {
     const [begun, setBegun] = useState(false);
-    const [killed, setKilled] = useState(false);
+    const [killed, setKilled] = useState(asterios_date_to_normal(props));
+
+
+    time.get_Time_format(props.data[0]);
+
 
     useEffect(()=>{
         const circle = document.querySelector('.progress-ring__circle');
@@ -48,11 +58,11 @@ function Card() {
 
     return(<div className={`Card`}>
         <div className="title">
-            <h2>Cabrio</h2>
+            <h2>{props.data[1]}</h2>
         </div>
         <div className="Card__info">
             <div className="resp">Убит:</div>
-            <div className="info__row was-killed">15:00</div>
+            <div className="info__row was-killed">{killed[0]} - {killed[1]}</div>
             <br/>
             <div className="resp">Респавн (старт\макс):</div>
             <div className="info__row start-resp">9:00 - 23:00</div>
