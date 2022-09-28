@@ -18,7 +18,7 @@ import 'h-bootstrap/h-boobstrap.css';
 
 const store = createStore(rootReducer, applyMiddleware(thunk));
 const root = ReactDOM.createRoot(document.getElementById("root"));
-document.title = 'Evil Code';
+document.title = 'l2sb';
 root.render(
     <React.StrictMode>
         <Provider store={store}>

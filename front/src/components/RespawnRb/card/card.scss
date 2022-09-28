@@ -11,7 +11,6 @@
   color: rgb(255, 232, 155);
   border-radius: .25rem;
   cursor: pointer;
-  background-color: rgb(33,34,38);
 
   .title{
     margin-top: 6px;
@@ -79,4 +78,32 @@
   }
   &:hover .flag-words .flag span{opacity: .8;}
   &:hover .Card__info{color: inherit;}
+}
+.begun{
+  background-color: rgb(33,34,38);
+}
+.wait{
+  background-color: rgba(0, 0, 0, 0.11);
+  color: #4b4b4b;
+  text-shadow: 1px 1px 1px dimgray;
+  .Card__info{
+    text-shadow: none;
+  }
+  .interface{
+    .progress-ring{
+      .progress-ring__circle{
+        stroke: cornflowerblue;
+      }
+    }
+    .flag-words{
+      .flag span{
+        opacity: .5;
+      }
+    }
+    .percent{
+      opacity: 1;
+    }
+  }
+  &:hover .Card__info{text-shadow: 1px 1px 3px dimgray;}
+  &:hover .flag-words .flag span{opacity: 1;}
 }

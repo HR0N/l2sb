@@ -23,32 +23,42 @@ const asterios_date_to_normal = (props)=>{
 
 
 function Card(props) {
-    const [begun, setBegun] = useState(false);
-    const [killed, setKilled] = useState(asterios_date_to_normal(props));
+    const [compare, setCompare] = useState(time.compare_dateTime_formats(props.data[0]));
+    const [begun, setBegun] = useState(compare.begun);
+    // const [killed, setKilled] = useState(time.aster_Time_format_to_l2sb(props.data[0]));
 
 
-    time.get_Time_format(props.data[0]);
+    // time.aster_Time_format_to_l2sb(props.data[0]);
+    // time.new_Date_format_to_l2sb(new Date());
+
+    // let rt = time.compare_dateTime_formats(props.data[0]);
+    // console.log(rt);
 
 
     useEffect(()=>{
         const circle = document.querySelector('.progress-ring__circle');
 
-        const setProgress = percent =>{circle.style.strokeDashoffset = circumference - percent / 100 * circumference;};
+        const setProgress = percent =>{circle.style.strokeDashoffset = circumference - percent / 100 * circumference};
+        const getPercent  = ()=>{return Math.round(100 - (compare.difference[0] * 100 / 720))};
 
 
         circle.style.strokeDasharray  = `${circumference} ${circumference}`;
         circle.style.strokeDashoffset = circumference;
-        setInterval(()=>{setProgress(75)}, 200);
+        setInterval(()=>{
+            setProgress(getPercent());
+            setCompare(time.compare_dateTime_formats(props.data[0]));
+            setBegun(compare.begun);
+        }, 2000);  // todo:                                               . . : : interval refresh data : : . .
 
 
         const stringGap = (string, poOffset = 0)=>{
             let array = [...string.getElementsByTagName('span')];
             array.map((v, k)=>{
-                v.style.transition = `ease-in all ${2.5 - ((k+9)/10)}s`;
+                v.style.transition = `linear all ${2.5 - ((k+9)/10)}s`;
                 v.style.transform = `rotate(${poOffset+(k*8.5)}deg)`;
             });
         };
-        if(begun){
+        if(!begun){
             setTimeout(()=>{stringGap(document.querySelector('.resp_time_left'), 300);}, 200);
         }else{
             setTimeout(()=>{stringGap(document.querySelector('.resp_time_passed'), 305);}, 200);
@@ -56,21 +66,21 @@ function Card(props) {
     }, []);
 
 
-    return(<div className={`Card`}>
+    return(<div className={`Card ${begun ? ' begun' : ' wait'}`}>
         <div className="title">
             <h2>{props.data[1]}</h2>
         </div>
         <div className="Card__info">
             <div className="resp">Убит:</div>
-            <div className="info__row was-killed">{killed[0]} - {killed[1]}</div>
+            <div className="info__row was-killed">{time.aster_Time_format_to_l2sb(props.data[0])}</div>
             <br/>
-            <div className="resp">Респавн (старт\макс):</div>
-            <div className="info__row start-resp">9:00 - 23:00</div>
+            <div className="resp">Респавн:</div>
+            <div className="info__row start-resp">{`${compare.start[1]} - ${compare.finish[1]}`}</div>
             {/*<div className="info__row max-resp">23:00</div>*/}
         </div>
         <div className="interface">
             <div className="flag-words">
-                {begun ? <div className="flag resp_time_left">
+                {!begun ? <div className="flag resp_time_left">
                     <span>д</span>
                     <span>о</span>
                     <span> </span>
@@ -87,7 +97,7 @@ function Card(props) {
                     <span>п</span>
                     <span>а</span>
                 </div> : false}
-                {!begun ? <div className="flag resp_time_passed">
+                {begun ? <div className="flag resp_time_passed">
                     <span>д</span>
                     <span>о</span>
                     <span> </span>
@@ -108,7 +118,7 @@ function Card(props) {
                 <circle className="progress-ring__circle" cx={'60'} cy={'60'} r={`${radius}`}
                         strokeDashoffset={`${circumference}`}/>
             </svg>
-            <div className="percent">{18 - (18 - 18)}:00</div>
+            <div className="percent">{compare.difference[1]}</div>
             {/*<div className="percent">9ч / 12</div>*/}
         </div>
     </div>);
