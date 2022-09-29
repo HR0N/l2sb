@@ -1,3 +1,27 @@
 .RespawnRb{
+  padding: 20px 0;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(69,86,102,1) 0%, rgba(34,34,34,1) 90% );
+  position: relative;
+  .key_bosses_cards{
+    width: 75%;
+    max-width: 600px;
+    min-width: 320px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 270px);
+    column-gap: 50px;
+    row-gap: 50px;
 
+    justify-content: space-evenly;
+  }
+  .background_img img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .25;
+    object-fit: cover;
+    filter: blur(1px);
+  }
 }

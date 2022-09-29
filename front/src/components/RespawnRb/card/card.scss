@@ -1,17 +1,33 @@
 .Card{
+  position: relative;
   display: inline-flex;
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: column;
-  margin-top: 100px;
-  width: auto;
+  width: 270px;
+  min-height: 405px;
   max-width: 270px;
-  padding: 25px 12px;
+  padding: 35px 12px  25px 12px;
   box-shadow: 1px 1px 5px black;
   color: rgb(255, 232, 155);
   border-radius: .25rem;
-  cursor: pointer;
-
+  .fa-icon{
+    font-size: 1.5em;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid rgba(105, 105, 105, 0.4);
+    border-radius: .25rem;
+    opacity: 0;
+    transition: linear all .2s;
+    &:hover{opacity: 1 !important;}
+    &:active{
+      transition: linear all 0s;
+      background-color: rgba(105, 105, 105, 0.4);
+    }
+  }
   .title{
     margin-top: 6px;
     margin-bottom: 25px;
@@ -28,6 +44,9 @@
     }
     .info__row{
       font-weight: bold;
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
     }
   }
   .interface{
@@ -40,8 +59,8 @@
       width: 120px;
       height: 120px;
       .progress-ring__circle{
-        stroke: rgba(128, 204, 237, 0.6);
-        stroke-width: 6px;
+        stroke: rgba(121, 189, 237, 0.6);
+        stroke-width: 8px;
         fill: rgba(78, 152, 184, 0.11);
         transform-origin: center;
         transform: rotate(-90deg);
@@ -76,11 +95,24 @@
       //left: calc(50% - 13px);
     }
   }
+  .resp_status_img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 5px;
+    bottom: 15px;
+    opacity: .12;
+    transform: translateY(10px);
+  }
   &:hover .flag-words .flag span{opacity: .8;}
   &:hover .Card__info{color: inherit;}
+  &:hover .fa-icon{opacity: .5}
 }
+
 .begun{
-  background-color: rgb(33,34,38);
+  background-color: rgb(52, 51, 52);
+  color: rgb(255, 232, 155);
+  //background-color: rgb(33,34,38);
 }
 .wait{
   background-color: rgba(0, 0, 0, 0.11);
