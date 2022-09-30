@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc7846bd-ad00-4195-a9e4-3e3764461d52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.c08630a9.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.c08630a9.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.c08630a9.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.2c3ad10b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.2c3ad10b.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.2c3ad10b.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.1b6eb886.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.1b6eb886.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.1b6eb886.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.ad075bd2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.ad075bd2.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.ad075bd2.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/components/RespawnRb/RespawnRb.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/RespawnRb/RespawnRb.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/components/RespawnRb/card/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/RespawnRb/card/card.js" afterDir="false" />
     </list>
@@ -223,7 +223,7 @@
       <workItem from="1664360627492" duration="14937000" />
       <workItem from="1664442294720" duration="17691000" />
       <workItem from="1664468001802" duration="150000" />
-      <workItem from="1664540843182" duration="8215000" />
+      <workItem from="1664540843182" duration="11083000" />
     </task>
     <servers />
   </component>

@@ -8,7 +8,12 @@ import background from "../../img/background3.png"
 
 function RespawnRb(props) {
     const rss_x5 = useSelector(state => props.rss_x5);  //  subscribe to redux data
+
     useEffect(()=>{props.load_rss();}, []);
+    useEffect(()=>{
+        let interval = setInterval(()=>{props.load_rss();},5000);
+        return ()=>{clearInterval(interval)};
+    }, []);
     useEffect(()=>{}, [rss_x5]);
     const add_chest_targets_to_key_bosses_x5 = ()=>{
         rss_x5[1].Cabrio[2]   = ('/target Coffer of the Dead');
@@ -18,6 +23,8 @@ function RespawnRb(props) {
         rss_x5[1].Kernon[3]   = ('ToI 8');
         rss_x5[1].Golkonda[2] = ('/target Chest of Golkonda');
         rss_x5[1].Golkonda[3] = ('ToI 11');
+        /*setTimeout(()=>{
+            rss_x5[1].Hallate[0]  = ('2022-09-29 21:12:23');}, 3000)*/
     };
     console.log(rss_x5);
     return(<div className={`RespawnRb`}

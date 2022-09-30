@@ -28,7 +28,6 @@ function Card(props) {
         const circle = document.querySelector(`.card_${props.idx} .progress-ring__circle`);
 
         const setProgress = percent =>{
-            // console.log(percent);
             circle.style.strokeDashoffset = Math.round(circumference - percent / 100 * circumference);
         };
         const getPercent  = ()=>{
@@ -43,7 +42,7 @@ function Card(props) {
             setCompare(time.compare_dateTime_formats(props.data[0]));
         }, 2000);  // todo:                                               . . : : interval refresh data : : . .
 
-        setProgress(getPercent());
+        setTimeout(()=>{setProgress(getPercent());}, 2000);
 
 
 
