@@ -21,15 +21,17 @@ const circumference = 2 * Math.PI * radius;
 
 function Card(props) {
     const [compare, setCompare] = useState(time.compare_dateTime_formats(props.data[0]));
-    const [begun, setBegun] = useState(compare.begun);
+
 
 
     useEffect(()=>{
         const circle = document.querySelector(`.card_${props.idx} .progress-ring__circle`);
 
-        const setProgress = percent =>{circle.style.strokeDashoffset = circumference - percent / 100 * circumference};
+        const setProgress = percent =>{
+            // console.log(percent);
+            circle.style.strokeDashoffset = Math.round(circumference - percent / 100 * circumference);
+        };
         const getPercent  = ()=>{
-            console.log(compare);
             if(compare.difference[0] > 720){
                 return Math.round(100 - (compare.difference2[0] * 100 / 1080));
             }else{
@@ -37,14 +39,12 @@ function Card(props) {
             }};
 
 
-
-        circle.style.strokeDasharray  = `${circumference} ${circumference}`;
-        circle.style.strokeDashoffset = circumference;
-        setInterval(()=>{
-            setProgress(getPercent());
+        const interval = setInterval(()=>{
             setCompare(time.compare_dateTime_formats(props.data[0]));
-            setBegun(compare.begun);
         }, 2000);  // todo:                                               . . : : interval refresh data : : . .
+
+        setProgress(getPercent());
+
 
 
         const stringGap = (string, poOffset = 0)=>{
@@ -54,15 +54,16 @@ function Card(props) {
                 v.style.transform = `rotate(${poOffset+(k*8.5)}deg)`;
             });
         };
-        if(!begun){
+        if(!compare.begun){
             setTimeout(()=>{stringGap(document.querySelector(`.card_${props.idx} .resp_time_left`), 300);}, 200);
         }else{
             setTimeout(()=>{stringGap(document.querySelector(`.card_${props.idx} .resp_time_passed`), 305);}, 200);
         }
-    }, []);
+        return ()=>{clearInterval(interval);};  // componentWillUnmount()
+    }, [compare]);
 
 
-    return(<div className={`Card card_${props.idx} ${begun ? ' begun' : ' begun'}`}>
+    return(<div className={`Card card_${props.idx} ${compare.begun ? ' begun' : ' begun'}`}>
         {props.data[2] ? <div className="copy"><FontAwesomeIcon
             onClick={()=>{navigator.clipboard.writeText(props.data[2])}}
             className={`fa-icon`} icon={faCopy}/></div> : false}
@@ -81,7 +82,7 @@ function Card(props) {
         </div>
         <div className="interface">
             <div className="flag-words">
-                {!begun ? <div className="flag resp_time_left">
+                {!compare.begun ? <div className="flag resp_time_left">
                     <span>д</span>
                     <span>о</span>
                     <span> </span>
@@ -97,8 +98,7 @@ function Card(props) {
                     <span>с</span>
                     <span>п</span>
                     <span>а</span>
-                </div> : false}
-                {begun ? <div className="flag resp_time_passed">
+                </div> : <div className="flag resp_time_passed">
                     <span>д</span>
                     <span>о</span>
                     <span> </span>
@@ -113,16 +113,20 @@ function Card(props) {
                     <span>с</span>
                     <span>п</span>
                     <span>а</span>
-                </div> : false}
+                </div>}
             </div>
             <svg className="progress-ring">
                 <circle className="progress-ring__circle" cx={'60'} cy={'60'} r={`${radius}`}
+                        strokeDasharray={`${circumference} ${circumference}`}
                         strokeDashoffset={`${circumference}`}/>
             </svg>
-            {begun ? <div className="percent">{compare.difference[1]}</div> : false}
-            {!begun ? <div className="percent">{compare.difference2[1]}</div> : false}
+            {compare.begun
+                ? <div className="percent">{compare.difference[1]}</div>
+                : <div className="percent">{compare.difference2[1]}</div>}
         </div>
-        <img className={`resp_status_img`} src={begun ? happy_color : dead_color} alt=""/>
+        {compare.begun
+        ? <img className={`resp_status_img`} src={happy_color} alt="monster status image"/>
+        : <img className={`resp_status_img`} src={dead_color} alt="monster status image"/>}
     </div>);
 }
 
