@@ -26,7 +26,7 @@ function RespawnRb(props) {
         /*setTimeout(()=>{
             rss_x5[1].Hallate[0]  = ('2022-09-29 21:12:23');}, 3000)*/
     };
-    console.log(rss_x5);
+    // console.log(rss_x5);
     return(<div className={`RespawnRb`}
     >
         <div className="background_img"><img src={background} alt="background img"/></div>

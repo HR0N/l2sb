@@ -1,16 +1,64 @@
 .Header{
-  padding: 10px 0;
   .nav{
     display: flex;
     justify-content: space-evenly;
     .nav-item{
+      position: relative;
       a{
+        display: block;
         text-decoration: none;
         color: #2d3748;
+        padding: 8px 16px;
+        white-space: nowrap;
+        text-align: left;
+        position: relative;
+        &:hover{box-shadow: inset lightgrey 0 0 6px;}
       }
       .active{
         text-shadow: 0 0 2px grey;
+        box-shadow: inset lightgrey 0 0 6px;
+      }
+      .dropdown-menu{
+        min-width: 150px;
+        position: absolute;
+        z-index: 2;
+        background-color: white;
+        display: none;
+        a{
+          &:hover:before{
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 3px;
+            background-color: #afb3ff;
+          }
+        }
+      }
+      .dropdown-menu2{
+        width: 100%;
+        z-index: 2;
+        background-color: whitesmoke;
+        display: block;
+        max-height: 0;
+        overflow: hidden;
+        a{
+          position: relative;
+          padding: 3px 16px;
+          text-indent: 5px;
+          height: 30px;
+        }
       }
     }
+    .dropdown:hover > .dropdown-menu{display: block;}
+    .dropdown2:hover > .dropdown-menu2{animation: dropdown2-anim linear .7s forwards; border-bottom: 1px solid dimgray}
   }
+}
+
+
+@keyframes dropdown2-anim {
+  0%{max-height: 0;}
+  70%{max-height: 0;}
+  100%{max-height: 151px;}
 }
