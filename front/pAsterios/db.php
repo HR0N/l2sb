@@ -26,12 +26,22 @@ class myDB{
         $result = $this->connect()->query($sql);
         return mysqli_fetch_all($result);
     }
-    public function set_rss_x5($sJson){
+    public function set_rss_x1($sJson){
         $sJson = str_replace('"', "`", $sJson);
 
-        echo '<pre>';
-        echo var_dump($sJson);
-        echo '</pre>';
+        $sql = "UPDATE `asterios_rss_x1` SET `data`=\"".$sJson."\" WHERE 1";
+        $result = $this->connect()->query($sql);
+        return ($result);
+    }
+    public function set_rss_x1p5($sJson){
+        $sJson = str_replace('"', "`", $sJson);
+
+        $sql = "UPDATE `asterios_rss_x1p5` SET `data`=\"".$sJson."\" WHERE 1";
+        $result = $this->connect()->query($sql);
+        return ($result);
+    }
+    public function set_rss_x5($sJson){
+        $sJson = str_replace('"', "`", $sJson);
 
         $sql = "UPDATE `asterios_rss_x5` SET `data`=\"".$sJson."\" WHERE 1";
         $result = $this->connect()->query($sql);

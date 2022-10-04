@@ -22,12 +22,22 @@ class myDB{
         }
         return $connect;
     }
-    public function get_all(){
+    public function get_all_x1(){
+        $sql = "SELECT * FROM `asterios_rss_x1` WHERE 1";
+        $result = $this->connect()->query($sql);
+        return mysqli_fetch_all($result);
+    }
+    public function get_all_x1p5(){
+        $sql = "SELECT * FROM `asterios_rss_x1p5` WHERE 1";
+        $result = $this->connect()->query($sql);
+        return mysqli_fetch_all($result);
+    }
+    public function get_all_x5(){
         $sql = "SELECT * FROM `asterios_rss_x5` WHERE 1";
         $result = $this->connect()->query($sql);
         return mysqli_fetch_all($result);
     }
-    public function set_rss_x5($sJson){
+    public function template($sJson){
         $sJson = str_replace('"', "'", $sJson);
 
         $sql = "UPDATE `asterios_rss_x5` SET `data`=\"".$sJson."\" WHERE 1";
