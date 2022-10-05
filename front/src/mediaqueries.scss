@@ -1,2 +1,45 @@
 @import "variables";
 
+// todo:                                                       . . : : H E A D E R : : . .
+@media screen and (max-width: 426px){
+  .Header{
+    .nav{
+      display: none !important;
+      flex-direction: column;
+      border-bottom: 1px solid dimgray;
+      .nav-item{
+        .dropdown-menu{
+          position: relative;
+          width: 100%;
+        }
+      }
+    }
+  }
+  .mobile_show{
+    .nav{
+      display: flex !important;
+    }
+  }
+
+  .Enchante_chance{
+    font-size: .8em;
+    .enchante_table_2nd_prof, .enchante_table_3nd_prof{
+      padding: 20px 2px;
+      .ench_chance{
+        padding: 1px;
+        height: 20px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 376px){
+}
+@media screen and (max-width: 321px){
+    .Enchante_chance{
+    font-size: .7em;
+  }
+}
+// todo:                                                       . . : : H E A D E R : : . .
+@media screen and (min-width: 427px){
+  .nav_bars{display: none}
+}

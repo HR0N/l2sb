@@ -2,40 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc7846bd-ad00-4195-a9e4-3e3764461d52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front/build/static/css/main.c37dc79a.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/static/css/main.c37dc79a.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.ba77ac4e.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.ba77ac4e.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.ba77ac4e.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/pAsterios/parse_x1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/pAsterios/parse_x1d5.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/pAsterios/parse_x5.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/php/get_asterios_rss_x1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/php/get_asterios_rss_x1d5.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Respawn_rb/Asterios_respawn_sub_rb_x1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Respawn_rb/Asterios_respawn_sub_rb_x1d5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/static/css/main.a9390ea0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/static/css/main.a9390ea0.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.7f5fa158.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.7f5fa158.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.7f5fa158.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Enchante_chance/Enchante_chance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Enchante_chance/Enchante_chance.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/css/main.62dfef20.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/css/main.62dfef20.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.2c3ad10b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.2c3ad10b.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.2c3ad10b.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/pAsterios/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/pAsterios/db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/pAsterios/parsing.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/pAsterios/parsing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/pAsterios/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/pAsterios/test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/php/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/php/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/css/main.c37dc79a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/css/main.c37dc79a.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.ba77ac4e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.ba77ac4e.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.ba77ac4e.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/components/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Header/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/RespawnRb/RespawnRb.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Respawn_rb/Asterios_respawn_sub_rb_x5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/RespawnRb/RespawnRb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Respawn_rb/Respawn_rb.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/RespawnRb/card/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Respawn_rb/card/card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/RespawnRb/card/card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Respawn_rb/card/card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/redux/actions/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/redux/actions/actionTypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/redux/actions/rss.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/redux/actions/rss.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/redux/reducers/rss.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/redux/reducers/rss.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/mediaqueries.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/mediaqueries.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/front/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,6 +169,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/front/src/components/RespawnRb" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -252,7 +243,7 @@
       <workItem from="1664630056597" duration="10110000" />
       <workItem from="1664824505866" duration="1358000" />
       <workItem from="1664899983235" duration="7058000" />
-      <workItem from="1664953968471" duration="15016000" />
+      <workItem from="1664953968471" duration="33239000" />
     </task>
     <servers />
   </component>

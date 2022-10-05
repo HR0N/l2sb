@@ -1,7 +1,6 @@
 import React, {Suspense} from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.scss';
-import './mediaqueries.scss'
 import './variables.scss'
 import './fonts/fonts.scss'
 import App from './App';
@@ -14,6 +13,7 @@ import rootReducer from './redux/reducers/rootReducer';
 import './services/localization';
 import Loader from "./UXExtra/Loader/Loader";
 import 'h-bootstrap/h-boobstrap.css';
+import './mediaqueries.scss'
 
 
 const store = createStore(rootReducer, applyMiddleware(thunk));

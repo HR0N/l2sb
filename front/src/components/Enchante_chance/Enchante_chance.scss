@@ -1,0 +1,44 @@
+.Enchante_chance{
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: radial-gradient( circle 400px at 6.8% 8.3%,  rgba(255,244,169,1) 0%, rgba(255,244,234,1) 100.2% );
+  h2{
+    font-size: 2em;
+    color: transparent;
+    background-clip: text;
+    margin: 50px 0 5px 0;
+    background-image: linear-gradient( 109.6deg,  rgba(45,116,213,1) 11.2%, rgba(121,137,212,1) 91.2% );
+  }
+  .enchante_table_2nd_prof, .enchante_table_3nd_prof{
+    width: 100%;
+    max-width: 900px;
+    padding: 20px 6px;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+  .lvl{
+    border: 1px solid whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+  .ench_chance{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    height: 30px;
+    border: 1px solid #a9b488;
+  }
+  .green{background-color: rgb(102, 255, 73);}
+  .yellow{background-color: rgb(255, 248, 74);}
+  .grey_yellow{background-color: rgb(205, 199, 61);}
+  .dark_yellow{background-color: rgb(155, 151, 45);}
+  .red{background-color: rgb(255, 114, 97);}
+  .green, .yellow, .grey_yellow, .dark_yellow, .red{
+    border: 1px solid #5e6b76;
+  }
+  }
+}
