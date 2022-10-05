@@ -4,6 +4,7 @@
     justify-content: space-evenly;
     .nav-item{
       position: relative;
+      &:hover{box-shadow: inset lightgrey 0 0 6px;}
       a{
         display: block;
         text-decoration: none;
@@ -12,7 +13,7 @@
         white-space: nowrap;
         text-align: left;
         position: relative;
-        &:hover{box-shadow: inset lightgrey 0 0 6px;}
+        //&:hover{box-shadow: inset lightgrey 0 0 6px;}
       }
       .active{
         text-shadow: 1px 1px 2px #706f80;
@@ -27,6 +28,17 @@
         background-color: white;
         display: none;
         box-shadow: 2px 2px 5px grey;
+      }
+      .dropdown2{
+        &:hover:before{
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 0;
+          height: 100%;
+          width: 3px;
+          background-color: #afb3ff;
+        }
         a{
           &:hover:before{
             content: '';
@@ -47,7 +59,6 @@
         max-height: 0;
         overflow: hidden;
         a{
-          position: relative;
           padding: 3px 16px;
           text-indent: 5px;
           height: 30px;
@@ -55,7 +66,7 @@
       }
     }
     .dropdown:hover > .dropdown-menu{display: block;}
-    .dropdown2:hover > .dropdown-menu2{animation: dropdown2-anim linear .5s forwards;}
+    .dropdown2:hover > .dropdown-menu2{animation: dropdown2-anim linear .6s forwards;}
   }
   .nav_bars{
     position: absolute;
