@@ -27,8 +27,8 @@ class myDB{
         $result = $this->connect()->query($sql);
         return mysqli_fetch_all($result);
     }
-    public function get_all_x1p5(){
-        $sql = "SELECT * FROM `asterios_rss_x1p5` WHERE 1";
+    public function get_all_x1d5(){
+        $sql = "SELECT * FROM `asterios_rss_x1d5` WHERE 1";
         $result = $this->connect()->query($sql);
         return mysqli_fetch_all($result);
     }

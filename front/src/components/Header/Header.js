@@ -9,13 +9,13 @@ function Header() {
     return(        <header className={`Header `}>
         <nav className={`nav`}>
             <div className="nav-item nav-home"><NavLink to={"/"}  exact="true" end>Home</NavLink></div>
-            <div className="nav-item nav-home dropdown"><NavLink exact="true">RSS</NavLink>
+            <div className="nav-item nav-home dropdown"><NavLink className={'disable'} to={"/respawn"} exact="true" >RSS</NavLink>
                 <div className="nav-item nav-home dropdown-menu dropdown2"><NavLink exact="true" end>Asterios</NavLink>
                     <div className="nav-item nav-home dropdown-menu2">
-                        <div className="nav-item nav-home"><NavLink to={"/"}  exact="true" end>x1</NavLink></div>
-                        <div className="nav-item nav-home"><NavLink to={"/"}  exact="true" end>x1.5</NavLink></div>
+                        <div className="nav-item nav-home"><NavLink to={"/respawn/asterios/subclass-rb_x1"}  exact="true" end>x1</NavLink></div>
+                        <div className="nav-item nav-home"><NavLink to={"/respawn/asterios/subclass-rb_x1.5"}  exact="true" end>x1.5</NavLink></div>
                         {/*<div className="nav-item nav-home"><NavLink to={"/"}  exact="true" end>x3</NavLink></div>*/}
-                        <div className="nav-item nav-home"><NavLink to={"/respawn_rb"}  exact="true" end>x5</NavLink></div>
+                        <div className="nav-item nav-home"><NavLink to={"/respawn/asterios/subclass-rb_x5"}  exact="true" end>x5</NavLink></div>
                         {/*<div className="nav-item nav-home"><NavLink to={"/"}  exact="true" end>x55</NavLink></div>*/}
                     </div>
                 </div>

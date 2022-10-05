@@ -2,11 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc7846bd-ad00-4195-a9e4-3e3764461d52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/front/build/static/css/main.c37dc79a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/static/css/main.c37dc79a.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.ba77ac4e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.ba77ac4e.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.ba77ac4e.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/pAsterios/parse_x1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/pAsterios/parse_x1d5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/pAsterios/parse_x5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/php/get_asterios_rss_x1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/php/get_asterios_rss_x1d5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Respawn_rb/Asterios_respawn_sub_rb_x1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Respawn_rb/Asterios_respawn_sub_rb_x1d5.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/css/main.62dfef20.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/css/main.62dfef20.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.2c3ad10b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.2c3ad10b.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.2c3ad10b.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/pAsterios/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/pAsterios/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/pAsterios/parsing.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/pAsterios/parsing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/pAsterios/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/pAsterios/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/php/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/php/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/components/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Header/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/RespawnRb/RespawnRb.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/RespawnRb/RespawnRb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/RespawnRb/RespawnRb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/RespawnRb/RespawnRb.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/RespawnRb/RespawnRb.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Respawn_rb/Asterios_respawn_sub_rb_x5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/RespawnRb/RespawnRb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Respawn_rb/Respawn_rb.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/RespawnRb/card/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Respawn_rb/card/card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/RespawnRb/card/card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Respawn_rb/card/card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/redux/actions/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/redux/actions/actionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/redux/actions/rss.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/redux/actions/rss.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/redux/reducers/rss.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/redux/reducers/rss.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,21 +180,23 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/front/pAsterios" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/front/src/components/RespawnRb" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\HRON\OpenServer\domains\l2sb\front\pAsterios" />
-      <recent name="C:\HRON\OpenServer\domains\React Laravel template 1\back\app\Http\Controllers" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\HRON\OpenServer\domains\l2sb\front" />
       <recent name="C:\HRON\OpenServer\domains\React Laravel template 1\front\src\components" />
       <recent name="C:\HRON\OpenServer\domains\React Laravel template 1\front\src\UXExtra" />
       <recent name="C:\HRON\OpenServer\domains\React Laravel template 1\back\app\Http\Controllers" />
       <recent name="C:\HRON\OpenServer\domains\React Laravel template 1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\HRON\OpenServer\domains\l2sb\front\src\components\RespawnRb" />
+      <recent name="C:\HRON\OpenServer\domains\l2sb\front\php" />
+      <recent name="C:\HRON\OpenServer\domains\l2sb\front\pAsterios" />
+      <recent name="C:\HRON\OpenServer\domains\React Laravel template 1\back\app\Http\Controllers" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -218,7 +249,10 @@
       <workItem from="1664442294720" duration="17691000" />
       <workItem from="1664468001802" duration="150000" />
       <workItem from="1664540843182" duration="11359000" />
-      <workItem from="1664630056597" duration="9918000" />
+      <workItem from="1664630056597" duration="10110000" />
+      <workItem from="1664824505866" duration="1358000" />
+      <workItem from="1664899983235" duration="7058000" />
+      <workItem from="1664953968471" duration="15016000" />
     </task>
     <servers />
   </component>
@@ -232,10 +266,10 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1664368966597">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1664961888636">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1664368966597" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1664961888636" />
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1661092456937">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

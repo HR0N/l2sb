@@ -1,12 +1,12 @@
 import React, {useEffect} from "react";
-import "./RespawnRb.scss";
+import "./Respawn_rb.scss";
 import {connect, useSelector} from 'react-redux';
 import Card from "./card/card";
 import {load_rss_x5} from "../../redux/actions/rss";
 import background from "../../img/background3.png"
 
 
-function RespawnRb(props) {
+function Asterios_respawn_sub_rb_x5(props) {
     const rss_x5 = useSelector(state => props.rss_x5);  //  subscribe to redux data
 
     useEffect(()=>{props.load_rss();}, []);
@@ -30,6 +30,7 @@ function RespawnRb(props) {
     return(<div className={`RespawnRb`}
     >
         <div className="background_img"><img src={background} alt="background img"/></div>
+        <h2 className={`component_title`}><span>Asterios x5</span></h2>
         {rss_x5 ? add_chest_targets_to_key_bosses_x5() : false}
         {rss_x5 ?
             <div className={`key_bosses_cards`}>
@@ -53,4 +54,4 @@ function mapDispatchProps(dispatch){
         load_rss: () =>{dispatch(load_rss_x5())},
     }
 }
-export default connect(mapStateToProps, mapDispatchProps)(RespawnRb);
+export default connect(mapStateToProps, mapDispatchProps)(Asterios_respawn_sub_rb_x5);

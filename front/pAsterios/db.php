@@ -33,10 +33,10 @@ class myDB{
         $result = $this->connect()->query($sql);
         return ($result);
     }
-    public function set_rss_x1p5($sJson){
+    public function set_rss_x1d5($sJson){
         $sJson = str_replace('"', "`", $sJson);
 
-        $sql = "UPDATE `asterios_rss_x1p5` SET `data`=\"".$sJson."\" WHERE 1";
+        $sql = "UPDATE `asterios_rss_x1d5` SET `data`=\"".$sJson."\" WHERE 1";
         $result = $this->connect()->query($sql);
         return ($result);
     }

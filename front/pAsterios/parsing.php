@@ -116,7 +116,7 @@ function fetch_sieges($doc){
 
 /* description => march parsed data from x5 serve (epic bosses, key bosses, sieges)
    return      => JSON string */
-function get_data_x($id){
+function get_data($id){
     $url_epic_bosses = "https://asterios.tm/index.php?cmd=rss&serv=".$id."&filter=epic";
     $url_key_bosses  = "https://asterios.tm/index.php?cmd=rss&serv=".$id."&filter=keyboss";
     $url_siege       = "https://asterios.tm/index.php?cmd=rss&serv=".$id."&filter=siege";
@@ -144,33 +144,50 @@ function total_sec_in_each_five_min(){
 }
 
 
-/* description => start loop to parsing 3 times in min
-   return      => total seconds */
-function complex_start(){
+/* description => start parsing rss x1 */
+function complex_start_x1(){
     global $tgBot, $dbase;
     $servers_id = ["x1" => 3, "x1.5" => 7, "x5" => 0, "x55" => 2, "x3" => 6];
     $count = 0;
     while ($count < 3){
         sleep(15);
-        $data_x1 = json_encode(get_data_x($servers_id["x1"]));
-        $data_x1p5 = json_encode(get_data_x($servers_id["x1.5"]));
-        $data_x5 = json_encode(get_data_x($servers_id["x5"]));
+        $data = json_encode(get_data($servers_id["x1"]));
 
         echo '<pre>';
-        echo var_dump($data_x1);
-        echo '</pre>';
-        echo '<pre>';
-        echo var_dump($data_x1p5);
-        echo '</pre>';
-        echo '<pre>';
-        echo var_dump($data_x5);
+        echo var_dump($data);
         echo '</pre>';
 
-        $dbase->set_rss_x1($data_x1);
-        $dbase->set_rss_x1p5($data_x1p5);
-        $dbase->set_rss_x5($data_x5);
+        $dbase->set_rss_x1($data);
         $count++;
     }
 }
 
-complex_start();
+
+/* description => start parsing rss x1.5 */
+function complex_start_x1d5(){
+    global $tgBot, $dbase;
+    $servers_id = ["x1" => 3, "x1.5" => 7, "x5" => 0, "x55" => 2, "x3" => 6];
+    $count = 0;
+    while ($count < 3){
+        sleep(15);
+        $data = json_encode(get_data($servers_id["x1.5"]));
+
+        $dbase->set_rss_x1d5($data);
+        $count++;
+    }
+}
+
+
+/* description => start parsing rss x5 */
+function complex_start_x5(){
+    global $tgBot, $dbase;
+    $servers_id = ["x1" => 3, "x1.5" => 7, "x5" => 0, "x55" => 2, "x3" => 6];
+    $count = 0;
+    while ($count < 3){
+        sleep(15);
+        $data = json_encode(get_data($servers_id["x5"]));
+
+        $dbase->set_rss_x5($data);
+        $count++;
+    }
+}
