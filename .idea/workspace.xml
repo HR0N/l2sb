@@ -2,18 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc7846bd-ad00-4195-a9e4-3e3764461d52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front/src/components/Contacts/Contacts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Contacts/Contacts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/env.js.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/l2sb_foto_contacts.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/sublimate/callback_us.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/static/css/main.e190eb12.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/static/css/main.e190eb12.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.046d9873.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.046d9873.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.046d9873.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/static/media/l2sb_foto_contacts.cb371653235fcf8fff62.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/sublimate/popup/MessagePopup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/sublimate/popup/MessagePopup.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Header/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Respawn_rb/Respawn_rb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Respawn_rb/Respawn_rb.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/front/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/css/main.b49847c4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/css/main.b49847c4.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.104417c2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.104417c2.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.104417c2.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/Contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Contacts/Contacts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/Contacts/Contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Contacts/Contacts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/sublimate/callback_us.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/sublimate/callback_us.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +245,7 @@
       <workItem from="1665005437266" duration="1267000" />
       <workItem from="1665006969875" duration="1186000" />
       <workItem from="1665054263077" duration="10799000" />
-      <workItem from="1665151731413" duration="7941000" />
+      <workItem from="1665151731413" duration="11164000" />
     </task>
     <servers />
   </component>
@@ -250,10 +259,10 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1664961888636">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1665183617495">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1664961888636" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1665183617495" />
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1661092456937">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -1,5 +1,5 @@
 import $ from "jquery";
-import EnvClass from "../env";
+import EnvClass from "../.env";
 
 class ContactClass{
     constructor() {
@@ -7,7 +7,7 @@ class ContactClass{
     }
     create_message(name, text, email){
         if(name.length > 2 && text.length > 5){ // todo: - - - - - - - - - - - \n = %0A
-            return `Имя: ${name} ${email.length > 5 ? "%0Aemail: "+email : ''} %0Atext: ${text}`;
+            return `имя: ${name} ${email.length > 5 ? "%0Aemail: "+email : ''} %0Aтекст: ${text}`;
         }else{return false;}
     }
 

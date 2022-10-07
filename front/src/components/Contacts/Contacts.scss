@@ -32,6 +32,12 @@
           min-width: 100%;
           max-width: 100%;
         }
+        .error{
+          position: absolute;
+          right: 0;
+          font-size: .8em;
+          color: #ff524f;
+        }
       }
       .terms{
         text-align: left;
