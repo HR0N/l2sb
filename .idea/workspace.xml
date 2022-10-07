@@ -2,22 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc7846bd-ad00-4195-a9e4-3e3764461d52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front/build/static/css/main.f352ea30.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/static/css/main.f352ea30.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.104417c2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.104417c2.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.104417c2.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Contacts/Contacts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Contacts/Contacts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/env.js.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/l2sb_foto_contacts.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/sublimate/callback_us.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/css/main.a9390ea0.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/css/main.a9390ea0.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.7f5fa158.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.7f5fa158.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.7f5fa158.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Enchante_chance/Enchante_chance.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Enchante_chance/Enchante_chance.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/components/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Header/Header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/Respawn_rb/Respawn_rb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Respawn_rb/Respawn_rb.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/front/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,23 +159,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/front/src/components/RespawnRb" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/front/src" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\HRON\OpenServer\domains\l2sb\front\src" />
+      <recent name="C:\HRON\OpenServer\domains\l2sb\front\src\components\RespawnRb" />
+      <recent name="C:\HRON\OpenServer\domains\l2sb\front\php" />
+      <recent name="C:\HRON\OpenServer\domains\l2sb\front\pAsterios" />
+      <recent name="C:\HRON\OpenServer\domains\React Laravel template 1\back\app\Http\Controllers" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\HRON\OpenServer\domains\l2sb\front" />
       <recent name="C:\HRON\OpenServer\domains\React Laravel template 1\front\src\components" />
       <recent name="C:\HRON\OpenServer\domains\React Laravel template 1\front\src\UXExtra" />
       <recent name="C:\HRON\OpenServer\domains\React Laravel template 1\back\app\Http\Controllers" />
       <recent name="C:\HRON\OpenServer\domains\React Laravel template 1" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\HRON\OpenServer\domains\l2sb\front\src\components\RespawnRb" />
-      <recent name="C:\HRON\OpenServer\domains\l2sb\front\php" />
-      <recent name="C:\HRON\OpenServer\domains\l2sb\front\pAsterios" />
-      <recent name="C:\HRON\OpenServer\domains\React Laravel template 1\back\app\Http\Controllers" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -237,7 +234,9 @@
       <workItem from="1664899983235" duration="7058000" />
       <workItem from="1664953968471" duration="33530000" />
       <workItem from="1665005437266" duration="1267000" />
-      <workItem from="1665006969875" duration="800000" />
+      <workItem from="1665006969875" duration="1186000" />
+      <workItem from="1665054263077" duration="10799000" />
+      <workItem from="1665151731413" duration="7941000" />
     </task>
     <servers />
   </component>

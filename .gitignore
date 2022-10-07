@@ -15,7 +15,8 @@ node_modules
 
 # misc
 .DS_Store
-*/.env.php
+/.env.php
+/.env.js
 .env
 .env.local
 .env.development.local

@@ -37,7 +37,8 @@ function Header() {
                     </div>
                 </div>
             </div>
-            <div className="nav-item nav-auth"><NavLink to={"/auth"}  exact="true">Auth</NavLink></div>
+            {/*<div className="nav-item nav-auth"><NavLink to={"/auth"}  exact="true">Auth</NavLink></div>*/}
+            <div className="nav-item nav-auth"><NavLink to={"/contacts"}  exact="true">Contacts</NavLink></div>
         </nav>
         <div className="nav_bars" onClick={()=>{setMenu(!menu)}}>
             {menu
