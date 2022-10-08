@@ -6,7 +6,7 @@
     display: grid;
     justify-content: space-evenly;
     //flex-wrap: wrap;
-    grid-template-columns: repeat(auto-fit, 400px);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
     row-gap: 30px;
     column-gap: 30px;
     padding: 0 6px 10px;
@@ -20,8 +20,9 @@
         display: block;
         text-align: left;
         color: whitesmoke;
-        max-width: 400px;
+        max-width: 100%;
         input{
+          width: 100%;
           margin-top: 2px;
           border-radius: .05;
           border-bottom: 2px solid black;

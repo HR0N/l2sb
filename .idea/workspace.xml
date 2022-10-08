@@ -2,27 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc7846bd-ad00-4195-a9e4-3e3764461d52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front/build/static/css/main.e190eb12.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/static/css/main.e190eb12.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.046d9873.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.046d9873.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.046d9873.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/static/media/l2sb_foto_contacts.cb371653235fcf8fff62.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/sublimate/popup/MessagePopup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/sublimate/popup/MessagePopup.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/css/main.b49847c4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/css/main.b49847c4.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.104417c2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.104417c2.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.104417c2.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/components/Contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Contacts/Contacts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/components/Contacts/Contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Contacts/Contacts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/env.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/sublimate/callback_us.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/sublimate/callback_us.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/mediaqueries.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/mediaqueries.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/sublimate/popup/MessagePopup.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/sublimate/popup/MessagePopup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/sublimate/popup/MessagePopup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/sublimate/popup/MessagePopup.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,19 +158,19 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\HRON\OpenServer\domains\l2sb\front\src" />
-      <recent name="C:\HRON\OpenServer\domains\l2sb\front\src\components\RespawnRb" />
-      <recent name="C:\HRON\OpenServer\domains\l2sb\front\php" />
-      <recent name="C:\HRON\OpenServer\domains\l2sb\front\pAsterios" />
-      <recent name="C:\HRON\OpenServer\domains\React Laravel template 1\back\app\Http\Controllers" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\HRON\OpenServer\domains\l2sb\front" />
       <recent name="C:\HRON\OpenServer\domains\React Laravel template 1\front\src\components" />
       <recent name="C:\HRON\OpenServer\domains\React Laravel template 1\front\src\UXExtra" />
       <recent name="C:\HRON\OpenServer\domains\React Laravel template 1\back\app\Http\Controllers" />
       <recent name="C:\HRON\OpenServer\domains\React Laravel template 1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\HRON\OpenServer\domains\l2sb\front\src" />
+      <recent name="C:\HRON\OpenServer\domains\l2sb\front\src\components\RespawnRb" />
+      <recent name="C:\HRON\OpenServer\domains\l2sb\front\php" />
+      <recent name="C:\HRON\OpenServer\domains\l2sb\front\pAsterios" />
+      <recent name="C:\HRON\OpenServer\domains\React Laravel template 1\back\app\Http\Controllers" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -245,7 +230,7 @@
       <workItem from="1665005437266" duration="1267000" />
       <workItem from="1665006969875" duration="1186000" />
       <workItem from="1665054263077" duration="10799000" />
-      <workItem from="1665151731413" duration="11164000" />
+      <workItem from="1665151731413" duration="16654000" />
     </task>
     <servers />
   </component>
@@ -287,10 +272,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="462" y="144" width="611" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1664287494145" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1664201541412">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1665189038807">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1664201541412" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1665189038807" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1660999719062">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
