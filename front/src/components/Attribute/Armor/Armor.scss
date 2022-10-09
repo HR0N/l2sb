@@ -1,8 +1,8 @@
 .Armor{
-  width: 180px;
+  width: 200px;
   height: 90px;
   position: relative;
-  margin-left: 10px;
+  margin-left: 5px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -11,6 +11,7 @@
   .att{
     position: relative;
     padding-top: 3px;
+    white-space: nowrap;
     .title{
       font-size: .7em;
       text-align: left;

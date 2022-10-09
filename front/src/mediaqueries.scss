@@ -43,6 +43,72 @@
       }
       }
   }
+  // todo:                                                       . . : : Attribute : : . .
+  .Attribute{
+    background-color: rgb(32,32,30);
+    padding: 50px 6px;
+    min-height: calc(100vh - 40px);
+    color: rgb(155, 155, 153);
+    font-family: "Comic Sans MS", sans-serif;
+    .wrapper{
+      grid-template-columns: repeat(auto-fit, minmax(220px, 270px));
+      gap: 12px;
+      .Armor-wrapper{
+        max-width: 270px;
+        .armor-item{
+          margin-top: 2px;
+          display: flex;
+          padding: 2px;
+          &:hover{
+            background-color: rgba(48, 135, 255, 0.03);
+            border: 1px solid rgba(245, 245, 245, 0.05);
+            box-shadow: 1px 1px  3px #191919;
+          }
+          img{
+            width: 70px;
+            height: 70px;
+          }
+        }
+      }
+      .Attribute-wrapper{
+        margin: 0 auto;
+        width: 240px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 110px);
+        gap: 20px 20px;
+        .stones, .crystals{
+          .attribute-item{
+            margin-top: 10px;
+            img{
+              width: 40px;
+              height: 40px;
+            }
+            .title{
+              font-size: .7em;
+              width: 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .Armor{
+    width: 200px;
+    height: 70px;
+    padding-bottom: 2px;
+    .att{
+      padding-top: 2px;
+      .title{
+        font-size: .7em;
+        padding-bottom: 1px;
+      }
+      .progress{
+        .layer{
+          height: 6px;
+        }
+      }
+    }
+  }
 }
 @media screen and (max-width: 376px){
 }

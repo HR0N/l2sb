@@ -26,7 +26,7 @@
         border-radius: .2rem;
         cursor: pointer;
         &:hover{
-          background-color: rgba(48, 135, 255, 0.01);
+          background-color: rgba(48, 135, 255, 0.03);
           border: 1px solid rgba(245, 245, 245, 0.05);
           box-shadow: 1px 1px  3px #191919;
         }
@@ -37,12 +37,13 @@
         &:nth-child(1){margin-top: 0}
       }
       .active-armor{
-        background-color: rgba(48, 135, 255, 0.02);
+        background-color: rgba(48, 135, 255, 0.05);
         border: 1px solid rgba(245, 245, 245, 0.05);
         box-shadow: 1px 1px  3px #191919;
       }
     }
     .Attribute-wrapper{
+      margin: 0 auto;
       width: 240px;
       display: grid;
       grid-template-columns: repeat(auto-fit, 110px);
@@ -58,6 +59,7 @@
           cursor: pointer;
           border: 1px solid transparent;
           border-radius: .2rem;
+          transition: linear all .1s;
           img{
             width: 50px;
             height: 50px;
@@ -74,20 +76,45 @@
             box-shadow: 1px 1px  3px #191919;
           }
         }
-/*        .water, .wind, .holy{
-          &:after{
-            content: '';
-            position: absolute;
-            width: 6px;
-            height: 16px;
-            top: -14px;
-            left: 22px;
-            background: rgb(36,0,0);
-            background: linear-gradient(90deg, rgba(36,0,0,1) 0%, rgba(121,9,9,1) 51%, rgba(255,76,76,1) 100%);
-            opacity: .1;
-            transition: linear opacity .3s;
-          }&:hover:after{opacity: .7;}}
-        .fire, .earth, .dark{&:hover + .attribute-item:after{opacity: .7}}*/
+        .banned_att{
+          cursor: inherit;
+          filter: grayscale(90%);
+          opacity: .5;
+          background-color: transparent!important;
+          border: 1px solid transparent!important;
+          box-shadow: none!important;
+          .title{color: rgb(155, 155, 153)!important;}
+        }
+      }
+      .stat{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 104px);
+        gap: 0 20px;
+        background-color: rgba(0, 0, 0, 0.05);
+        border-radius: .2rem;
+        width: 240px;
+        position: relative;
+        font-size: .9em;
+        user-select: none;
+        padding: 6px;
+        box-shadow: inset 1px 1px 5px #151515;
+        &:after{
+          content: '';
+          position: absolute;
+          height: 86%;
+          width: 3px;
+          left: calc(50% - 3px);
+          top: 7%;
+          background: rgb(36,27,21);
+          background: linear-gradient(90deg, rgba(36,27,21,1) 0%, rgba(27,18,14,1) 50%, rgba(97,80,72,1) 100%);
+          opacity: .7;
+        }
+        .stat-att{
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-end;
+          padding: 0 3px;
+        }
       }
     }
   }
