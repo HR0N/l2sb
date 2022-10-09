@@ -26,7 +26,7 @@ import darkCrystal from "./../../img/att/Dark-Crystal.png";
 
 function Attribute() {
 
-    const [helmet, setHelmet]           = useState([["", 0],["", 0],["", 0]]);
+    const [helmet, setHelmet]           = useState([["dark", 0],["", 0],["", 0]]);
     const [breastplate, setBreastplate] = useState([["", 0],["", 0],["", 0]]);
     const [stocking, setStocking]       = useState([["", 0],["", 0],["", 0]]);
     const [gloves, setGloves]           = useState([["", 0],["", 0],["", 0]]);
@@ -54,9 +54,22 @@ function Attribute() {
             case "shoes":       addArmorAtt(shoes, setShoes, att);              break;
             default: break;}};
 
+    /*const check_literal_att = ()=>{
+        switch (active) {
+            case "helmet":      break;
+            case "breastplate": break;
+            case "stocking":    break;
+            case "gloves":      break;
+            case "shoes":       break;
+            default: break;
+        }
+    };
+
+    check_literal_att();*/
+
 
     return(<div className={`Attribute`}>
-        <h2>Attribute</h2>
+        <h2 onClick={()=>{setActive(null)}}>Attribute</h2>
         <div className="wrapper">
             <div className="Armor-wrapper">
                 <div className={`armor-item helmet ${active === "helmet" ? 'active-armor':''}`}
@@ -87,53 +100,53 @@ function Attribute() {
             </div>
             <div className="Attribute-wrapper">
                 <div className="stones">
-                    <div className="attribute-item fire">
+                    <div className="attribute-item fire" onClick={()=>{addArmorAtt_Handler("fire", "stone")}}>
                         <img src={fireStone} alt="img"/>
                         <div className="title">Fire Stone</div>
                     </div>
-                    <div className="attribute-item water">
+                    <div className="attribute-item water" onClick={()=>{addArmorAtt_Handler("water", "stone")}}>
                         <img src={waterStone} alt="img"/>
                         <div className="title">Water Stone</div>
                     </div>
-                    <div className="attribute-item earth">
+                    <div className="attribute-item earth" onClick={()=>{addArmorAtt_Handler("earth", "stone")}}>
                         <img src={earthStone} alt="img"/>
                         <div className="title">Earth Stone</div>
                     </div>
-                    <div className="attribute-item wind">
+                    <div className="attribute-item wind" onClick={()=>{addArmorAtt_Handler("wind", "stone")}}>
                         <img src={windStone} alt="img"/>
                         <div className="title">Wind Stone</div>
                     </div>
-                    <div className="attribute-item dark">
+                    <div className="attribute-item dark" onClick={()=>{addArmorAtt_Handler("dark", "stone")}}>
                         <img src={darkStone} alt="img"/>
                         <div className="title">Dark Stone</div>
                     </div>
-                    <div className="attribute-item holy">
+                    <div className="attribute-item holy" onClick={()=>{addArmorAtt_Handler("holy", "stone")}}>
                         <img src={holyStone} alt="img"/>
                         <div className="title">Holy Stone</div>
                     </div>
                 </div>
                 <div className="crystals">
-                    <div className="attribute-item fire">
+                    <div className="attribute-item fire" onClick={()=>{addArmorAtt_Handler("fire", "crystal")}}>
                         <img src={fireCrystal} alt="img"/>
                         <div className="title">Fire Crystal</div>
                     </div>
-                    <div className="attribute-item water">
+                    <div className="attribute-item water" onClick={()=>{addArmorAtt_Handler("water", "crystal")}}>
                         <img src={waterCrystal} alt="img"/>
                         <div className="title">Water Crystal</div>
                     </div>
-                    <div className="attribute-item earth">
+                    <div className="attribute-item earth" onClick={()=>{addArmorAtt_Handler("earth", "crystal")}}>
                         <img src={earthCrystal} alt="img"/>
                         <div className="title">Earth Crystal</div>
                     </div>
-                    <div className="attribute-item wind">
+                    <div className="attribute-item wind" onClick={()=>{addArmorAtt_Handler("wind", "crystal")}}>
                         <img src={windCrystal} alt="img"/>
                         <div className="title">Wind Crystal</div>
                     </div>
-                    <div className="attribute-item dark">
+                    <div className="attribute-item dark" onClick={()=>{addArmorAtt_Handler("dark", "crystal")}}>
                         <img src={darkCrystal} alt="img"/>
                         <div className="title">Dark Crystal</div>
                     </div>
-                    <div className="attribute-item holy">
+                    <div className="attribute-item holy" onClick={()=>{addArmorAtt_Handler("holy", "crystal")}}>
                         <img src={holyCrystal} alt="img"/>
                         <div className="title">Holy Crystal</div>
                     </div>

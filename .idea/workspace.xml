@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc7846bd-ad00-4195-a9e4-3e3764461d52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front/src/components/Attribute/Armor/Armor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Attribute/Armor/Armor.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Attribute/Attribute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Attribute/Attribute.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/att/Breastplate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/att/Dark-Crystal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/att/Dark-Stone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/att/Earth-Crystal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/att/Earth-Stone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/att/Fire-Crystal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/att/Fire-Stone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/att/Gloves.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/att/Helmet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/att/Holy-Crystal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/att/Holy-Stone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/att/Shoes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/att/Stocking.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/att/Water-Crystal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/att/Water-Stone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/att/Wind-Crystal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/att/Wind-Stone.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Header/Header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/Attribute/Attribute.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Attribute/Attribute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/Attribute/Attribute.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Attribute/Attribute.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,7 +228,7 @@
       <workItem from="1665006969875" duration="1186000" />
       <workItem from="1665054263077" duration="10799000" />
       <workItem from="1665151731413" duration="17362000" />
-      <workItem from="1665247989080" duration="29175000" />
+      <workItem from="1665247989080" duration="31160000" />
     </task>
     <servers />
   </component>
