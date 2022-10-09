@@ -2,12 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc7846bd-ad00-4195-a9e4-3e3764461d52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/front/src/components/Attribute/Armor/Armor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Attribute/Armor/Armor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Attribute/Attribute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Attribute/Attribute.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/att/Breastplate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/att/Dark-Crystal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/att/Dark-Stone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/att/Earth-Crystal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/att/Earth-Stone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/att/Fire-Crystal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/att/Fire-Stone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/att/Gloves.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/att/Helmet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/att/Holy-Crystal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/att/Holy-Stone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/att/Shoes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/att/Stocking.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/att/Water-Crystal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/att/Water-Stone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/att/Wind-Crystal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/att/Wind-Stone.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Contacts/Contacts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Contacts/Contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Contacts/Contacts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/mediaqueries.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/mediaqueries.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/sublimate/popup/MessagePopup.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/sublimate/popup/MessagePopup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/sublimate/popup/MessagePopup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/sublimate/popup/MessagePopup.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Header/Header.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +249,8 @@
       <workItem from="1665005437266" duration="1267000" />
       <workItem from="1665006969875" duration="1186000" />
       <workItem from="1665054263077" duration="10799000" />
-      <workItem from="1665151731413" duration="16654000" />
+      <workItem from="1665151731413" duration="17362000" />
+      <workItem from="1665247989080" duration="29175000" />
     </task>
     <servers />
   </component>
@@ -244,6 +264,10 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
+    <state x="529" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1665249791756">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="529" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1665249791756" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1665183617495">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -272,10 +296,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="462" y="144" width="611" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1664287494145" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1665189038807">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1665255217422">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1665189038807" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1665255217422" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1660999719062">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

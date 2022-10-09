@@ -22,6 +22,7 @@ function Header() {
                     <div className="nav-item nav-home dropdown2"><NavLink className={'disable'} to={"/other/extra"} exact="true">Extra</NavLink>
                         <div className="nav-item nav-home dropdown-menu2">
                             <div className="nav-item nav-home"><NavLink to={"/other/extra/enchante_chance"}  exact="true" end>Шанс точки скилов</NavLink></div>
+                            <div className="nav-item nav-home"><NavLink to={"/other/extra/attribute"}  exact="true" end>Attribute</NavLink></div>
                         </div>
                     </div>
                 </div>

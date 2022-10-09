@@ -1,0 +1,64 @@
+.Armor{
+  width: 180px;
+  height: 90px;
+  position: relative;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 4px;
+  user-select: none;
+  .att{
+    position: relative;
+    padding-top: 3px;
+    .title{
+      font-size: .7em;
+      text-align: left;
+      padding-bottom: 3px;
+    }
+    .progress{
+      width: 76%;
+      position: relative;
+      .layer{
+        border-radius: .12rem;
+        height: 7px;
+        width: 100%;
+      }
+      .layer-1{
+        width: 0;
+        transition: ease-in all 1.3s;
+      }
+      .layer-2{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        opacity: .3;
+      }
+
+    }
+  }
+}
+.fire-back{
+  background: rgb(215,71,23);
+  background: linear-gradient(0deg, rgba(215,71,23,.7) 0%, rgba(113,19,14,.7) 45%, rgba(255,186,165,.7) 100%);
+}
+.water-back{
+  background: rgb(65, 139, 215);
+  background: linear-gradient(0deg, rgb(43, 110, 215,.7) 0%, rgba(11,62,107,.7) 45%, rgba(130,177,255,.7) 100%);
+}
+.earth-back{
+  background: rgb(170,143,43);
+  background: linear-gradient(0deg, rgba(170,143,43,.7) 0%, rgba(106,87,18,.7) 45%, rgba(241,205,106,.7) 100%);
+}
+.wind-back{
+  background: rgb(35,139,132);
+  background: linear-gradient(0deg, rgba(35,139,132,.7) 0%, rgba(15,84,84,.7) 45%, rgba(130, 241, 225, 0.7) 100%);
+}
+.holy-back{
+  background: rgb(84,84,84);
+  background: linear-gradient(0deg, rgba(84,84,84,.7) 0%, rgba(100,119,119,.7) 45%, rgba(229,251,247,.7) 100%);
+}
+.dark-back{
+  background: rgb(74,24,99);
+  background: linear-gradient(0deg, rgba(74,24,99,.7) 0%, rgba(91,16,122,.7) 45%, rgba(215,146,247,.7) 100%);
+}
