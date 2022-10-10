@@ -1,6 +1,8 @@
 import React from "react";
 import "./Armor.scss";
 import $ from "jquery";
+import {faDeleteLeft} from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const att = {
     fire:   ["Огонь", "Вода", "fire-back"],
@@ -34,7 +36,15 @@ const get_width = (val)=>{
 
 
 function Armor(props) {
-    // console.log(props);
+
+    const delete_att = (idx)=>{
+        let result;
+        if(idx === 0){result = [["", 0], props.data[1], props.data[2]]}
+        if(idx === 1){result = [props.data[0], ["", 0], props.data[2]]}
+        if(idx === 2){result = [props.data[0], props.data[1], ["", 0]]}
+        props.setData(result);
+    };
+
     return(<div className={`Armor`}>
         {props.data[0][1] ?
         <div className="att att1">
@@ -42,6 +52,7 @@ function Armor(props) {
             <div className="progress">
                 <div className={`layer layer-1 ${att[props.data[0][0]][2]}`} style={{width: get_width(props.data[0][1])+"%"}}></div>
                 <div className={`layer layer-2 ${att[props.data[0][0]][2]}`}></div>
+                <FontAwesomeIcon className={`faDeleteLeft`} icon={faDeleteLeft} onClick={()=>{delete_att(0)}}/>
             </div>
         </div> : false }
         {props.data[1][1] ?
@@ -50,6 +61,7 @@ function Armor(props) {
                 <div className="progress">
                     <div className={`layer layer-1 ${att[props.data[1][0]][2]}`} style={{width: get_width(props.data[1][1])+"%"}}></div>
                     <div className={`layer layer-2 ${att[props.data[1][0]][2]}`}></div>
+                    <FontAwesomeIcon className={`faDeleteLeft`} icon={faDeleteLeft} onClick={()=>{delete_att(1)}}/>
                 </div>
             </div> : false }
         {props.data[2][1] ?
@@ -58,6 +70,7 @@ function Armor(props) {
                 <div className="progress">
                     <div className={`layer layer-1 ${att[props.data[2][0]][2]}`} style={{width: get_width(props.data[2][1])+"%"}}></div>
                     <div className={`layer layer-2 ${att[props.data[2][0]][2]}`}></div>
+                    <FontAwesomeIcon className={`faDeleteLeft`} icon={faDeleteLeft} onClick={()=>{delete_att(2)}}/>
                 </div>
             </div> : false }
     </div>);

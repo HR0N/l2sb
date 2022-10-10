@@ -27,7 +27,7 @@
       }
       .layer-1{
         width: 0;
-        transition: ease-in all 1.3s;
+        transition: linear all 1s;
       }
       .layer-2{
         position: absolute;
@@ -35,9 +35,24 @@
         bottom: 0;
         opacity: .3;
       }
-
+      .faDeleteLeft{
+        display: none;
+        color: rgba(255, 107, 111);
+        position: absolute;
+        right: -40px;
+        bottom: 8px;
+        opacity: .6;
+        &:hover{opacity: 1!important;}
+      }
     }
+    &:hover .faDeleteLeft{display: block; animation: linear att_delete forwards 1s;}
   }
+}
+
+@keyframes att_delete {
+  0%{opacity: 0}
+  80%{opacity: 0}
+  100%{opacity: .6}
 }
 .fire-back{
   background: rgb(215,71,23);

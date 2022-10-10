@@ -43,13 +43,18 @@ function Attribute() {
     const [active, setActive]           = useState(null);
     const [banned, setBanned]           = useState([null, null, null]);
     const [total, setTotal]             = useState({fire:  0, water: 0, earth: 0, wind:  0, holy:  0, dark:  0});
+    const [chance, setChance]           = useState(false);
+    const [amount, setAmount]           = useState(6);
+
 
     useEffect(()=>{ban_att(); get_total_att();}, [helmet, breastplate, stocking, gloves, shoes]);
     useEffect(()=>{ban_att();}, [active]);
 
 
-    const check_value = (val1, val2)=>{return val1 + val2 > 120 ? 120 : val1 + val2;};
+    const check_value = (val1, val2)=>{if(val1 + val2 > 120){return 120}else if(val1 + val2 < 0){return 0}else return val1 + val2;};
+    // const check_value = (val1, val2)=>{return val1 + val2 > 120 ? 120 : val1 + val2;};
     const check_banned = (att)=>{return !banned.includes(att);};
+    const get_chance = (chance)=>{return chance > Math.round(Math.random()*100)};
 
     const get_active = (newActive)=>{   // return active armor object
         switch (newActive) {
@@ -58,19 +63,24 @@ function Attribute() {
             case "shoes":    return [shoes, setShoes];        default: break;}};
 
     const addArmorAtt = (armor, setArmor, att)=>{
-        if(!armor[0][0]){setArmor([[att, armor[0][1] + 6],armor[1],armor[2]])}
-        else if(!armor[1][0]){setArmor([armor[0],[att, armor[1][1] + 6],armor[2]])}
-        else if(!armor[2][0]){setArmor([armor[0],armor[1],[att, armor[2][1] + 6]])}
+        if(!armor[0][0]){setArmor([[att, armor[0][1] + amount],armor[1],armor[2]])}
+        else if(!armor[1][0]){setArmor([armor[0],[att, armor[1][1] + amount],armor[2]])}
+        else if(!armor[2][0]){setArmor([armor[0],armor[1],[att, armor[2][1] + amount]])}
 
-        if(armor[0][0] && armor[0][0] === att){setArmor([[att, check_value(armor[0][1], 6)],armor[1],armor[2]])}
-        else if(armor[1][0] && armor[1][0] === att){setArmor([armor[0],[att, check_value(armor[1][1], 6)],armor[2]])}
-        else if(armor[2][0] && armor[2][0] === att){setArmor([armor[0],armor[1],[att, check_value(armor[2][1], 6)]])}
+        if(armor[0][0] && armor[0][0] === att){setArmor([[att, check_value(armor[0][1], amount)],armor[1],armor[2]])}
+        else if(armor[1][0] && armor[1][0] === att){setArmor([armor[0],[att, check_value(armor[1][1], amount)],armor[2]])}
+        else if(armor[2][0] && armor[2][0] === att){setArmor([armor[0],armor[1],[att, check_value(armor[2][1], amount)]])}
     };
 
     const addArmorAtt_Handler = (att, stoneType)=>{
         let armor = get_active(active); // return active armor object
-        if(check_att_amount(armor, att, stoneType)){if(armor && check_banned(att)) addArmorAtt(armor[0], armor[1], att)};
-
+        if(chance){
+            if(stoneType === 'stone' && get_chance(50)){
+                if(check_att_amount(armor, att, stoneType)){if(armor && check_banned(att)) addArmorAtt(armor[0], armor[1], att)}
+            }else if(stoneType === 'crystal' && get_chance(30)){
+                if(check_att_amount(armor, att, stoneType)){if(armor && check_banned(att)) addArmorAtt(armor[0], armor[1], att)}
+            }
+        }else{if(check_att_amount(armor, att, stoneType)){if(armor && check_banned(att)) addArmorAtt(armor[0], armor[1], att)}}
     };
 
     const ban_att = ()=>{
@@ -203,12 +213,20 @@ function Attribute() {
                     </div>
                 </div>
                 <div className="stat">
-                    <div className="stat-att fire"><span>Fire</span><span>{total.fire}</span></div>
-                    <div className="stat-att water"><span>Water</span><span>{total.water}</span></div>
-                    <div className="stat-att wind"><span>Wind</span><span>{total.wind}</span></div>
-                    <div className="stat-att earth"><span>Earth</span><span>{total.earth}</span></div>
-                    <div className="stat-att holy"><span>Holy</span><span>{total.holy}</span></div>
-                    <div className="stat-att dark"><span>Dark</span><span>{total.dark}</span></div>
+                    <div className="chance">
+                        <label><input name={"chance"} type="radio" onChange={()=>{setChance(true)}} checked={chance}/> Шанс: 50% / 30%</label>
+                        <label><input name={"chance"} type="radio" onChange={()=>{setChance(false)}} checked={!chance}/> 100%</label>
+                    </div>
+                    <div className="stat-att fire"><span>Fire</span><span>{total.water}</span></div>
+                    <div className="stat-att water"><span>Water</span><span>{total.fire}</span></div>
+                    <div className="stat-att wind"><span>Wind</span><span>{total.earth}</span></div>
+                    <div className="stat-att earth"><span>Earth</span><span>{total.wind}</span></div>
+                    <div className="stat-att holy"><span>Holy</span><span>{total.dark}</span></div>
+                    <div className="stat-att dark"><span>Dark</span><span>{total.holy}</span></div>
+                    <div className="amount">
+                        <label><input name={"amount"} type="radio" onChange={()=>{setAmount(6)}} checked={amount === 6}/> Кол-во за раз: 6</label>
+                        <label><input name={"amount"} type="radio" onChange={()=>{setAmount(60)}} checked={amount === 60}/> 60</label>
+                    </div>
                 </div>
             </div>
         </div>

@@ -2,23 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc7846bd-ad00-4195-a9e4-3e3764461d52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front/build/static/css/main.613f80f9.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/static/css/main.613f80f9.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.74670bf6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.74670bf6.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.74670bf6.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.d00f31af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.d00f31af.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.d00f31af.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/css/main.83004873.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/css/main.83004873.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.aaef1da8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.aaef1da8.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.aaef1da8.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.74670bf6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.74670bf6.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.74670bf6.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/Attribute/Armor/Armor.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Attribute/Armor/Armor.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/components/Attribute/Armor/Armor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Attribute/Armor/Armor.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/components/Attribute/Attribute.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Attribute/Attribute.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/components/Attribute/Attribute.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Attribute/Attribute.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/mediaqueries.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/mediaqueries.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,7 +239,8 @@
       <workItem from="1665054263077" duration="10799000" />
       <workItem from="1665151731413" duration="17362000" />
       <workItem from="1665247989080" duration="31832000" />
-      <workItem from="1665322264743" duration="16772000" />
+      <workItem from="1665322264743" duration="18099000" />
+      <workItem from="1665352889794" duration="5506000" />
     </task>
     <servers />
   </component>

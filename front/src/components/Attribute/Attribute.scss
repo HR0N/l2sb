@@ -90,14 +90,34 @@
         display: grid;
         grid-template-columns: repeat(auto-fill, 104px);
         gap: 0 20px;
-        background-color: rgba(0, 0, 0, 0.05);
+        background-color: rgb(30,30,28);
         border-radius: .2rem;
         width: 240px;
         position: relative;
         font-size: .9em;
         user-select: none;
         padding: 6px;
+        z-index: 2;
         box-shadow: inset 1px 1px 5px #151515;
+        .chance, .amount{
+          width: 100%;
+          position: absolute;
+          display: flex;
+          justify-content: space-between;
+          z-index: 1;
+          transition: linear all .3s;
+          opacity: 0;
+          pointer-events: none;
+          padding: 2px 3px;
+          background-color: rgb(25, 25, 23);
+          border-radius: .2rem;
+        }
+        .chance{top: -18px;}
+        .amount{bottom: -18px;}
+        &:hover .chance, &:hover .amount{
+          animation: linear chance forwards 1s;
+          pointer-events: auto;
+        }
         &:after{
           content: '';
           position: absolute;
@@ -118,4 +138,10 @@
       }
     }
   }
+}
+
+@keyframes chance {
+  0%{opacity: 0}
+  80%{opacity: 0}
+  100%{opacity: 1}
 }
