@@ -2,6 +2,7 @@ import React, {useEffect, useState} from "react";
 import "./Attribute.scss";
 import {connect} from 'react-redux';
 import Armor from "./Armor/Armor";
+import $ from "jquery";
 
 import helmetImg from "./../../img/att/Helmet.png"
 import breastplateImg from "./../../img/att/Breastplate.png"
@@ -22,6 +23,8 @@ import earthCrystal from "./../../img/att/Earth-Crystal.png";
 import windCrystal from "./../../img/att/Wind-Crystal.png";
 import holyCrystal from "./../../img/att/Holy-Crystal.png";
 import darkCrystal from "./../../img/att/Dark-Crystal.png";
+
+import chart from "./../../img/att/chart.png";
 
 const att_literals = {
     fire:  "water",
@@ -45,6 +48,7 @@ function Attribute() {
     const [total, setTotal]             = useState({fire:  0, water: 0, earth: 0, wind:  0, holy:  0, dark:  0});
     const [chance, setChance]           = useState(false);
     const [amount, setAmount]           = useState(6);
+    const [enough, setEnough]           = useState(false);
 
 
     useEffect(()=>{ban_att(); get_total_att();}, [helmet, breastplate, stocking, gloves, shoes]);
@@ -116,6 +120,17 @@ function Attribute() {
     };
     const parse_armor = (armor, total, keys)=>{armor.map((v, k)=>{keys.map((v2, k2)=>{if(v[0] === v2){total[v2]+=v[1]}});}); return total;};
 
+
+    const rotate_chart = (e)=>{
+        const cardItem = e.currentTarget.querySelector('.img-wrapper');
+        const halfHeight = 476 / 2;
+        if(!enough){
+            cardItem.style.transform = "rotateX("+ -(e.nativeEvent.offsetY - halfHeight) / 20+"deg) " +
+                "rotateY("+ (e.nativeEvent.offsetX - 410) / 50+"deg)";
+        }else{
+            cardItem.style.transform = "rotateX(0deg) rotateY(0deg)";
+        }
+    };
 
     return(<div className={`Attribute`}>
         <h2 onClick={()=>{setActive(null); setBanned([null, null, null]);}}>Attribute</h2>
@@ -229,6 +244,14 @@ function Attribute() {
                     </div>
                 </div>
             </div>
+        </div>
+        <div className="chart-wrapper" onMouseMove={(e)=>{rotate_chart(e)}}>
+            <div className="img-wrapper">
+                <div className="title title1">Бонус урона</div>
+                <div className="title title2">Разница атакующего и защитного урона</div>
+                <img src={chart} alt="att damage chart"/>
+            </div>
+            <div className={`enough ${enough ? "hide_enough":""}`}><span onClick={()=>{setEnough(true)}}>Хватит!</span></div>
         </div>
     </div>);
 }

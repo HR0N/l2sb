@@ -1,6 +1,6 @@
 .Attribute{
   background-color: rgb(32,32,30);
-  padding: 50px 6px;
+  padding: 50px 6px 150px;
   min-height: calc(100vh - 40px);
   color: rgb(155, 155, 153);
   font-family: "Comic Sans MS", sans-serif;
@@ -137,6 +137,53 @@
         }
       }
     }
+  }
+  .chart-wrapper{
+    margin-top: 250px;
+    width: 100%;
+    position: relative;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    .img-wrapper{
+      position: relative;
+      display: inline-flex;
+      box-shadow: 1px 1px 22px black;
+      transition: linear all .3s;
+      .title{
+        color: #161616;
+        font-size: 1.4em;
+        position: absolute;
+        font-weight: bold;
+      }
+      .title1{
+        transform: rotate(-90deg);
+        left: -50px;
+        align-self: center;
+      }
+      .title2{
+        bottom: 15px;
+        width: 100%;
+      }
+      img{
+        width: 100%;
+        max-width: 800px;
+        min-width: 310px;
+      }
+    }
+    .enough{
+      width: 100%;
+      bottom: -50px;
+      position: absolute;
+      transition: opacity ease-out 1s;
+      span{
+        display: inline;
+        cursor: pointer;
+        font-weight: bold;
+        opacity: .3;
+        &:hover{opacity: 1}
+      }
+    }
+    .hide_enough{opacity: 0; span{cursor: default}}
   }
 }
 
