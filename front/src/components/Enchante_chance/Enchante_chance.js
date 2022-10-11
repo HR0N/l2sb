@@ -2,6 +2,7 @@ import React from "react";
 import "./Enchante_chance.scss";
 import {connect} from 'react-redux';
 import $ from "jquery";
+import {Helmet} from "react-helmet-async";
 
 const chance = [[
         [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
@@ -49,6 +50,11 @@ function Enchante_chance() {
         })
     };
     return(<div className={`Enchante_chance`}>
+        {/*<Helmet>
+            <title>l2 шанс заточки скиллов</title>
+            <link rel="canonical" href="http://mysite.com/example" />
+            <meta name="description" content="Nested component" />
+        </Helmet>*/}
         <h2>Заточка второпрофных скилов</h2>
         <div className="enchante_table_2nd_prof">
             <div className="lvl">Уровень заточки</div>

@@ -147,15 +147,22 @@ function total_sec_in_each_five_min(){
 /* description => start parsing rss x1 */
 function complex_start_x1(){
     global $tgBot, $dbase;
+    $chat_id_x1 = "-883568838";
     $servers_id = ["x1" => 3, "x1.5" => 7, "x5" => 0, "x55" => 2, "x3" => 6];
     $count = 0;
     while ($count < 3){
         sleep(15);
         $data = json_encode(get_data($servers_id["x1"]));
+        $data = str_replace('"', "`", $data);
 
-        echo '<pre>';
-        echo var_dump($data);
-        echo '</pre>';
+        $rates = "1";
+        $new = $data[1];
+        $old = $dbase->get_rss_x1()[0][1];
+        compare_Cabrio($old, $new, $rates, $chat_id_x1);
+        compare_Hallate($old, $new, $rates, $chat_id_x1);
+        compare_Kernon($old, $new, $rates, $chat_id_x1);
+        compare_Golkonda($old, $new, $rates, $chat_id_x1);
+
 
         $dbase->set_rss_x1($data);
         $count++;
@@ -166,11 +173,22 @@ function complex_start_x1(){
 /* description => start parsing rss x1.5 */
 function complex_start_x1d5(){
     global $tgBot, $dbase;
+    $chat_id_x1d5 = "-884764954";
     $servers_id = ["x1" => 3, "x1.5" => 7, "x5" => 0, "x55" => 2, "x3" => 6];
     $count = 0;
     while ($count < 3){
         sleep(15);
         $data = json_encode(get_data($servers_id["x1.5"]));
+        $data = str_replace('"', "`", $data);
+
+        $rates = "1.5";
+        $new = $data[1];
+        $old = $dbase->get_rss_x1()[0][1];
+        compare_Cabrio($old, $new, $rates, $chat_id_x1d5);
+        compare_Hallate($old, $new, $rates, $chat_id_x1d5);
+        compare_Kernon($old, $new, $rates, $chat_id_x1d5);
+        compare_Golkonda($old, $new, $rates, $chat_id_x1d5);
+
 
         $dbase->set_rss_x1d5($data);
         $count++;
@@ -181,13 +199,114 @@ function complex_start_x1d5(){
 /* description => start parsing rss x5 */
 function complex_start_x5(){
     global $tgBot, $dbase;
+    $chat_id_x5 = "-758920014";
     $servers_id = ["x1" => 3, "x1.5" => 7, "x5" => 0, "x55" => 2, "x3" => 6];
     $count = 0;
     while ($count < 3){
         sleep(15);
         $data = json_encode(get_data($servers_id["x5"]));
+        $data = str_replace('"', "`", $data);
+
+        $rates = "5";
+        $new = $data[1];
+        $old = $dbase->get_rss_x1()[0][1];
+        compare_Cabrio($old, $new, $rates, $chat_id_x5);
+        compare_Hallate($old, $new, $rates, $chat_id_x5);
+        compare_Kernon($old, $new, $rates, $chat_id_x5);
+        compare_Golkonda($old, $new, $rates, $chat_id_x5);
+
 
         $dbase->set_rss_x5($data);
         $count++;
     }
+}
+
+
+
+/* description => send message to tg group when refresh kill info Cabrio */
+function compare_Cabrio($old, $new, $rates, $chat){
+    global $tgBot3;
+    $old = json_decode($old)[1];
+    $new = json_decode($new)[1];
+    $east_date = explode(" ", $new->Cabrio[0]);
+    $east_date2 = explode("-", $east_date[0]);
+    $east_date = $east_date[1]." - ".$east_date2[2].".".$east_date2[1].".".$east_date2[0];
+
+
+    $url = "https://l2sb.evilcode.space/respawn/asterios/subclass-rb_x".$rates;
+    $inline[] = ['text'=>'More detailed information', 'url'=>$url];
+    $inline = array_chunk($inline, 2);
+    $reply_markup = ['inline_keyboard'=>$inline];
+    $inline_keyboard = json_encode($reply_markup);
+
+
+    if(strcmp($old->Cabrio[0], $new->Cabrio[0]) != 0){
+        $tgBot3->sendMessage_mark($chat,"*\nShilen's Messenger Cabrio\nKilled: ".$east_date, $inline_keyboard);
+    };
+}
+
+/* description => send message to tg group when refresh kill info Hallate */
+function compare_Hallate($old, $new, $rates, $chat){
+    global $tgBot;
+    $old = json_decode($old)[1];
+    $new = json_decode($new)[1];
+    $east_date = explode(" ", $new->Hallate[0]);
+    $east_date2 = explode("-", $east_date[0]);
+    $east_date = $east_date[1]." - ".$east_date2[2].".".$east_date2[1].".".$east_date2[0];
+
+
+    $url = "https://l2sb.evilcode.space/respawn/asterios/subclass-rb_x".$rates;
+    $inline[] = ['text'=>'More detailed information', 'url'=>$url];
+    $inline = array_chunk($inline, 2);
+    $reply_markup = ['inline_keyboard'=>$inline];
+    $inline_keyboard = json_encode($reply_markup);
+
+
+    if(strcmp($old->Hallate[0], $new->Hallate[0]) != 0){
+        $tgBot->sendMessage_mark($chat,"*\nDeath Lord Hallate\nKilled: ".$east_date, $inline_keyboard);
+    };
+}
+
+/* description => send message to tg group when refresh kill info Kernon */
+function compare_Kernon($old, $new, $rates, $chat){
+    global $tgBot;
+    $old = json_decode($old)[1];
+    $new = json_decode($new)[1];
+    $east_date = explode(" ", $new->Kernon[0]);
+    $east_date2 = explode("-", $east_date[0]);
+    $east_date = $east_date[1]." - ".$east_date2[2].".".$east_date2[1].".".$east_date2[0];
+
+
+    $url = "https://l2sb.evilcode.space/respawn/asterios/subclass-rb_x".$rates;
+    $inline[] = ['text'=>'More detailed information', 'url'=>$url];
+    $inline = array_chunk($inline, 2);
+    $reply_markup = ['inline_keyboard'=>$inline];
+    $inline_keyboard = json_encode($reply_markup);
+
+
+    if(strcmp($old->Kernon[0], $new->Kernon[0]) != 0){
+        $tgBot->sendMessage_mark($chat,"*\nKernon\nKilled: ".$east_date, $inline_keyboard);
+    };
+}
+
+/* description => send message to tg group when refresh kill info Golkonda */
+function compare_Golkonda($old, $new, $rates, $chat){
+    global $tgBot;
+    $old = json_decode($old)[1];
+    $new = json_decode($new)[1];
+    $east_date = explode(" ", $new->Golkonda[0]);
+    $east_date2 = explode("-", $east_date[0]);
+    $east_date = $east_date[1]." - ".$east_date2[2].".".$east_date2[1].".".$east_date2[0];
+
+
+    $url = "https://l2sb.evilcode.space/respawn/asterios/subclass-rb_x".$rates;
+    $inline[] = ['text'=>'More detailed information', 'url'=>$url];
+    $inline = array_chunk($inline, 2);
+    $reply_markup = ['inline_keyboard'=>$inline];
+    $inline_keyboard = json_encode($reply_markup);
+
+
+    if(strcmp($old->Golkonda[0], $new->Golkonda[0]) != 0){
+        $tgBot->sendMessage_mark($chat,"*\nLonghorn Golkonda\nKilled: ".$east_date, $inline_keyboard);
+    };
 }

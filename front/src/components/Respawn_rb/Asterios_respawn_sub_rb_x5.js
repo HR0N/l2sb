@@ -4,6 +4,7 @@ import {connect, useSelector} from 'react-redux';
 import Card from "./card/card";
 import {load_rss_x5} from "../../redux/actions/rss";
 import background from "../../img/background3.png"
+import {NavLink} from "react-router-dom";
 
 
 function Asterios_respawn_sub_rb_x5(props) {
@@ -30,7 +31,12 @@ function Asterios_respawn_sub_rb_x5(props) {
     return(<div className={`RespawnRb`}
     >
         <div className="background_img"><img src={background} alt="background img"/></div>
-        <h2 className={`component_title`}><span>Asterios x5</span></h2>
+        <div className="extra_nav">
+            <NavLink to={"/respawn/asterios/subclass-rb_x1"}  exact="true" end>x1</NavLink>
+            <NavLink to={"/respawn/asterios/subclass-rb_x1.5"}  exact="true" end>x1.5</NavLink>
+            <NavLink to={"/respawn/asterios/subclass-rb_x5"}  exact="true" end>x5</NavLink>
+        </div>
+        {/*<h2 className={`component_title`}><span>Asterios x5</span></h2>*/}
         {rss_x5 ? add_chest_targets_to_key_bosses_x5() : false}
         {rss_x5 ?
             <div className={`key_bosses_cards`}>

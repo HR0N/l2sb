@@ -27,25 +27,40 @@ class myDB{
         return mysqli_fetch_all($result);
     }
     public function set_rss_x1($sJson){
-        $sJson = str_replace('"', "`", $sJson);
+//        $sJson = str_replace('"', "`", $sJson);
 
         $sql = "UPDATE `asterios_rss_x1` SET `data`=\"".$sJson."\" WHERE 1";
         $result = $this->connect()->query($sql);
         return ($result);
     }
+    public function get_rss_x1(){
+        $sql = "SELECT * FROM `asterios_rss_x1` WHERE 1";
+        $result = $this->connect()->query($sql);
+        return mysqli_fetch_all($result);
+    }
     public function set_rss_x1d5($sJson){
-        $sJson = str_replace('"', "`", $sJson);
+//        $sJson = str_replace('"', "`", $sJson);
 
         $sql = "UPDATE `asterios_rss_x1d5` SET `data`=\"".$sJson."\" WHERE 1";
         $result = $this->connect()->query($sql);
         return ($result);
     }
+    public function get_rss_x1d5(){
+        $sql = "SELECT * FROM `asterios_rss_x1d5` WHERE 1";
+        $result = $this->connect()->query($sql);
+        return mysqli_fetch_all($result);
+    }
     public function set_rss_x5($sJson){
-        $sJson = str_replace('"', "`", $sJson);
+//        $sJson = str_replace('"', "`", $sJson);
 
         $sql = "UPDATE `asterios_rss_x5` SET `data`=\"".$sJson."\" WHERE 1";
         $result = $this->connect()->query($sql);
         return ($result);
+    }
+    public function get_rss_x5(){
+        $sql = "SELECT * FROM `asterios_rss_x5` WHERE 1";
+        $result = $this->connect()->query($sql);
+        return mysqli_fetch_all($result);
     }
 }
 

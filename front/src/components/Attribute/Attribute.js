@@ -2,6 +2,7 @@ import React, {useEffect, useState} from "react";
 import "./Attribute.scss";
 import {connect} from 'react-redux';
 import Armor from "./Armor/Armor";
+import {Helmet} from "react-helmet-async";
 import $ from "jquery";
 
 import helmetImg from "./../../img/att/Helmet.png"
@@ -133,6 +134,11 @@ function Attribute() {
     };
 
     return(<div className={`Attribute`}>
+        {/*<Helmet>
+            <title>l2 вставка атрибута</title>
+            <link rel="canonical" href="http://mysite.com/example" />
+            <meta name="description" content="Nested component" />
+        </Helmet>*/}
         <h2 onClick={()=>{setActive(null); setBanned([null, null, null]);}}>Attribute</h2>
         <div className="wrapper">
             <div className="Armor-wrapper">

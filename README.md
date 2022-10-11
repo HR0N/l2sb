@@ -9,16 +9,17 @@
 - npx create-react-app front
 - npm i --save-dev sass
 - npm i react-router-dom axios redux react-redux redux-thunk react-localization h-bootstrap validator --save
+- npm i react-helmet-async --save
 - npm run start || yarn start
 - npm run build
 - axios.defaults.withCredentials = true;
-- create .env > put in: GENERATE_SOURCEMAP=false
 ##### Optional
 - npm install jquery --save
 - npm i h-bootstrap
 - npm i bootstrap
 #### Deploy
 - check .htaccess
+- create .env > put in: GENERATE_SOURCEMAP=false
 ##### React Font Awesome
 - npm i --save @fortawesome/fontawesome-svg-core
 - npm install --save @fortawesome/free-solid-svg-icons

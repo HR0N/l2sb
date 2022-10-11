@@ -8,6 +8,7 @@ import reportWebVitals from './reportWebVitals';
 import {Provider} from "react-redux";
 import {BrowserRouter} from "react-router-dom";
 import {createStore, applyMiddleware} from "redux";
+import {HelmetProvider } from 'react-helmet-async';
 import thunk from "redux-thunk";
 import rootReducer from './redux/reducers/rootReducer';
 import './services/localization';
@@ -24,7 +25,7 @@ root.render(
         <Provider store={store}>
             <BrowserRouter>
                 <Suspense fallback={<Loader/>}> {/*for i18next (localization)*/}
-                    <App/>
+                    <HelmetProvider><App/></HelmetProvider>
                 </Suspense>
             </BrowserRouter>
         </Provider>
