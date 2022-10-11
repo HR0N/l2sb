@@ -156,7 +156,7 @@ function complex_start_x1(){
         $data = str_replace('"', "`", $data);
 
         $rates = "1";
-        $new = $data[1];
+        $new = $data;
         $old = $dbase->get_rss_x1()[0][1];
         compare_Cabrio($old, $new, $rates, $chat_id_x1);
         compare_Hallate($old, $new, $rates, $chat_id_x1);
@@ -182,8 +182,8 @@ function complex_start_x1d5(){
         $data = str_replace('"', "`", $data);
 
         $rates = "1.5";
-        $new = $data[1];
-        $old = $dbase->get_rss_x1()[0][1];
+        $new = $data;
+        $old = $dbase->get_rss_x1d5()[0][1];
         compare_Cabrio($old, $new, $rates, $chat_id_x1d5);
         compare_Hallate($old, $new, $rates, $chat_id_x1d5);
         compare_Kernon($old, $new, $rates, $chat_id_x1d5);
@@ -208,8 +208,8 @@ function complex_start_x5(){
         $data = str_replace('"', "`", $data);
 
         $rates = "5";
-        $new = $data[1];
-        $old = $dbase->get_rss_x1()[0][1];
+        $new = $data;
+        $old = $dbase->get_rss_x5()[0][1];
         compare_Cabrio($old, $new, $rates, $chat_id_x5);
         compare_Hallate($old, $new, $rates, $chat_id_x5);
         compare_Kernon($old, $new, $rates, $chat_id_x5);
@@ -226,6 +226,8 @@ function complex_start_x5(){
 /* description => send message to tg group when refresh kill info Cabrio */
 function compare_Cabrio($old, $new, $rates, $chat){
     global $tgBot3;
+    $old = str_replace("`", '"', $old);
+    $new = str_replace("`", '"', $new);
     $old = json_decode($old)[1];
     $new = json_decode($new)[1];
     $east_date = explode(" ", $new->Cabrio[0]);
@@ -248,6 +250,8 @@ function compare_Cabrio($old, $new, $rates, $chat){
 /* description => send message to tg group when refresh kill info Hallate */
 function compare_Hallate($old, $new, $rates, $chat){
     global $tgBot;
+    $old = str_replace("`", '"', $old);
+    $new = str_replace("`", '"', $new);
     $old = json_decode($old)[1];
     $new = json_decode($new)[1];
     $east_date = explode(" ", $new->Hallate[0]);
@@ -270,6 +274,8 @@ function compare_Hallate($old, $new, $rates, $chat){
 /* description => send message to tg group when refresh kill info Kernon */
 function compare_Kernon($old, $new, $rates, $chat){
     global $tgBot;
+    $old = str_replace("`", '"', $old);
+    $new = str_replace("`", '"', $new);
     $old = json_decode($old)[1];
     $new = json_decode($new)[1];
     $east_date = explode(" ", $new->Kernon[0]);
@@ -292,6 +298,8 @@ function compare_Kernon($old, $new, $rates, $chat){
 /* description => send message to tg group when refresh kill info Golkonda */
 function compare_Golkonda($old, $new, $rates, $chat){
     global $tgBot;
+    $old = str_replace("`", '"', $old);
+    $new = str_replace("`", '"', $new);
     $old = json_decode($old)[1];
     $new = json_decode($new)[1];
     $east_date = explode(" ", $new->Golkonda[0]);
