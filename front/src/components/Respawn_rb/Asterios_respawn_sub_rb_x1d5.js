@@ -9,6 +9,7 @@ import {NavLink} from "react-router-dom";
 
 function Asterios_respawn_sub_rb_x1d5(props) {
     const rss_x1d5 = useSelector(state => props.rss_x1d5);  //  subscribe to redux data
+    const link = "https://t.me/+ybkn6yQ8n6w4MDFi";
 
     useEffect(()=>{props.load_rss();}, []);
     useEffect(()=>{
@@ -36,14 +37,14 @@ function Asterios_respawn_sub_rb_x1d5(props) {
             <NavLink to={"/respawn/asterios/subclass-rb_x1.5"}  exact="true" end>x1.5</NavLink>
             <NavLink to={"/respawn/asterios/subclass-rb_x5"}  exact="true" end>x5</NavLink>
         </div>
-        {/*<h2 className={`component_title`}><span>Asterios x1.5</span></h2>*/}
+        <h2 className={`component_title`}><span>Asterios</span></h2>
         {rss_x1d5 ? add_chest_targets_to_key_bosses_x1d5() : false}
         {rss_x1d5 ?
             <div className={`key_bosses_cards`}>
-                <Card idx={0} data={rss_x1d5[1].Cabrio}/>
-                <Card idx={1} data={rss_x1d5[1].Hallate}/>
-                <Card idx={2} data={rss_x1d5[1].Kernon}/>
-                <Card idx={3} data={rss_x1d5[1].Golkonda}/>
+                <Card idx={0} data={rss_x1d5[1].Cabrio} link={link}/>
+                <Card idx={1} data={rss_x1d5[1].Hallate} link={link}/>
+                <Card idx={2} data={rss_x1d5[1].Kernon} link={link}/>
+                <Card idx={3} data={rss_x1d5[1].Golkonda} link={link}/>
             </div>
             : false}
     </div>);

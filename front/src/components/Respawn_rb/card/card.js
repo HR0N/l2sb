@@ -9,6 +9,7 @@ import dead_b from "../../../img/dead_black.png"
 import dead_color from "../../../img/dead_color.png"
 import happy from "../../../img/happy.png"
 import happy_color from "../../../img/happy_color.png"
+import telegram from "../../../img/telegram3-yellow.png";
 
 const time = new Time();
 const width       = 120;
@@ -63,9 +64,13 @@ function Card(props) {
 
 
     return(<div className={`Card card_${props.idx} ${compare.begun ? ' begun' : ' begun'}`}>
-        {props.data[2] ? <div className="copy"><FontAwesomeIcon
-            onClick={()=>{navigator.clipboard.writeText(props.data[2])}}
-            className={`fa-icon`} icon={faCopy}/></div> : false}
+        {props.data[2] ? <div className="copy">
+            <div className={'fa-icon fa-telegram'} onClick={()=>{window.open(props.link)}}
+            ><img src={telegram} alt="telegram-icon"/></div>
+            <FontAwesomeIcon
+                onClick={()=>{navigator.clipboard.writeText(props.data[2])}}
+                className={`fa-icon fa-copy`} icon={faCopy}/>
+        </div> : false}
         <div className="title">
             <h2>{props.data[1]}</h2>
         </div>

@@ -5,10 +5,21 @@ import Card from "./card/card";
 import {load_rss_x1} from "../../redux/actions/rss";
 import background from "../../img/background3.png"
 import {NavLink} from "react-router-dom";
+// import {useTranslation} from "react-i18next";
+// import i18next from '../../i18next';
+
+
 
 
 function Asterios_respawn_sub_rb_x1(props) {
+    /*const {i18n} = useTranslation();
+    const changeLanguage = (language)=>{
+        i18n.changeLanguage(language).then(()=>{console.log('changed');});
+        {{i18next.t('title')}}
+    };*/
+
     const rss_x1 = useSelector(state => props.rss_x1);  //  subscribe to redux data
+    const link = "https://t.me/+nb263QW9SotjNTdi";
 
     useEffect(()=>{props.load_rss();}, []);
     useEffect(()=>{
@@ -36,14 +47,14 @@ function Asterios_respawn_sub_rb_x1(props) {
             <NavLink to={"/respawn/asterios/subclass-rb_x1.5"}  exact="true" end>x1.5</NavLink>
             <NavLink to={"/respawn/asterios/subclass-rb_x5"}  exact="true" end>x5</NavLink>
         </div>
-        {/*<h2 className={`component_title`}><span>Asterios x1</span></h2>*/}
+        <h2 className={`component_title`}><span>Asterios</span></h2>
         {rss_x1 ? add_chest_targets_to_key_bosses_x1() : false}
         {rss_x1 ?
             <div className={`key_bosses_cards`}>
-                <Card idx={0} data={rss_x1[1].Cabrio}/>
-                <Card idx={1} data={rss_x1[1].Hallate}/>
-                <Card idx={2} data={rss_x1[1].Kernon}/>
-                <Card idx={3} data={rss_x1[1].Golkonda}/>
+                <Card idx={0} data={rss_x1[1].Cabrio} link={link}/>
+                <Card idx={1} data={rss_x1[1].Hallate} link={link}/>
+                <Card idx={2} data={rss_x1[1].Kernon} link={link}/>
+                <Card idx={3} data={rss_x1[1].Golkonda} link={link}/>
             </div>
             : false}
     </div>);

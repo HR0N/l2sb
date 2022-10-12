@@ -3,14 +3,41 @@
 // todo:                                                       . . : : H E A D E R : : . .
 @media screen and (max-width: 426px){
   .Header{
+    .logo{
+      height: 54px;
+    }
+    background-color: whitesmoke;
+    padding-top: 54px;
     .nav{
+      background-color: white;
       display: none !important;
       flex-direction: column;
       border-bottom: 1px solid dimgray;
       .nav-item{
+        a{
+          height: auto;
+          padding: 16px;
+          border-bottom: 1px solid lightgrey;
+        }
         .dropdown-menu{
           position: relative;
           width: 100%;
+        }
+        .dropdown-menu2{
+          a{
+            padding: 16px;
+          }
+        }
+      }
+    }
+    ._locale{
+      height: 54px;
+      margin-right: 30px;
+      .locale__list{
+        .flag-wrapper{
+          img{
+
+          }
         }
       }
     }
@@ -132,5 +159,8 @@
 }
 // todo:                                                       . . : : H E A D E R : : . .
 @media screen and (min-width: 427px){
+  .Header{
+    height: 40px;
+  }
   .nav_bars{display: none}
 }

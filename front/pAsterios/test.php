@@ -7,7 +7,7 @@ include_once('db.php');
 use env\Env as env;
 use mydb\myDB;
 
-
+$env = new env();
 $dbase3 = new myDB(env::class);
 $tgBot3 = new TGBot(env::class);
 
@@ -25,6 +25,7 @@ function parse_order($url){
 }
 
 $data = $dbase3->get_rss_x1()[0][1];
+
 
 $data = str_replace("`", '"', $data);
 function compare_Cabrio($old, $new){

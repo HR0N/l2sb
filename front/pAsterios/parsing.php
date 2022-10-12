@@ -147,7 +147,7 @@ function total_sec_in_each_five_min(){
 /* description => start parsing rss x1 */
 function complex_start_x1(){
     global $tgBot, $dbase;
-    $chat_id_x1 = "-883568838";
+    $chat_id_x1 = Env::$CHAT_ID_X1;
     $servers_id = ["x1" => 3, "x1.5" => 7, "x5" => 0, "x55" => 2, "x3" => 6];
     $count = 0;
     while ($count < 3){
@@ -173,7 +173,7 @@ function complex_start_x1(){
 /* description => start parsing rss x1.5 */
 function complex_start_x1d5(){
     global $tgBot, $dbase;
-    $chat_id_x1d5 = "-884764954";
+    $chat_id_x1d5 = Env::$CHAT_ID_X1d5;
     $servers_id = ["x1" => 3, "x1.5" => 7, "x5" => 0, "x55" => 2, "x3" => 6];
     $count = 0;
     while ($count < 3){
@@ -199,7 +199,7 @@ function complex_start_x1d5(){
 /* description => start parsing rss x5 */
 function complex_start_x5(){
     global $tgBot, $dbase;
-    $chat_id_x5 = "-758920014";
+    $chat_id_x5 = Env::$CHAT_ID_X5;
     $servers_id = ["x1" => 3, "x1.5" => 7, "x5" => 0, "x55" => 2, "x3" => 6];
     $count = 0;
     while ($count < 3){
@@ -225,7 +225,7 @@ function complex_start_x5(){
 
 /* description => send message to tg group when refresh kill info Cabrio */
 function compare_Cabrio($old, $new, $rates, $chat){
-    global $tgBot3;
+    global $tgBot;
     $old = str_replace("`", '"', $old);
     $new = str_replace("`", '"', $new);
     $old = json_decode($old)[1];
@@ -243,7 +243,7 @@ function compare_Cabrio($old, $new, $rates, $chat){
 
 
     if(strcmp($old->Cabrio[0], $new->Cabrio[0]) != 0){
-        $tgBot3->sendMessage_mark($chat,"*\nShilen's Messenger Cabrio\nKilled: ".$east_date, $inline_keyboard);
+        $tgBot->sendMessage_mark($chat,"*\nShilen's Messenger Cabrio\nKilled: ".$east_date."\n - \n"."/target Coffer of the Dead", $inline_keyboard);
     };
 }
 
@@ -267,7 +267,7 @@ function compare_Hallate($old, $new, $rates, $chat){
 
 
     if(strcmp($old->Hallate[0], $new->Hallate[0]) != 0){
-        $tgBot->sendMessage_mark($chat,"*\nDeath Lord Hallate\nKilled: ".$east_date, $inline_keyboard);
+        $tgBot->sendMessage_mark($chat,"*\nDeath Lord Hallate\nKilled: ".$east_date."\n - \n"."/target Hallate's chest", $inline_keyboard);
     };
 }
 
@@ -291,7 +291,7 @@ function compare_Kernon($old, $new, $rates, $chat){
 
 
     if(strcmp($old->Kernon[0], $new->Kernon[0]) != 0){
-        $tgBot->sendMessage_mark($chat,"*\nKernon\nKilled: ".$east_date, $inline_keyboard);
+        $tgBot->sendMessage_mark($chat,"*\nKernon\nKilled: ".$east_date."\n - \n"."/target Chest of Kernon", $inline_keyboard);
     };
 }
 
@@ -315,6 +315,6 @@ function compare_Golkonda($old, $new, $rates, $chat){
 
 
     if(strcmp($old->Golkonda[0], $new->Golkonda[0]) != 0){
-        $tgBot->sendMessage_mark($chat,"*\nLonghorn Golkonda\nKilled: ".$east_date, $inline_keyboard);
+        $tgBot->sendMessage_mark($chat,"*\nLonghorn Golkonda\nKilled: ".$east_date."\n - \n"."/target Chest of Golkonda", $inline_keyboard);
     };
 }

@@ -1,4 +1,5 @@
 import React, {Suspense} from 'react';
+import "i18next";
 import ReactDOM from 'react-dom/client';
 import './index.scss';
 import './variables.scss'
@@ -8,7 +9,7 @@ import reportWebVitals from './reportWebVitals';
 import {Provider} from "react-redux";
 import {BrowserRouter} from "react-router-dom";
 import {createStore, applyMiddleware} from "redux";
-import {HelmetProvider } from 'react-helmet-async';
+import {HelmetProvider} from 'react-helmet-async';
 import thunk from "redux-thunk";
 import rootReducer from './redux/reducers/rootReducer';
 import './services/localization';
@@ -25,7 +26,9 @@ root.render(
         <Provider store={store}>
             <BrowserRouter>
                 <Suspense fallback={<Loader/>}> {/*for i18next (localization)*/}
-                    <HelmetProvider><App/></HelmetProvider>
+                    <HelmetProvider>
+                        <App/>
+                    </HelmetProvider>
                 </Suspense>
             </BrowserRouter>
         </Provider>
