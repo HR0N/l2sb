@@ -4,6 +4,8 @@ import {connect} from 'react-redux';
 import Armor from "./Armor/Armor";
 import {Helmet} from "react-helmet-async";
 import $ from "jquery";
+import {useTranslation} from "react-i18next";
+import i18next from '../../i18next';
 
 import helmetImg from "./../../img/att/Helmet.png"
 import breastplateImg from "./../../img/att/Breastplate.png"
@@ -37,6 +39,7 @@ const att_literals = {
 };
 
 function Attribute() {
+    const {i18n} = useTranslation();
 
     const [helmet, setHelmet]           = useState([["", 0],["", 0],["", 0]]);
     const [breastplate, setBreastplate] = useState([["", 0],["", 0],["", 0]]);
@@ -253,11 +256,11 @@ function Attribute() {
         </div>
         <div className="chart-wrapper" onMouseMove={(e)=>{rotate_chart(e)}}>
             <div className="img-wrapper">
-                <div className="title title1">Бонус урона</div>
-                <div className="title title2">Разница атакующего и защитного урона</div>
+                <div className="title title1">{i18next.t('attribute.bonus')}</div>
+                <div className="title title2">{i18next.t('attribute.difference')}</div>
                 <img src={chart} alt="att damage chart"/>
             </div>
-            <div className={`enough ${enough ? "hide_enough":""}`}><span onClick={()=>{setEnough(true)}}>Хватит!</span></div>
+            <div className={`enough ${enough ? "hide_enough":""}`}><span onClick={()=>{setEnough(true)}}>{i18next.t('attribute.enough')}</span></div>
         </div>
     </div>);
 }

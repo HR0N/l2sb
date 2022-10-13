@@ -5,18 +5,11 @@ import Card from "./card/card";
 import {load_rss_x1} from "../../redux/actions/rss";
 import background from "../../img/background3.png"
 import {NavLink} from "react-router-dom";
-// import {useTranslation} from "react-i18next";
-// import i18next from '../../i18next';
 
 
 
 
 function Asterios_respawn_sub_rb_x1(props) {
-    /*const {i18n} = useTranslation();
-    const changeLanguage = (language)=>{
-        i18n.changeLanguage(language).then(()=>{console.log('changed');});
-        {{i18next.t('title')}}
-    };*/
 
     const rss_x1 = useSelector(state => props.rss_x1);  //  subscribe to redux data
     const link = "https://t.me/+nb263QW9SotjNTdi";

@@ -3,6 +3,8 @@ import "./Enchante_chance.scss";
 import {connect} from 'react-redux';
 import $ from "jquery";
 import {Helmet} from "react-helmet-async";
+import {useTranslation} from "react-i18next";
+import i18next from '../../i18next';
 
 const chance = [[
         [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
@@ -31,6 +33,7 @@ const chance = [[
     ]];
 
 function Enchante_chance() {
+    const {i18n} = useTranslation();
 
     const obj_2nd_prof = $(document).find('.enchante_table_2nd_prof');
 
@@ -55,9 +58,9 @@ function Enchante_chance() {
             <link rel="canonical" href="http://mysite.com/example" />
             <meta name="description" content="Nested component" />
         </Helmet>*/}
-        <h2>Заточка второпрофных скилов</h2>
+        <h2>{i18next.t('enchante_chance.2nd_proof_encha')}</h2>
         <div className="enchante_table_2nd_prof">
-            <div className="lvl">Уровень заточки</div>
+            <div className="lvl">{i18next.t('enchante_chance.ench_lvl')}</div>
             <div className="lvl">76</div>
             <div className="lvl">77</div>
             <div className="lvl">78</div>
@@ -70,9 +73,9 @@ function Enchante_chance() {
             <div className="lvl">85</div>
             {render_prof_skill_enchante_chance_table(chance[0])}
         </div>
-        <h2>Заточка третьепрофных скилов</h2>
+        <h2>{i18next.t('enchante_chance.3nd_proof_encha')}</h2>
         <div className="enchante_table_3nd_prof">
-            <div className="lvl">Уровень заточки</div>
+            <div className="lvl">{i18next.t('enchante_chance.ench_lvl')}</div>
             <div className="lvl">76</div>
             <div className="lvl">77</div>
             <div className="lvl">78</div>

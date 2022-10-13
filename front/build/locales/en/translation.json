@@ -1,4 +1,35 @@
 {
+  "header": {
+    "home": "Home",
+    "other": "Other",
+    "rss": "RSS",
+    "contacts": "Contacts",
+    "quests": "Quests",
+    "extra": "Extra",
+    "skill_enchant_chance": "Skill enchant chance",
+    "attribute": "Attribute"
+  },
+  "enchante_chance": {
+    "2nd_proof_encha": "Enchanting skills of the second profession",
+    "ench_lvl": "Enchantment level",
+    "3nd_proof_encha": "Enchanting skills of the third profession"
+  },
+  "attribute": {
+    "bonus": "Damage Bonus",
+    "difference": "Difference between offensive and defensive damage",
+    "enough": "Enough!",
+    "fire": "Fire",
+    "water": "Water",
+    "earth": "Earth",
+    "wind": "Wind",
+    "dark": "Dark",
+    "holy": "Holy",
+    "defense": "Phys. Def."
+  },
+  "rss": {
+    "killed": "Killed",
+    "respawn": "Respawn"
+  },
   "title": "Title EN",
   "description": {
     "part1": "Part 1 EN",

@@ -1,4 +1,35 @@
 {
+  "header": {
+    "home": "Головна",
+    "other": "Інше",
+    "rss": "RSS",
+    "contacts": "Контакти",
+    "quests": "Quests",
+    "extra": "Додатково",
+    "skill_enchant_chance": "Шанс заточення скілів",
+    "attribute": "Атрибут"
+  },
+  "enchante_chance": {
+    "2nd_proof_encha": "Заточення скилів другої профи",
+    "ench_lvl": "Рівень заточення",
+    "3nd_proof_encha": "Заточення скилів третьої профи"
+  },
+  "attribute": {
+    "bonus": "Бонус урону",
+    "difference": "Різниця атакуючого та захисного урону",
+    "enough": "Досить!",
+    "fire": "Вогонь",
+    "water": "Вода",
+    "earth": "Земля",
+    "wind": "Вітер",
+    "dark": "Темрява",
+    "holy": "Святість",
+    "defense": "Фіз. Зах."
+  },
+  "rss": {
+    "killed": "Убитий",
+    "respawn": "Відродження"
+  },
   "title": "Title UA",
   "description": {
     "part1": "Part 1 UA",

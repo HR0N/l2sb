@@ -121,14 +121,14 @@ function get_data($id){
     $url_key_bosses  = "https://asterios.tm/index.php?cmd=rss&serv=".$id."&filter=keyboss";
     $url_siege       = "https://asterios.tm/index.php?cmd=rss&serv=".$id."&filter=siege";
 
-    $doc_epic_bosses = parse_order($url_epic_bosses);
+    $doc_epic_bosses = 'parse_order($url_epic_bosses)';
     $doc_key_bosses = parse_order($url_key_bosses);
-    $doc_siege = parse_order($url_siege);
+    $doc_sieges = 'parse_order($url_siege)';
 
     $data = [
-        fetch_epic_bosses($doc_epic_bosses),
+        'fetch_epic_bosses($doc_epic_bosses)',
         fetch_key_bosses($doc_key_bosses),
-        fetch_sieges($doc_siege)];
+        'fetch_sieges($doc_sieges)'];
 
     return $data;
 }
@@ -150,7 +150,8 @@ function complex_start_x1(){
     $chat_id_x1 = Env::$CHAT_ID_X1;
     $servers_id = ["x1" => 3, "x1.5" => 7, "x5" => 0, "x55" => 2, "x3" => 6];
     $count = 0;
-    while ($count < 4){
+    while ($count < 3){
+        sleep(18);
         $data = json_encode(get_data($servers_id["x1"]));
         $data = str_replace('"', "`", $data);
 
@@ -165,7 +166,6 @@ function complex_start_x1(){
 
         $dbase->set_rss_x1($data);
         $count++;
-        sleep(13);
     }
 }
 
@@ -176,7 +176,8 @@ function complex_start_x1d5(){
     $chat_id_x1d5 = Env::$CHAT_ID_X1d5;
     $servers_id = ["x1" => 3, "x1.5" => 7, "x5" => 0, "x55" => 2, "x3" => 6];
     $count = 0;
-    while ($count < 4){
+    while ($count < 3){
+        sleep(18);
         $data = json_encode(get_data($servers_id["x1.5"]));
         $data = str_replace('"', "`", $data);
 
@@ -191,7 +192,6 @@ function complex_start_x1d5(){
 
         $dbase->set_rss_x1d5($data);
         $count++;
-        sleep(13);
     }
 }
 
@@ -202,7 +202,8 @@ function complex_start_x5(){
     $chat_id_x5 = Env::$CHAT_ID_X5;
     $servers_id = ["x1" => 3, "x1.5" => 7, "x5" => 0, "x55" => 2, "x3" => 6];
     $count = 0;
-    while ($count < 4){
+    while ($count < 3){
+        sleep(18);
         $data = json_encode(get_data($servers_id["x5"]));
         $data = str_replace('"', "`", $data);
 
@@ -216,8 +217,8 @@ function complex_start_x5(){
 
 
         $dbase->set_rss_x5($data);
+        $tgBot->sendMessage("-718032249","<code>".$data."</code>");
         $count++;
-        sleep(13);
     }
 }
 

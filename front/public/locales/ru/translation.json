@@ -1,4 +1,35 @@
 {
+  "header": {
+    "home": "Главная",
+    "other": "Другое",
+    "rss": "RSS",
+    "contacts": "Контакты",
+    "quests": "Quests",
+    "extra": "Дополнительно",
+    "skill_enchant_chance": "Шанс заточки скилов",
+    "attribute": "Атрибут"
+  },
+  "enchante_chance": {
+    "2nd_proof_encha": "Заточка скилов второй профы",
+    "ench_lvl": "Уровень заточки",
+    "3nd_proof_encha": "Заточка скилов третьей профы"
+  },
+  "attribute": {
+    "bonus": "Бонус урона",
+    "difference": "Разница атакующего и защитного урона",
+    "enough": "Хватит!",
+    "fire": "Огонь",
+    "water": "Вода",
+    "earth": "Земля",
+    "wind": "Ветер",
+    "dark": "Тьма",
+    "holy": "Святость",
+    "defense": "Физ. Защ."
+  },
+  "rss": {
+    "killed": "Убит",
+    "respawn": "Респ"
+  },
   "title": "Title ru",
   "description": {
     "part1": "Part 1 ru",

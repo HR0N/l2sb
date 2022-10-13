@@ -10,6 +10,8 @@ import dead_color from "../../../img/dead_color.png"
 import happy from "../../../img/happy.png"
 import happy_color from "../../../img/happy_color.png"
 import telegram from "../../../img/telegram3-yellow.png";
+import {useTranslation} from "react-i18next";
+import i18next from '../../../i18next';
 
 const time = new Time();
 const width       = 120;
@@ -21,6 +23,7 @@ const circumference = 2 * Math.PI * radius;
 
 
 function Card(props) {
+    const {i18n} = useTranslation();
     const [compare, setCompare] = useState(time.compare_dateTime_formats(props.data[0]));
 
 
@@ -75,10 +78,10 @@ function Card(props) {
             <h2>{props.data[1]}</h2>
         </div>
         <div className="Card__info">
-            <div className="resp">Убит:</div>
+            <div className="resp">{i18next.t('rss.killed')}:</div>
             <div className="info__row was-killed">{time.aster_Time_format_to_l2sb(props.data[0])}</div>
             <br/>
-            <div className="resp">Респавн:</div>
+            <div className="resp">{i18next.t('rss.respawn')}:</div>
             <div className="info__row start-resp">
                 <span>{`${compare.start[1]} - ${compare.finish[1]}`}</span>
                 {props.data[3] ? <span>{props.data[3]}</span> : ''}
