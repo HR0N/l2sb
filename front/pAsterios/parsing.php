@@ -150,8 +150,7 @@ function complex_start_x1(){
     $chat_id_x1 = Env::$CHAT_ID_X1;
     $servers_id = ["x1" => 3, "x1.5" => 7, "x5" => 0, "x55" => 2, "x3" => 6];
     $count = 0;
-    while ($count < 3){
-        sleep(15);
+    while ($count < 4){
         $data = json_encode(get_data($servers_id["x1"]));
         $data = str_replace('"', "`", $data);
 
@@ -166,6 +165,7 @@ function complex_start_x1(){
 
         $dbase->set_rss_x1($data);
         $count++;
+        sleep(13);
     }
 }
 
@@ -176,8 +176,7 @@ function complex_start_x1d5(){
     $chat_id_x1d5 = Env::$CHAT_ID_X1d5;
     $servers_id = ["x1" => 3, "x1.5" => 7, "x5" => 0, "x55" => 2, "x3" => 6];
     $count = 0;
-    while ($count < 3){
-        sleep(15);
+    while ($count < 4){
         $data = json_encode(get_data($servers_id["x1.5"]));
         $data = str_replace('"', "`", $data);
 
@@ -192,6 +191,7 @@ function complex_start_x1d5(){
 
         $dbase->set_rss_x1d5($data);
         $count++;
+        sleep(13);
     }
 }
 
@@ -202,8 +202,7 @@ function complex_start_x5(){
     $chat_id_x5 = Env::$CHAT_ID_X5;
     $servers_id = ["x1" => 3, "x1.5" => 7, "x5" => 0, "x55" => 2, "x3" => 6];
     $count = 0;
-    while ($count < 3){
-        sleep(15);
+    while ($count < 4){
         $data = json_encode(get_data($servers_id["x5"]));
         $data = str_replace('"', "`", $data);
 
@@ -218,6 +217,7 @@ function complex_start_x5(){
 
         $dbase->set_rss_x5($data);
         $count++;
+        sleep(13);
     }
 }
 
@@ -242,7 +242,7 @@ function compare_Cabrio($old, $new, $rates, $chat){
     $inline_keyboard = json_encode($reply_markup);
 
 
-    if(strcmp($old->Cabrio[0], $new->Cabrio[0]) != 0){
+    if(strcmp($old->Cabrio[0], $new->Cabrio[0]) != 0 && strlen($old->Cabrio[0]) > 5 && strlen($new->Cabrio[0]) > 5){
         $tgBot->sendMessage_mark($chat,"*\nShilen's Messenger Cabrio\nKilled: ".$east_date."\n - \n"."/target Coffer of the Dead", $inline_keyboard);
     };
 }
@@ -266,7 +266,7 @@ function compare_Hallate($old, $new, $rates, $chat){
     $inline_keyboard = json_encode($reply_markup);
 
 
-    if(strcmp($old->Hallate[0], $new->Hallate[0]) != 0){
+    if(strcmp($old->Hallate[0], $new->Hallate[0]) != 0 && strlen($old->Hallate[0]) > 5 && strlen($new->Hallate[0]) > 5){
         $tgBot->sendMessage_mark($chat,"*\nDeath Lord Hallate\nKilled: ".$east_date."\n - \n"."/target Hallate's chest", $inline_keyboard);
     };
 }
@@ -290,7 +290,7 @@ function compare_Kernon($old, $new, $rates, $chat){
     $inline_keyboard = json_encode($reply_markup);
 
 
-    if(strcmp($old->Kernon[0], $new->Kernon[0]) != 0){
+    if(strcmp($old->Kernon[0], $new->Kernon[0]) != 0 && strlen($old->Kernon[0]) > 5 && strlen($new->Kernon[0]) > 5){
         $tgBot->sendMessage_mark($chat,"*\nKernon\nKilled: ".$east_date."\n - \n"."/target Chest of Kernon", $inline_keyboard);
     };
 }
@@ -314,7 +314,7 @@ function compare_Golkonda($old, $new, $rates, $chat){
     $inline_keyboard = json_encode($reply_markup);
 
 
-    if(strcmp($old->Golkonda[0], $new->Golkonda[0]) != 0){
+    if(strcmp($old->Golkonda[0], $new->Golkonda[0]) != 0 && strlen($old->Golkonda[0]) > 5 && strlen($new->Golkonda[0]) > 5){
         $tgBot->sendMessage_mark($chat,"*\nLonghorn Golkonda\nKilled: ".$east_date."\n - \n"."/target Chest of Golkonda", $inline_keyboard);
     };
 }

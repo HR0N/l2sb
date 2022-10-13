@@ -2,63 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc7846bd-ad00-4195-a9e4-3e3764461d52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front/build/locales/en/translation.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/locales/ru/translation.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/locales/ua/translation.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/static/css/main.2237edda.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/static/css/main.2237edda.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.1db42c37.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.1db42c37.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.1db42c37.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/static/media/GB.4fafe239daab361a7ee0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/static/media/getFetch.40f37ddea2378391108f.cjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/public/locales/en/translation.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/public/locales/ru/translation.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/public/locales/ua/translation.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/i18next.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/locale/Allinone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/locale/BR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/locale/CN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/locale/DE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/locale/EN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/locale/ES.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/locale/FR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/locale/GB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/locale/IT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/locale/JP.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/locale/NL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/locale/PL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/locale/UA.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/locale/ru1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/locale/ru2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/telegram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/telegram2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/telegram3-yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/telegram3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/css/main.fdc3b33a.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/css/main.fdc3b33a.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.f09d9da4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.f09d9da4.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.f09d9da4.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/front/pAsterios/parsing.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/pAsterios/parsing.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/pAsterios/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/pAsterios/test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Header/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Respawn_rb/Asterios_respawn_sub_rb_x1.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Respawn_rb/Asterios_respawn_sub_rb_x1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Respawn_rb/Asterios_respawn_sub_rb_x1d5.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Respawn_rb/Asterios_respawn_sub_rb_x1d5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Respawn_rb/Asterios_respawn_sub_rb_x5.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Respawn_rb/Asterios_respawn_sub_rb_x5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Respawn_rb/Respawn_rb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Respawn_rb/Respawn_rb.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Respawn_rb/card/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Respawn_rb/card/card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Respawn_rb/card/card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Respawn_rb/card/card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/mediaqueries.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/mediaqueries.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/front/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -288,7 +234,9 @@
       <workItem from="1665419196137" duration="5000000" />
       <workItem from="1665469340203" duration="16586000" />
       <workItem from="1665514291769" duration="233000" />
-      <workItem from="1665559817161" duration="23843000" />
+      <workItem from="1665559817161" duration="24670000" />
+      <workItem from="1665606413064" duration="900000" />
+      <workItem from="1665618241837" duration="860000" />
     </task>
     <servers />
   </component>
