@@ -111,6 +111,9 @@
           padding: 2px 3px;
           background-color: rgb(25, 25, 23);
           border-radius: .2rem;
+          input{
+            transform: translateY(2px);
+          }
         }
         .chance{top: -18px;}
         .amount{bottom: -18px;}

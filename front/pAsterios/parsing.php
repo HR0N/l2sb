@@ -217,7 +217,7 @@ function complex_start_x5(){
 
 
         $dbase->set_rss_x5($data);
-        $tgBot->sendMessage("-718032249","<code>".$data."</code>");
+//        $tgBot->sendMessage("-718032249","<code>".$data."</code>");
         $count++;
     }
 }
@@ -244,7 +244,7 @@ function compare_Cabrio($old, $new, $rates, $chat){
 
 
     if(strcmp($old->Cabrio[0], $new->Cabrio[0]) != 0 && strlen($old->Cabrio[0]) > 5 && strlen($new->Cabrio[0]) > 5){
-        $tgBot->sendMessage_mark($chat,"*\nShilen's Messenger Cabrio\nKilled: ".$east_date."\n - \n"."/target Coffer of the Dead", $inline_keyboard);
+        $tgBot->sendMessage_mark($chat,"*\nShilen's Messenger Cabrio\nKilled: ".$east_date."\n \n"."<code>/target Coffer of the Dead</code>", $inline_keyboard);
     };
 }
 
@@ -268,7 +268,7 @@ function compare_Hallate($old, $new, $rates, $chat){
 
 
     if(strcmp($old->Hallate[0], $new->Hallate[0]) != 0 && strlen($old->Hallate[0]) > 5 && strlen($new->Hallate[0]) > 5){
-        $tgBot->sendMessage_mark($chat,"*\nDeath Lord Hallate\nKilled: ".$east_date."\n - \n"."/target Hallate's chest", $inline_keyboard);
+        $tgBot->sendMessage_mark($chat,"*\nDeath Lord Hallate\nKilled: ".$east_date."\n \n"."<code>/target Hallate's chest</code>", $inline_keyboard);
     };
 }
 
@@ -292,7 +292,7 @@ function compare_Kernon($old, $new, $rates, $chat){
 
 
     if(strcmp($old->Kernon[0], $new->Kernon[0]) != 0 && strlen($old->Kernon[0]) > 5 && strlen($new->Kernon[0]) > 5){
-        $tgBot->sendMessage_mark($chat,"*\nKernon\nKilled: ".$east_date."\n - \n"."/target Chest of Kernon", $inline_keyboard);
+        $tgBot->sendMessage_mark($chat,"*\nKernon\nKilled: ".$east_date."\n \n"."<code>/target Chest of Kernon</code>", $inline_keyboard);
     };
 }
 
@@ -316,6 +316,6 @@ function compare_Golkonda($old, $new, $rates, $chat){
 
 
     if(strcmp($old->Golkonda[0], $new->Golkonda[0]) != 0 && strlen($old->Golkonda[0]) > 5 && strlen($new->Golkonda[0]) > 5){
-        $tgBot->sendMessage_mark($chat,"*\nLonghorn Golkonda\nKilled: ".$east_date."\n - \n"."/target Chest of Golkonda", $inline_keyboard);
+        $tgBot->sendMessage_mark($chat,"*\nLonghorn Golkonda\nKilled: ".$east_date."\n \n"."<code>/target Chest of Golkonda</code>", $inline_keyboard);
     };
 }

@@ -20,7 +20,7 @@ import './mediaqueries.scss'
 
 const store = createStore(rootReducer, applyMiddleware(thunk));
 const root = ReactDOM.createRoot(document.getElementById("root"));
-document.title = 'l2sb';
+document.title = 'l2 little base';
 root.render(
     <React.StrictMode>
         <Provider store={store}>

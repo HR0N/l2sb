@@ -28,6 +28,7 @@ import holyCrystal from "./../../img/att/Holy-Crystal.png";
 import darkCrystal from "./../../img/att/Dark-Crystal.png";
 
 import chart from "./../../img/att/chart.png";
+import ReactGA from "react-ga";
 
 const att_literals = {
     fire:  "water",
@@ -39,6 +40,7 @@ const att_literals = {
 };
 
 function Attribute() {
+    ReactGA.pageview(window.location.pathname + window.location.search);
     const {i18n} = useTranslation();
 
     const [helmet, setHelmet]           = useState([["", 0],["", 0],["", 0]]);
@@ -137,11 +139,11 @@ function Attribute() {
     };
 
     return(<div className={`Attribute`}>
-        {/*<Helmet>
-            <title>l2 вставка атрибута</title>
-            <link rel="canonical" href="http://mysite.com/example" />
-            <meta name="description" content="Nested component" />
-        </Helmet>*/}
+        <Helmet>
+            <title>l2 вставка атт, как вставлять атт в броню</title>
+            <meta name="description" content="Как вставлять атрибут в броню, в игре Lineage 2. Хроники High Five. Конструктор вставки АТТ." />
+            <link /*rel="canonical"*/ href="https://www.l2lb.monster/other/extra/attribute" />
+        </Helmet>
         <h2 onClick={()=>{setActive(null); setBanned([null, null, null]);}}>Attribute</h2>
         <div className="wrapper">
             <div className="Armor-wrapper">
@@ -238,7 +240,7 @@ function Attribute() {
                 </div>
                 <div className="stat">
                     <div className="chance">
-                        <label><input name={"chance"} type="radio" onChange={()=>{setChance(true)}} checked={chance}/> Шанс: 50% / 30%</label>
+                        <label><input name={"chance"} type="radio" onChange={()=>{setChance(true)}} checked={chance}/> {i18next.t('attribute.chance')}: 50% / 30%</label>
                         <label><input name={"chance"} type="radio" onChange={()=>{setChance(false)}} checked={!chance}/> 100%</label>
                     </div>
                     <div className="stat-att fire"><span>Fire</span><span>{total.water}</span></div>
@@ -248,7 +250,7 @@ function Attribute() {
                     <div className="stat-att holy"><span>Holy</span><span>{total.dark}</span></div>
                     <div className="stat-att dark"><span>Dark</span><span>{total.holy}</span></div>
                     <div className="amount">
-                        <label><input name={"amount"} type="radio" onChange={()=>{setAmount(6)}} checked={amount === 6}/> Кол-во за раз: 6</label>
+                        <label><input name={"amount"} type="radio" onChange={()=>{setAmount(6)}} checked={amount === 6}/> {i18next.t('attribute.quantity')}: 6</label>
                         <label><input name={"amount"} type="radio" onChange={()=>{setAmount(60)}} checked={amount === 60}/> 60</label>
                     </div>
                 </div>

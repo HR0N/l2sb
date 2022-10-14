@@ -5,9 +5,12 @@ import Card from "./card/card";
 import {load_rss_x5} from "../../redux/actions/rss";
 import background from "../../img/background3.png"
 import {NavLink} from "react-router-dom";
+import {Helmet} from "react-helmet-async";
+import ReactGA from "react-ga";
 
 
 function Asterios_respawn_sub_rb_x5(props) {
+    ReactGA.pageview(window.location.pathname + window.location.search);
     const rss_x5 = useSelector(state => props.rss_x5);  //  subscribe to redux data
     const link = "https://t.me/+kJwK_nPtLng5Zjg6";
 
@@ -31,6 +34,11 @@ function Asterios_respawn_sub_rb_x5(props) {
     // console.log(rss_x5);
     return(<div className={`RespawnRb`}
     >
+        <Helmet>
+            <title>l2 rss Asterios x5</title>
+            <meta name="description" content="RSS информация сервера Asterios x5. Хроники High Five." />
+            <link /*rel="canonical"*/ href="https://www.l2lb.monster/respawn/asterios/subclass-rb_x5" />
+        </Helmet>
         <div className="background_img"><img src={background} alt="background img"/></div>
         <div className="extra_nav">
             <NavLink to={"/respawn/asterios/subclass-rb_x1"}  exact="true" end>x1</NavLink>

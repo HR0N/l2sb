@@ -18,6 +18,7 @@
 - npm i h-bootstrap
 - npm i bootstrap
 - npm i i18next react-i18next i18next-http-backend i18next-browser-langu^Xagedetector --sa
+- npm install react-ga --save
 #### Deploy
 - check .htaccess
 - create .env > put in: GENERATE_SOURCEMAP=false

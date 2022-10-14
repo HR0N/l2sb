@@ -1,5 +1,6 @@
 @import "variables";
 
+@media screen and (max-width: 768px){}
 // todo:                                                       . . : : H E A D E R : : . .
 @media screen and (max-width: 426px){
   .Header{
@@ -9,6 +10,7 @@
     background-color: whitesmoke;
     padding-top: 54px;
     .nav{
+      width: 100%;
       background-color: white;
       display: none !important;
       flex-direction: column;

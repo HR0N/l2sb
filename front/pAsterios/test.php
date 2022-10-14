@@ -24,9 +24,9 @@ function parse_order($url){
     return phpQuery::newDocument($file);
 }
 $i=0;
-while ($i<5){
+while ($i<1){
     sleep(5);
-    $tgBot3->sendMessage("-718032249",$i);
+    $tgBot3->sendMessage("-718032249",$i."\n \n"."<code>/target Chest of Golkonda</code>");
     $i++;
 }
 

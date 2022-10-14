@@ -24,7 +24,9 @@
     "wind": "Wind",
     "dark": "Dark",
     "holy": "Holy",
-    "defense": "Phys. Def."
+    "defense": "Phys. Def.",
+    "chance": "Chance",
+    "quantity": "Quantity at a time"
   },
   "rss": {
     "killed": "Killed",

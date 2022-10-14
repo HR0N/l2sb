@@ -1,5 +1,6 @@
 .Header{
   position: relative;
+  box-shadow: 0 0 5px grey;
   .logo{
     position: absolute;
     left: 15px;
@@ -13,12 +14,16 @@
     font-weight: bold;
     white-space: nowrap;
     //color: #191919;
-    color: transparent;
-    background-clip: text;
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(171,102,255,1) 0%, rgba(116,182,247,1) 90% );
-    font-size: 1.2em;
+    a{
+      color: transparent;
+      background-clip: text;
+      background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(171,102,255,1) 0%, rgba(116,182,247,1) 90% );
+      font-size: 1.2em;
+    }
   }
   .nav{
+    width: calc(100% - 220px);
+    margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
     .nav-item{

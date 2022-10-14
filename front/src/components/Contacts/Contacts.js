@@ -7,12 +7,16 @@ import ContactClass from "../../sublimate/callback_us";
 import ValidatorClass from "../../sublimate/validator";
 import BigPopup from "../../sublimate/popup/BigPopup";
 import MessagePopup from "../../sublimate/popup/MessagePopup";
+import {Helmet} from "react-helmet-async";
+import ReactGA from "react-ga";
 
 const input = new InputClass();
 const tgBot = new ContactClass();
 const valid = new ValidatorClass();
 
 function Contacts() {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+
     const name = input.init("");
     const email = input.init("");
     const text = input.init("");
@@ -28,6 +32,9 @@ function Contacts() {
 
 
     return(<div className={`Contacts`}>
+        <Helmet>
+            <meta name="robots" content="none" />
+        </Helmet>
         <div className="contacts_greyline"></div>
         <div className="wrapper">
             <div className="col col-1">

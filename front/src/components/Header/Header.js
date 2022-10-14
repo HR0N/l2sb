@@ -21,7 +21,7 @@ function Header() {
     };
     const [menu, setMenu] = useState(true);
     return(        <header className={`Header ${menu ? '' : 'mobile_show'}`}>
-        <div className="logo">HighFive</div>
+        <div className="logo"><a href="/">HighFive</a></div>
         <nav className={`nav`}>
             <div className="nav-item nav-home"><NavLink to={"/"}  exact="true" end>{i18next.t('header.home')}</NavLink></div>
             <div className="nav-item nav-home dropdown"><NavLink className={'disable'} to={"/other"} exact="true" >{i18next.t('header.other')} <FontAwesomeIcon className={`faIcons`} icon={faChevronDown}/></NavLink>

@@ -5,6 +5,7 @@ import $ from "jquery";
 import {Helmet} from "react-helmet-async";
 import {useTranslation} from "react-i18next";
 import i18next from '../../i18next';
+import ReactGA from "react-ga";
 
 const chance = [[
         [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
@@ -33,6 +34,7 @@ const chance = [[
     ]];
 
 function Enchante_chance() {
+    ReactGA.pageview(window.location.pathname + window.location.search);
     const {i18n} = useTranslation();
 
     const obj_2nd_prof = $(document).find('.enchante_table_2nd_prof');
@@ -53,11 +55,11 @@ function Enchante_chance() {
         })
     };
     return(<div className={`Enchante_chance`}>
-        {/*<Helmet>
+        <Helmet>
             <title>l2 шанс заточки скиллов</title>
-            <link rel="canonical" href="http://mysite.com/example" />
-            <meta name="description" content="Nested component" />
-        </Helmet>*/}
+            <meta name="description" content="Шанс заточки второпровных\третьепрофных скилов в игре Lineage 2. Хроники High Five." />
+            <link /*rel="canonical"*/ href="https://www.l2lb.monster/other/extra/enchante_chance" />
+        </Helmet>
         <h2>{i18next.t('enchante_chance.2nd_proof_encha')}</h2>
         <div className="enchante_table_2nd_prof">
             <div className="lvl">{i18next.t('enchante_chance.ench_lvl')}</div>
