@@ -2,7 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc7846bd-ad00-4195-a9e4-3e3764461d52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/front/build/static/css/main.d2dd2877.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/static/js/27.11ee07a7.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.997dfa74.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.997dfa74.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Quests/Subclass/Subclass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Quests/Subclass/Subclass.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/css/main.ab51828e.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/css/main.ab51828e.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/js/787.71df535f.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/js/787.71df535f.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.e35baf9e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.e35baf9e.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.e35baf9e.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/public/locales/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/public/locales/en/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/public/locales/ru/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/public/locales/ru/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/public/locales/ua/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/public/locales/ua/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Header/Header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/Respawn_rb/Asterios_respawn_sub_rb_x1.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Respawn_rb/Asterios_respawn_sub_rb_x1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/Respawn_rb/Asterios_respawn_sub_rb_x1d5.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Respawn_rb/Asterios_respawn_sub_rb_x1d5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/Respawn_rb/Asterios_respawn_sub_rb_x5.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Respawn_rb/Asterios_respawn_sub_rb_x5.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,7 +265,9 @@
       <workItem from="1665732717049" duration="12396000" />
       <workItem from="1665786642661" duration="1186000" />
       <workItem from="1665789416898" duration="114000" />
-      <workItem from="1665790586422" duration="2976000" />
+      <workItem from="1665790586422" duration="3069000" />
+      <workItem from="1665849289730" duration="2556000" />
+      <workItem from="1665874269145" duration="2342000" />
     </task>
     <servers />
   </component>

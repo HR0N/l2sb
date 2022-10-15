@@ -1,0 +1,20 @@
+.Subclass{
+  padding-top: 100px;
+  width: 80%;
+  min-width: 310px;
+  max-width: 600px;
+  margin: 0 auto;
+  h2.title{
+    font-size: 2em;
+    font-family: "Comic Sans MS", sans-serif;
+    color: #2d3748;
+    text-shadow: 1px 1px 2px dimgray;
+  }
+  .terms{
+    margin-top: 15px;
+    text-align: left;
+    background-color: whitesmoke;
+    padding: 3px;
+    border-radius: .2rem;
+  }
+}

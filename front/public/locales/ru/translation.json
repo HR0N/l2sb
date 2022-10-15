@@ -7,7 +7,7 @@
     "quests": "Quests",
     "extra": "Дополнительно",
     "skill_enchant_chance": "Шанс заточки скилов",
-    "attribute": "Атрибут"
+    "attribute": "Вставка атрибута"
   },
   "enchante_chance": {
     "2nd_proof_encha": "Заточка скилов второй профы",
@@ -31,10 +31,5 @@
   "rss": {
     "killed": "Убит",
     "respawn": "Респ"
-  },
-  "title": "Title ru",
-  "description": {
-    "part1": "Part 1 ru",
-    "part2": "Part 2 ru"
   }
 }

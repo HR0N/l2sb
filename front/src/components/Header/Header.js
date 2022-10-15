@@ -23,29 +23,40 @@ function Header() {
     return(        <header className={`Header ${menu ? '' : 'mobile_show'}`}>
         <div className="logo"><a href="/">HighFive</a></div>
         <nav className={`nav`}>
-            <div className="nav-item nav-home"><NavLink to={"/"}  exact="true" end>{i18next.t('header.home')}</NavLink></div>
-            <div className="nav-item nav-home dropdown"><NavLink className={'disable'} to={"/other"} exact="true" >{i18next.t('header.other')} <FontAwesomeIcon className={`faIcons`} icon={faChevronDown}/></NavLink>
+            <div className="nav-item"><NavLink to={"/"}  exact="true" end>{i18next.t('header.home')}</NavLink></div>
+            <div className="nav-item dropdown"><NavLink className={'disable'} to={"/other"} exact="true" >{i18next.t('header.other')} <FontAwesomeIcon className={`faIcons`} icon={faChevronDown}/></NavLink>
                 <div className="dropdown-menu">
-                    {/*<div className="nav-item nav-home dropdown2"><NavLink className={'disable'} to={"/other/quests"} exact="true">{i18next.t('header.quests')} <FontAwesomeIcon className={`faIcons`} icon={faChevronDown}/></NavLink>*/}
-                    {/*    <div className="nav-item nav-home dropdown-menu2">*/}
-                    {/*        <div className="nav-item nav-home"><NavLink to={"/other/TEMPLATE/TEMPLATE"}  exact="true" end>item</NavLink></div>*/}
+                    {/*<div className="nav-item dropdown2"><NavLink className={'disable'} to={"/other/quests"} exact="true">{i18next.t('header.quests')} <FontAwesomeIcon className={`faIcons`} icon={faChevronDown}/></NavLink>*/}
+                    {/*    <div className="nav-item dropdown-menu2">*/}
+                    {/*        <div className="nav-item"><NavLink to={"/other/TEMPLATE/TEMPLATE"}  exact="true" end>item</NavLink></div>*/}
                     {/*    </div>*/}
                     {/*</div>*/}
-                    <div className="nav-item nav-home dropdown2"><NavLink className={'disable'} to={"/other/extra"} exact="true">{i18next.t('header.extra')} <FontAwesomeIcon className={`faIcons`} icon={faChevronDown}/></NavLink>
-                        <div className="nav-item nav-home dropdown-menu2">
-                            <div className="nav-item nav-home"><NavLink to={"/other/extra/enchante_chance"}  exact="true" end>{i18next.t('header.skill_enchant_chance')}</NavLink></div>
-                            <div className="nav-item nav-home"><NavLink to={"/other/extra/attribute"}  exact="true" end>{i18next.t('header.attribute')}</NavLink></div>
+                    <div className="nav-item dropdown2"><NavLink className={'disable'} to={"/other/extra"} exact="true">{i18next.t('header.extra')} <FontAwesomeIcon className={`faIcons`} icon={faChevronDown}/></NavLink>
+                        <div className="nav-item dropdown-menu2">
+                            <div className="nav-item"><NavLink to={"/other/extra/enchante_chance"}  exact="true" end>{i18next.t('header.skill_enchant_chance')}</NavLink></div>
+                            <div className="nav-item"><NavLink to={"/other/extra/attribute"}  exact="true" end>{i18next.t('header.attribute')}</NavLink></div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="nav-item nav-home dropdown"><NavLink className={'disable'} to={"/respawn"} exact="true">{i18next.t('header.rss')} <FontAwesomeIcon className={`faIcons`} icon={faChevronDown}/></NavLink>
+            <div className="nav-item dropdown"><NavLink className={'disable'} to={"/quests"} exact="true" >Quests <FontAwesomeIcon className={`faIcons`} icon={faChevronDown}/></NavLink>
                 <div className="dropdown-menu">
-                    <div className="nav-item nav-home dropdown2"><NavLink className={'disable'} to={"/respawn/asterios"} exact="true">Asterios <FontAwesomeIcon className={`faIcons`} icon={faChevronDown}/></NavLink>
-                        <div className="nav-item nav-home dropdown-menu2">
-                            <div className="nav-item nav-home"><NavLink to={"/respawn/asterios/subclass-rb_x1"}  exact="true" end>x1</NavLink></div>
-                            <div className="nav-item nav-home"><NavLink to={"/respawn/asterios/subclass-rb_x1.5"}  exact="true" end>x1.5</NavLink></div>
-                            <div className="nav-item nav-home"><NavLink to={"/respawn/asterios/subclass-rb_x5"}  exact="true" end>x5</NavLink></div>
+                    <div className="nav-item"><NavLink to={"/quests/subclass"}  exact="true" end>Subclass</NavLink></div>
+                    {/*<div className="nav-item dropdown2"><NavLink className={'disable'} to={"/other/extra"} exact="true">{i18next.t('header.extra')} <FontAwesomeIcon className={`faIcons`} icon={faChevronDown}/></NavLink>
+                        <div className="nav-item dropdown-menu2">
+                            <div className="nav-item"><NavLink to={"/other/extra/enchante_chance"}  exact="true" end>{i18next.t('header.skill_enchant_chance')}</NavLink></div>
+                            <div className="nav-item"><NavLink to={"/other/extra/attribute"}  exact="true" end>{i18next.t('header.attribute')}</NavLink></div>
+                        </div>
+                    </div>*/}
+                </div>
+            </div>
+            <div className="nav-item dropdown"><NavLink className={'disable'} to={"/respawn"} exact="true">{i18next.t('header.rss')} <FontAwesomeIcon className={`faIcons`} icon={faChevronDown}/></NavLink>
+                <div className="dropdown-menu">
+                    <div className="nav-item dropdown2"><NavLink className={'disable'} to={"/respawn/asterios"} exact="true">Asterios <FontAwesomeIcon className={`faIcons`} icon={faChevronDown}/></NavLink>
+                        <div className="nav-item dropdown-menu2">
+                            <div className="nav-item"><NavLink to={"/respawn/asterios/subclass-rb_x1"}  exact="true" end>x1</NavLink></div>
+                            <div className="nav-item"><NavLink to={"/respawn/asterios/subclass-rb_x1.5"}  exact="true" end>x1.5</NavLink></div>
+                            <div className="nav-item"><NavLink to={"/respawn/asterios/subclass-rb_x5"}  exact="true" end>x5</NavLink></div>
                         </div>
                     </div>
                 </div>

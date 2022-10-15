@@ -7,7 +7,7 @@
     "quests": "Quests",
     "extra": "Extra",
     "skill_enchant_chance": "Skill enchant chance",
-    "attribute": "Attribute"
+    "attribute": "Inserting an Attribute"
   },
   "enchante_chance": {
     "2nd_proof_encha": "Enchanting skills of the second profession",
@@ -31,10 +31,5 @@
   "rss": {
     "killed": "Killed",
     "respawn": "Respawn"
-  },
-  "title": "Title EN",
-  "description": {
-    "part1": "Part 1 EN",
-    "part2": "Part 2 EN"
   }
 }

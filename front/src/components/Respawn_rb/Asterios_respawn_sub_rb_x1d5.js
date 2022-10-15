@@ -35,8 +35,8 @@ function Asterios_respawn_sub_rb_x1d5(props) {
     return(<div className={`RespawnRb`}
     >
         <Helmet>
-            <title>l2 rss Asterios x1.5</title>
-            <meta name="description" content="RSS информация сервера Asterios x1.5. Хроники High Five." />
+            <title>Респ саб РБ Астериос x1.5</title>
+            <meta name="description" content="Расчёт времени респауна сабкласс рейд боссов на серверах Asterios. RSS оповещения об убийстве РБ в Telegram." />
             <link /*rel="canonical"*/ href="https://www.l2lb.monster/respawn/asterios/subclass-rb_x1.5" />
         </Helmet>
         <div className="background_img"><img src={background} alt="background img"/></div>

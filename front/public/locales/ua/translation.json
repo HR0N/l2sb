@@ -7,7 +7,7 @@
     "quests": "Quests",
     "extra": "Додатково",
     "skill_enchant_chance": "Шанс заточення скілів",
-    "attribute": "Атрибут"
+    "attribute": "Вставка атрибуту"
   },
   "enchante_chance": {
     "2nd_proof_encha": "Заточення скилів другої профи",
@@ -31,10 +31,5 @@
   "rss": {
     "killed": "Убитий",
     "respawn": "Відродження"
-  },
-  "title": "Title UA",
-  "description": {
-    "part1": "Part 1 UA",
-    "part2": "Part 2 UA"
   }
 }
