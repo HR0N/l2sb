@@ -2,15 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc7846bd-ad00-4195-a9e4-3e3764461d52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/low-a/BloodTornado.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/low-a/BloodyOrchid.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/low-a/CarnageBow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/low-a/DasparionsStaff.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/low-a/DestroyerHammer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/low-a/ElementalSword.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/low-a/Halberd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/low-a/InfernalMaster.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/low-a/KeshanbergDualSwords.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/low-a/MeteorShower.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/low-a/SpiritualEye.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/low-a/TallumBlade.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/top-b/ArtOfBattleAxe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/top-b/BellionCestus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/top-b/BowOfPeril.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/top-b/Damascus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/top-b/DeadmansGlory.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/top-b/DemonDagger.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/top-b/GuardiansSword.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/top-b/KaimVanulsBones.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/top-b/Lance.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/top-b/SamuraiDualSword.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/top-b/StaffOfEvilSpirits.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/top-b/StarBuster.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/top-b/WizardsTear.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/pAsterios/parsing.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/pAsterios/parsing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/public/locales/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/public/locales/en/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/public/locales/ru/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/public/locales/ru/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/public/locales/ua/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/public/locales/ua/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/components/Quests/Subclass/Subclass.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Quests/Subclass/Subclass.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/components/Quests/Subclass/Subclass.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Quests/Subclass/Subclass.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/mediaqueries.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/mediaqueries.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -252,7 +271,7 @@
       <workItem from="1665790586422" duration="3069000" />
       <workItem from="1665849289730" duration="2556000" />
       <workItem from="1665874269145" duration="2868000" />
-      <workItem from="1665921638604" duration="10048000" />
+      <workItem from="1665921638604" duration="23616000" />
     </task>
     <servers />
   </component>
