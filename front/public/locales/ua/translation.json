@@ -4,7 +4,8 @@
     "other": "Інше",
     "rss": "RSS",
     "contacts": "Контакти",
-    "quests": "Quests",
+    "quests": "Квести",
+    "subclass": "Сабкласс",
     "extra": "Додатково",
     "skill_enchant_chance": "Шанс заточення скілів",
     "attribute": "Вставка атрибуту"
@@ -31,5 +32,16 @@
   "rss": {
     "killed": "Убитий",
     "respawn": "Відродження"
+  },
+  "terms": {
+    "lvl": "Рівень:",
+    "requirements": "Вимоги:",
+    "no": "ні"
+  },
+  "popup_target_copied": "/target скопійовано",
+  "FatesWhisper": {
+    "title": "Квест Fate's Whisper (Шепіт Долі)",
+    "1.1": "Беремо квест у Maestro",
+    "1.2": "у Sel Mahum Training Grounds."
   }
 }

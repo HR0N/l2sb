@@ -4,7 +4,8 @@
     "other": "Другое",
     "rss": "RSS",
     "contacts": "Контакты",
-    "quests": "Quests",
+    "quests": "Квесты",
+    "subclass": "Сабкласс",
     "extra": "Дополнительно",
     "skill_enchant_chance": "Шанс заточки скилов",
     "attribute": "Вставка атрибута"
@@ -31,5 +32,16 @@
   "rss": {
     "killed": "Убит",
     "respawn": "Респ"
+  },
+  "terms": {
+    "lvl": "Уровень:",
+    "requirements": "Требования:",
+    "no": "нет"
+  },
+  "popup_target_copied": "/target скопирован",
+  "FatesWhisper": {
+    "title": "Квест Fate's Whisper (Шепот Судьбы)",
+    "1.1": "Берем квест у Maestro",
+    "1.2": "в Sel Mahum Training Grounds."
   }
 }

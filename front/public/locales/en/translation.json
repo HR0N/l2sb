@@ -5,6 +5,7 @@
     "rss": "RSS",
     "contacts": "Contacts",
     "quests": "Quests",
+    "subclass": "Subclass",
     "extra": "Extra",
     "skill_enchant_chance": "Skill enchant chance",
     "attribute": "Inserting an Attribute"
@@ -31,5 +32,16 @@
   "rss": {
     "killed": "Killed",
     "respawn": "Respawn"
+  },
+  "terms": {
+    "lvl": "Level:",
+    "requirements": "Requirements:",
+    "no": "No"
+  },
+  "popup_target_copied": "/target copied",
+  "FatesWhisper": {
+    "title": "Quest Fate's Whisper",
+    "1.1": "Take the quest from Maestro",
+    "1.2": "at Sel Mahum Training Grounds."
   }
 }

@@ -236,7 +236,7 @@ function compare_Cabrio($old, $new, $rates, $chat){
     $east_date = $east_date[1]." - ".$east_date2[2].".".$east_date2[1].".".$east_date2[0];
 
 
-    $url = "https://l2sb.evilcode.space/respawn/asterios/subclass-rb_x".$rates;
+    $url = "https://l2lb.monster/respawn/asterios/subclass-rb_x".$rates;
     $inline[] = ['text'=>'More detailed information', 'url'=>$url];
     $inline = array_chunk($inline, 2);
     $reply_markup = ['inline_keyboard'=>$inline];

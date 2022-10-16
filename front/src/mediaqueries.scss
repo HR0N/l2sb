@@ -1,7 +1,7 @@
 @import "variables";
 
 @media screen and (max-width: 768px){}
-// todo:                                                       . . : : H E A D E R : : . .
+//                                                        . . : : H E A D E R : : . .
 @media screen and (max-width: 426px){
   .Header{
     .logo{
@@ -72,7 +72,7 @@
       }
       }
   }
-  // todo:                                                       . . : : Attribute : : . .
+  //                                                        . . : : Attribute : : . .
   .Attribute{
     background-color: rgb(32,32,30);
     padding: 50px 6px;
@@ -149,6 +149,13 @@
           height: 6px;
         }
       }
+    }
+  }
+  //                                                        . . : : Subclass : : . .
+  .Subclass {
+    &-wrapper {
+      width: 94%;
+      padding: 20px 3px;
     }
   }
 }
