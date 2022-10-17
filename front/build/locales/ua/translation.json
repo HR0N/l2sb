@@ -4,10 +4,11 @@
     "other": "Інше",
     "rss": "RSS",
     "contacts": "Контакти",
-    "quests": "Quests",
+    "quests": "Квести",
+    "subclass": "Сабкласс",
     "extra": "Додатково",
     "skill_enchant_chance": "Шанс заточення скілів",
-    "attribute": "Атрибут"
+    "attribute": "Вставка атрибуту"
   },
   "enchante_chance": {
     "2nd_proof_encha": "Заточення скилів другої профи",
@@ -32,9 +33,15 @@
     "killed": "Убитий",
     "respawn": "Відродження"
   },
-  "title": "Title UA",
-  "description": {
-    "part1": "Part 1 UA",
-    "part2": "Part 2 UA"
+  "terms": {
+    "lvl": "Рівень:",
+    "requirements": "Вимоги:",
+    "no": "ні"
+  },
+  "popup_target_copied": "/target скопійовано",
+  "FatesWhisper": {
+    "title": "Квест Fate's Whisper (Шепіт Долі)",
+    "1.1": "Беремо квест у Maestro",
+    "1.2": "у Sel Mahum Training Grounds."
   }
 }

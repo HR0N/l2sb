@@ -1,21 +1,19 @@
 import React, {useState} from "react";
 import "./Contacts.scss";
 import {connect} from 'react-redux';
-import foto from "./../../img/l2sb_foto_contacts.jpg";
+import foto from "./../../img/l2sb_foto_contacts2.webp";
 import InputClass from "../../sublimate/input";
 import ContactClass from "../../sublimate/callback_us";
 import ValidatorClass from "../../sublimate/validator";
 import BigPopup from "../../sublimate/popup/BigPopup";
 import MessagePopup from "../../sublimate/popup/MessagePopup";
 import {Helmet} from "react-helmet-async";
-import ReactGA from "react-ga";
 
 const input = new InputClass();
 const tgBot = new ContactClass();
 const valid = new ValidatorClass();
 
 function Contacts() {
-    ReactGA.pageview(window.location.pathname + window.location.search);
 
     const name = input.init("");
     const email = input.init("");

@@ -5,7 +5,6 @@ import $ from "jquery";
 import {Helmet} from "react-helmet-async";
 import {useTranslation} from "react-i18next";
 import i18next from '../../i18next';
-import ReactGA from "react-ga";
 
 const chance = [[
         [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
@@ -34,7 +33,6 @@ const chance = [[
     ]];
 
 function Enchante_chance() {
-    ReactGA.pageview(window.location.pathname + window.location.search);
     const {i18n} = useTranslation();
 
     const obj_2nd_prof = $(document).find('.enchante_table_2nd_prof');

@@ -2,11 +2,9 @@ import React from "react";
 import "./Home.scss";
 import {connect} from 'react-redux';
 import {Helmet} from "react-helmet-async";
-import ReactGA from "react-ga";
 
 
 function Home() {
-    ReactGA.pageview(window.location.pathname + window.location.search);
 
     return(<div className={`Home`}>
         <Helmet>

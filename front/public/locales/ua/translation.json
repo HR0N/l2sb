@@ -41,7 +41,7 @@
   "popup_target_copied": "/target скопійовано",
   "FatesWhisper": {
     "title": "Квест Fate's Whisper (Шепіт Долі)",
-    "1.1": "Беремо квест у Maestro",
-    "1.2": "у Sel Mahum Training Grounds."
+    "0.1": "Беремо квест у Maestro",
+    "0.2": "у Sel Mahum Training Grounds."
   }
 }

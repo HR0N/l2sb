@@ -10,10 +10,13 @@
     padding: 20px 10px;
     margin: 0 auto;
     border-radius: .2rem;
-    h2.title{
+    h2.titleб h2.title2{
       font-size: 2em;
       color: #2d3748;
       text-shadow: 1px 1px 2px dimgray;
+    }
+    .title2{
+      margin-top: 100px;
     }
     .terms{
       margin-top: 15px;
@@ -22,7 +25,7 @@
       padding: 3px;
       border-radius: .2rem;
     }
-    .exercises{
+    .exercises, .exercises2{
       width: 100%;
       margin-top: 30px;
       padding-left: 12px;
@@ -48,7 +51,7 @@
           justify-content: space-evenly;
           position: relative;
         }
-        .weapon-list .top-b, .weapon-list .low-a{
+        .weapon-list .top-b, .weapon-list .low-a, .img-list ul{
           width: 270px;
           list-style: none;
           h3{
@@ -61,6 +64,48 @@
             height: 32px;
             img{
               margin-right: 8px;
+            }
+          }
+        }
+        .sequence-list{
+          display: flex;
+          justify-content: space-evenly;
+          flex-wrap: wrap;
+          ul{
+            position: relative;
+            background-color: whitesmoke;
+            padding: 4px;
+            border-radius: .2rem;
+            list-style: none;
+            display: inline-block;
+            box-shadow: 1px 1px 3px lightgrey;
+            li{
+              display: flex;
+              align-items: center;
+              margin: 6px;
+              height: 32px;
+              img{
+                margin: 4px;
+              }
+            }
+            .math{
+              margin: 0 9px;
+              width: 32px;
+              justify-content: center;
+              align-items: center;
+              height: 6px;
+              font-size: 1.2em;
+              font-weight: bold;
+              transform: translateY(-2px);
+            }
+            .x10{
+              margin: 0;
+              height: 12px;
+              position: absolute;
+              bottom: 6px;
+              right: 4px;
+              font-weight: bold;
+              color: rgba(255, 0, 0, 0.63);
             }
           }
         }
@@ -95,6 +140,10 @@
             height: 18px;
             clip-path: polygon(50% 100%, 0 50%, 100% 50%);
           }
+        }
+        .crossed{
+          display: inline-block;
+          text-decoration: line-through;
         }
       }
     }

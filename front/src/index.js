@@ -15,8 +15,7 @@ import rootReducer from './redux/reducers/rootReducer';
 import './services/localization';
 import Loader from "./UXExtra/Loader/Loader";
 import 'h-bootstrap/h-boobstrap.css';
-import './mediaqueries.scss'
-
+import './mediaqueries.scss';
 
 const store = createStore(rootReducer, applyMiddleware(thunk));
 const root = ReactDOM.createRoot(document.getElementById("root"));

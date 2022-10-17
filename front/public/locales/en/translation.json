@@ -41,7 +41,7 @@
   "popup_target_copied": "/target copied",
   "FatesWhisper": {
     "title": "Quest Fate's Whisper",
-    "1.1": "Take the quest from Maestro",
-    "1.2": "at Sel Mahum Training Grounds."
+    "0.1": "Take the quest from Maestro",
+    "0.2": "at Sel Mahum Training Grounds."
   }
 }

@@ -157,6 +157,12 @@
       width: 94%;
       padding: 20px 3px;
     }
+    .sequence-list {
+      justify-content: flex-start !important;
+      ul{
+        margin: 10px 0 !important;
+      }
+    }
   }
 }
 @media screen and (max-width: 376px){

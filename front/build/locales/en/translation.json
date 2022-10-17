@@ -5,9 +5,10 @@
     "rss": "RSS",
     "contacts": "Contacts",
     "quests": "Quests",
+    "subclass": "Subclass",
     "extra": "Extra",
     "skill_enchant_chance": "Skill enchant chance",
-    "attribute": "Attribute"
+    "attribute": "Inserting an Attribute"
   },
   "enchante_chance": {
     "2nd_proof_encha": "Enchanting skills of the second profession",
@@ -32,9 +33,15 @@
     "killed": "Killed",
     "respawn": "Respawn"
   },
-  "title": "Title EN",
-  "description": {
-    "part1": "Part 1 EN",
-    "part2": "Part 2 EN"
+  "terms": {
+    "lvl": "Level:",
+    "requirements": "Requirements:",
+    "no": "No"
+  },
+  "popup_target_copied": "/target copied",
+  "FatesWhisper": {
+    "title": "Quest Fate's Whisper",
+    "1.1": "Take the quest from Maestro",
+    "1.2": "at Sel Mahum Training Grounds."
   }
 }

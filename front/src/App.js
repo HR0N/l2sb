@@ -11,12 +11,11 @@ import Asterios_respawn_sub_rb_x5 from "./components/Respawn_rb/Asterios_respawn
 import Enchante_chance from "./components/Enchante_chance/Enchante_chance";
 import Contacts from "./components/Contacts/Contacts";
 import Attribute from "./components/Attribute/Attribute";
-import ReactGA from 'react-ga';
 import Subclass from "./components/Quests/Subclass/Subclass";
-ReactGA.initialize('G-XTP5MPL12N');
 
 
 class App extends Component{
+
 
   componentDidMount() {
   }

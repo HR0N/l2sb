@@ -6,11 +6,9 @@ import {load_rss_x5} from "../../redux/actions/rss";
 import background from "../../img/background3.png"
 import {NavLink} from "react-router-dom";
 import {Helmet} from "react-helmet-async";
-import ReactGA from "react-ga";
 
 
 function Asterios_respawn_sub_rb_x5(props) {
-    ReactGA.pageview(window.location.pathname + window.location.search);
     const rss_x5 = useSelector(state => props.rss_x5);  //  subscribe to redux data
     const link = "https://t.me/+kJwK_nPtLng5Zjg6";
 

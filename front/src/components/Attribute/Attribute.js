@@ -28,7 +28,6 @@ import holyCrystal from "./../../img/att/Holy-Crystal.png";
 import darkCrystal from "./../../img/att/Dark-Crystal.png";
 
 import chart from "./../../img/att/chart.png";
-import ReactGA from "react-ga";
 
 const att_literals = {
     fire:  "water",
@@ -40,7 +39,6 @@ const att_literals = {
 };
 
 function Attribute() {
-    ReactGA.pageview(window.location.pathname + window.location.search);
     const {i18n} = useTranslation();
 
     const [helmet, setHelmet]           = useState([["", 0],["", 0],["", 0]]);
