@@ -153,15 +153,32 @@
   }
   //                                                        . . : : Subclass : : . .
   .Subclass {
+    padding: 0 0 0 10px;
     &-wrapper {
       width: 94%;
       padding: 20px 3px;
+      .exercises, .exercises2{
+        width: 100%;
+        margin-top: 30px;
+        padding-left: 12px;
+        .task{
+          .screen{
+            .moveBack, .moveForward{
+              width: 15%;
+            }
+          }
+        }}
     }
     .sequence-list {
       justify-content: flex-start !important;
       ul{
         margin: 10px 0 !important;
       }
+    }
+
+    .crossed{
+      display: inline-block;
+      text-decoration: line-through;
     }
   }
 }

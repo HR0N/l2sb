@@ -1,6 +1,7 @@
 .Header{
   position: relative;
   box-shadow: 0 0 5px grey;
+  z-index: 3;
   .logo{
     position: absolute;
     left: 15px;

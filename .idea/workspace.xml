@@ -2,54 +2,97 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc7846bd-ad00-4195-a9e4-3e3764461d52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front/build/static/css/main.a7321276.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.43ba1bad.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.43ba1bad.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/reagents/BloodFire.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/reagents/Lunargent.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/reagents/MagistersMixingStone.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/reagents/MimirsElixir.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/reagents/MoonDust.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/reagents/MoonstoneShard.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/reagents/PhilosophersStone.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/reagents/PureSilver.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/reagents/Quicksilver.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/reagents/TrueGold.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/reagents/VolcanicAsh.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/reagents/WesleysMixingStone.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/l2sb_foto_contacts.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/l2sb_foto_contacts2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/BloodyGuardian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/Cabrio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/Chimera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/Cliff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/Ferris.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/Golkonda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/Hallate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/Joan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/Kaspar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/Kernon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/Ladd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/MixingUrn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/OrcShaman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/Reorin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/ToI10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/Wesley.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/Zenkin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/small_jpg/bloody_guardian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/small_jpg/cabrio.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/small_jpg/chimera.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/small_jpg/cliff.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/small_jpg/ferris.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/small_jpg/golkonda.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/small_jpg/hallate.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/small_jpg/joan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/small_jpg/kaspar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/small_jpg/kernon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/small_jpg/ladd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/small_jpg/mixurn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/small_jpg/orcshaman.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/small_jpg/reorin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/small_jpg/toi10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/small_jpg/wesley.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/small_jpg/zenkin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/webp/cabrio.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/webp/chimera.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/webp/cliff.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/webp/ferris.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/webp/golkonda.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/webp/guardian.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/webp/hallate.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/webp/joan.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/webp/kaspar.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/webp/kernon.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/webp/ladd.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/webp/mixurn.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/webp/orcshaman.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/webp/reorin.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/webp/toi10.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/webp/wesley.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/webp/zenkin.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/screens/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/screens/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/screens/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/screens/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/screens/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/screens/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/screens/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/screens/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/screens/Ladd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/screens/OrcShaman.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/screens/Wesley.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/front/build/locales/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/locales/en/translation.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/build/locales/ru/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/locales/ru/translation.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/build/locales/ua/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/locales/ua/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/css/main.d2dd2877.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.997dfa74.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.997dfa74.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/pAsterios/parsing.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/pAsterios/parsing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/css/main.a7321276.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/js/27.11ee07a7.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.43ba1bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.43ba1bad.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/media/GB.4fafe239daab361a7ee0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/media/background3.604e8f628a696b0f9ab4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/media/chart.bee43b6258fd408629f7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/media/dead.79293c89d4b92550c45f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/media/getFetch.40f37ddea2378391108f.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/media/happy.e4915b794573a7cdb948.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/media/happy_color.77ba27b4f86273235ee0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/media/l2sb_foto_contacts.cb371653235fcf8fff62.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/front/public/locales/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/public/locales/en/translation.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/public/locales/ru/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/public/locales/ru/translation.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/public/locales/ua/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/public/locales/ua/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Attribute/Attribute.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Attribute/Attribute.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Contacts/Contacts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Enchante_chance/Enchante_chance.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Enchante_chance/Enchante_chance.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Home/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/components/Quests/Subclass/Subclass.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Quests/Subclass/Subclass.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/components/Quests/Subclass/Subclass.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Quests/Subclass/Subclass.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/components/Respawn_rb/Asterios_respawn_sub_rb_x1.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Respawn_rb/Asterios_respawn_sub_rb_x1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/components/Respawn_rb/Asterios_respawn_sub_rb_x1d5.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Respawn_rb/Asterios_respawn_sub_rb_x1d5.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/components/Respawn_rb/Asterios_respawn_sub_rb_x5.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Respawn_rb/Asterios_respawn_sub_rb_x5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/Respawn_rb/Respawn_rb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Respawn_rb/Respawn_rb.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/mediaqueries.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/mediaqueries.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/front/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +238,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/front/public/locales/ua" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
@@ -293,7 +336,12 @@
       <workItem from="1665874269145" duration="2868000" />
       <workItem from="1665921638604" duration="24878000" />
       <workItem from="1665970426268" duration="5409000" />
-      <workItem from="1666012416999" duration="22822000" />
+      <workItem from="1666012416999" duration="23560000" />
+      <workItem from="1666056739031" duration="51000" />
+      <workItem from="1666094073659" duration="6618000" />
+      <workItem from="1666179098299" duration="281000" />
+      <workItem from="1666181009942" duration="595000" />
+      <workItem from="1666190409359" duration="16030000" />
     </task>
     <servers />
   </component>
@@ -319,10 +367,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1661092456937" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1664193528141">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1666179384300">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1664193528141" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1666179384300" />
     <state x="492" y="227" key="NewPhpClassDialog" timestamp="1661093466734">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -343,9 +391,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1665671870656" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1660999719062">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1666099749942">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1660999719062" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1666099749942" />
   </component>
 </project>

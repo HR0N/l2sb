@@ -1,21 +1,38 @@
 {
   "files": {
-    "main.css": "/static/css/main.a7321276.css",
-    "main.js": "/static/js/main.43ba1bad.js",
+    "main.css": "/static/css/main.c95f0b09.css",
+    "main.js": "/static/js/main.b642c5fa.js",
     "static/js/27.11ee07a7.chunk.js": "/static/js/27.11ee07a7.chunk.js",
     "static/media/background3.png": "/static/media/background3.604e8f628a696b0f9ab4.png",
-    "static/media/l2sb_foto_contacts.jpg": "/static/media/l2sb_foto_contacts.cb371653235fcf8fff62.jpg",
     "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
     "static/media/chart.png": "/static/media/chart.bee43b6258fd408629f7.png",
+    "static/media/kernon.webp": "/static/media/kernon.646233652d8a8b7c2be3.webp",
+    "static/media/hallate.webp": "/static/media/hallate.3c000aedd2f163bf7384.webp",
+    "static/media/guardian.webp": "/static/media/guardian.d3dc4a657706748e11cc.webp",
+    "static/media/cabrio.webp": "/static/media/cabrio.fbdd16bfc615d9a0bd96.webp",
+    "static/media/golkonda.webp": "/static/media/golkonda.9770d150350c3b60b108.webp",
+    "static/media/zenkin.webp": "/static/media/zenkin.249ebcf1825c3a4a2370.webp",
+    "static/media/mixurn.webp": "/static/media/mixurn.262dd41b967c44813809.webp",
+    "static/media/ferris.webp": "/static/media/ferris.bdcfe4591f5050187a12.webp",
+    "static/media/orcshaman.webp": "/static/media/orcshaman.d07f4dc3ff1a68821cbb.webp",
+    "static/media/wesley.webp": "/static/media/wesley.0b30d7271870de323782.webp",
+    "static/media/toi10.webp": "/static/media/toi10.f152be0ddd7c4df195d1.webp",
+    "static/media/cliff.webp": "/static/media/cliff.03a00f9c01772db1ddfd.webp",
+    "static/media/reorin.webp": "/static/media/reorin.61bfa205e7a5aa15849b.webp",
+    "static/media/ladd.webp": "/static/media/ladd.fbd5bd3803fe528d9f63.webp",
+    "static/media/joan.webp": "/static/media/joan.2244d2e826752252cda5.webp",
+    "static/media/kaspar.webp": "/static/media/kaspar.026e7ce4850557c2893b.webp",
     "static/media/happy.png": "/static/media/happy.e4915b794573a7cdb948.png",
+    "static/media/chimera.webp": "/static/media/chimera.8fba182d5267581737d6.webp",
     "static/media/happy_color.png": "/static/media/happy_color.77ba27b4f86273235ee0.png",
     "static/media/GB.png": "/static/media/GB.4fafe239daab361a7ee0.png",
+    "static/media/l2sb_foto_contacts2.webp": "/static/media/l2sb_foto_contacts2.b8dee59ceceeb8edc418.webp",
     "static/media/dead.png": "/static/media/dead.79293c89d4b92550c45f.png",
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs"
   },
   "entrypoints": [
-    "static/css/main.a7321276.css",
-    "static/js/main.43ba1bad.js"
+    "static/css/main.c95f0b09.css",
+    "static/js/main.b642c5fa.js"
   ]
 }
