@@ -248,7 +248,7 @@ function Subclass() {
                     </li>
                     <li className="task" id={2}>
                         {i18next.t('MimirsElixir.2.1')}<b>Blazing Swamp</b>{i18next.t('MimirsElixir.2.2')}
-                        <b>Hames Orc Shaman 74 ур.</b>{i18next.t('MimirsElixir.2.1')}<b>Reagent Pouch</b>
+                        <b>Hames Orc Shaman 74 ур. </b>{i18next.t('MimirsElixir.2.3')}<b>Reagent Pouch</b>
                         {i18next.t('MimirsElixir.2.4')}
                         <div className="img-list">
                             <ul>

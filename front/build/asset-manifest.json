@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.899800ac.css",
-    "main.js": "/static/js/main.41608b4b.js",
+    "main.js": "/static/js/main.db1e8a9f.js",
     "static/js/27.11ee07a7.chunk.js": "/static/js/27.11ee07a7.chunk.js",
     "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
     "static/media/chart.png": "/static/media/chart.bee43b6258fd408629f7.png",
@@ -33,6 +33,6 @@
   },
   "entrypoints": [
     "static/css/main.899800ac.css",
-    "static/js/main.41608b4b.js"
+    "static/js/main.db1e8a9f.js"
   ]
 }
