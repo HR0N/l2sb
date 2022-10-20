@@ -8,7 +8,8 @@
     "subclass": "Subclass",
     "extra": "Extra",
     "skill_enchant_chance": "Skill enchant chance",
-    "attribute": "Inserting an Attribute"
+    "attribute": "Inserting an Attribute",
+    "subskills": "Sub skills"
   },
   "enchante_chance": {
     "2nd_proof_encha": "Enchanting skills of the second profession",
@@ -143,5 +144,78 @@
     "12.3": "lubricant",
     "12.4": " He can not hide the excitement, noticeably in a hurry somewhere. Gives you the ability to learn subclasses and flees in an unknown direction. A strange dullness can be heard throughout Ivory Tower, as if everyone is running somewhere. You do not understand this excitement, but you are happy that you helped them and got what you came for yourself. ",
     "12.5": "Congratulations, you've completed the subclass quest!"
+  },
+  "subskills": {
+    "h2": "Description of sub skills Lineage2",
+
+    "ench_1_title": "Mana Boost",
+    "ench_1_des1": "Increase max. MP.",
+    "ench_1_des2": "+148 MP",
+    "ench_2_title": "Recovery MP",
+    "ench_2_des1": "Increased MP Recovery Rate",
+    "ench_2_des2": "+10% MP regeneration",
+    "ench_3_title": "Counter Barrier - Celestial",
+    "ench_3_des1": "Chance to gain invincibility when hit",
+    "ench_3_des2": "For 5 seconds blocks the passage of any damage / debuffs, recovery of HP / CPU / MP is impossible. Protection does not disappear during any actions.",
+
+    "warior_1_title": "CP Boost",
+    "warior_1_des1": "Increase max. CP",
+    "warior_1_des2": "+739 CP",
+    "warior_2_title": "Debuff Resistance",
+    "warior_2_des1": "Increased resistance to sleep, hold, paralize and shock attacks, decreasing the chance of losing each buff",
+    "warior_2_des2": "+5% debuff resistance, -5% chance to lose buff",
+    "warior_3_title": "Acceleration",
+    "warior_3_des1": "Has a chance to increase attack speed when hit",
+    "warior_3_des2": "+30% to atk.spd for 15 seconds",
+
+    "summ_1_title": "Increase HP/MP",
+    "summ_1_des1": "Increase max. HP and max. MP",
+    "summ_1_des2": "+148 HP and +74 MP (+3-4%)",
+    "summ_2_title": "Elemental Resistance",
+    "summ_2_des1": "Increase resistance to elemental attacks",
+    "summ_2_des2": "+5 to each elemental attribute",
+    "summ_3_title": "Spirit",
+    "summ_3_des1": "When hit, there is a chance to gain a soul",
+    "summ_3_des2": "+10% to m.atk, cast.spd, p.atk, atk.spd stats",
+
+    "knight_1_title": "Increase HP",
+    "knight_1_des1": "Increase max. HP.",
+    "knight_1_des2": "+295 HP",
+    "knight_2_title": "Critical Resistance",
+    "knight_2_des1": "Increased Critical Damage Resistance",
+    "knight_2_des2": "Cuts 5% of Critical Damage taken",
+    "knight_3_title": "Protection",
+    "knight_3_des1": "When hit, there is a chance to increase physical and magical defense for a while",
+    "knight_3_des2": "+20% p.def\\m.def for 15 seconds",
+
+    "rogue_1_title": "Evasion",
+    "rogue_1_des1": "Dodge increase",
+    "rogue_1_des2": "+4 Evasion",
+    "rogue_2_title": "Range",
+    "rogue_2_des1": "Increasing the maximum shot distance",
+    "rogue_2_des2": "+100 Bow Attack Range (Does not grant bonuses to Crossbows)",
+    "rogue_3_title": "Crit Chance. Atk.",
+    "rogue_3_des1": "On Hit there is a chance to gain a temporary increase chance critical rate",
+    "rogue_3_des2": "+30% crit. rate for 15 seconds",
+
+    "healer_1_title": "Prayer",
+    "healer_1_des1": "Increasing the effectiveness of treatment",
+    "healer_1_des2": "+10% Healing Efficiency",
+    "healer_2_title": "Divine Protection",
+    "healer_2_des1": "Increase resistance to divine, dark attacks",
+    "healer_2_des2": "+5 holy attribute, +5 dark attribute",
+    "healer_3_title": "Healing",
+    "healer_3_des1": "When hit, there is a chance to restore some HP",
+    "healer_3_des2": "Heal power 150",
+
+    "wizard_1_title": "Antimagic",
+    "wizard_1_des1": "Increased chance to reflect a spell",
+    "wizard_1_des2": "+5% chance to land a failed magic attack on you",
+    "wizard_2_title": "Mana Growth",
+    "wizard_2_des1": "Increased mana restored when recharging",
+    "wizard_2_des2": "+20 MP when using Recharge on you",
+    "wizard_3_title": "Mana Steal",
+    "wizard_3_des1": "When hit, there is a chance to recover some MP",
+    "wizard_3_des2": "10 MP by vampiric from target to master."
   }
 }

@@ -3,7 +3,7 @@ import "./Respawn_rb.scss";
 import {connect, useSelector} from 'react-redux';
 import Card from "./card/card";
 import {load_rss_x5} from "../../redux/actions/rss";
-import background from "../../img/background3.png"
+import background from "../../img/background3.webp"
 import {NavLink} from "react-router-dom";
 import {Helmet} from "react-helmet-async";
 import i18next from "../../i18next";
@@ -43,7 +43,10 @@ function Asterios_respawn_sub_rb_x5(props) {
             <NavLink to={"/respawn/asterios/subclass-rb_x1"}  exact="true" end>x1</NavLink>
             <NavLink to={"/respawn/asterios/subclass-rb_x1.5"}  exact="true" end>x1.5</NavLink>
             <NavLink to={"/respawn/asterios/subclass-rb_x5"}  exact="true" end>x5</NavLink>
-            <div className="subclass_quest_link"><NavLink to={"/quests/subclass"}>{i18next.t('rss.subclass_quest_link')}</NavLink></div>
+            <div className="subclass_quest_link">
+                <NavLink to={"/quests/subclass"}>{i18next.t('rss.subclass_quest_link')}</NavLink>
+                <NavLink to={"/other/extra/subskills"}>Sub skills</NavLink>
+            </div>
         </div>
         <h2 className={`component_title`}><span>Asterios</span></h2>
         {rss_x5 ? add_chest_targets_to_key_bosses_x5() : false}

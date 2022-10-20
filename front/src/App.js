@@ -12,6 +12,7 @@ import Enchante_chance from "./components/Enchante_chance/Enchante_chance";
 import Contacts from "./components/Contacts/Contacts";
 import Attribute from "./components/Attribute/Attribute";
 import Subclass from "./components/Quests/Subclass/Subclass";
+import Subskills from "./components/SubSkills/Subskills";
 
 
 class App extends Component{
@@ -35,6 +36,7 @@ class App extends Component{
             <Route exact={true} path={'/respawn/asterios/subclass-rb_x5'} element={<Asterios_respawn_sub_rb_x5/>}/>
             <Route exact={true} path={'/respawn/asterios/subclass-rb_x5'} element={<Asterios_respawn_sub_rb_x5/>}/>
             <Route exact={true} path={'/other/extra/enchante_chance'} element={<Enchante_chance/>}/>
+            <Route exact={true} path={'/other/extra/subskills'} element={<Subskills/>}/>
             <Route exact={true} path={'/quests/subclass'} element={<Subclass/>}/>
             <Route exact={true} path={'/contacts'} element={<Contacts/>}/>
             <Route exact={true} path={'/other/extra/attribute'} element={<Attribute/>}/>

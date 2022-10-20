@@ -347,7 +347,7 @@ function Subclass() {
                 </ol>
             </div>
         </div>
-        <div className={`go_up ${go_up ? 'show_go-up' : ''}`} onClick={()=>{window.scrollTo({top: 40, behavior: 'smooth'})}}
+        <div className={`go_up ${go_up ? 'show_go-up' : ''}`} onClick={()=>{window.scrollTo({top: 0, behavior: 'smooth'})}}
         ><FontAwesomeIcon className={``} icon={faChevronUp}/></div>
     </div>);
 }

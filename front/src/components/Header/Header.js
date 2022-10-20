@@ -34,6 +34,7 @@ function Header() {
                     {/*</div>*/}
                     <div className="nav-item dropdown2"><NavLink className={'disable'} to={"/other/extra"} exact="true">{i18next.t('header.extra')} <FontAwesomeIcon className={`faIcons`} icon={faChevronDown}/></NavLink>
                         <div className="nav-item dropdown-menu2">
+                            <div className="nav-item"><NavLink to={"/other/extra/subskills"}  exact="true" end>{i18next.t('header.subskills')}</NavLink></div>
                             <div className="nav-item"><NavLink to={"/other/extra/enchante_chance"}  exact="true" end>{i18next.t('header.skill_enchant_chance')}</NavLink></div>
                             <div className="nav-item"><NavLink to={"/other/extra/attribute"}  exact="true" end>{i18next.t('header.attribute')}</NavLink></div>
                         </div>
