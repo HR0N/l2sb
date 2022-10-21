@@ -40,9 +40,12 @@
     }
     .subclass_quest_link{
       position: absolute;
-      bottom: -35px;
+      display: flex;
+      flex-wrap: wrap;
+      top: 44px;
       font-size: .8em;
       a{
+        white-space: nowrap;
         opacity: .3;
         background-color: transparent;
         &:hover{transition: ease-in-out all 1s; opacity: 1; color: rgba(255, 232, 155, 0.8);}

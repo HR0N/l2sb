@@ -10,7 +10,7 @@ export function load_rss_x1() {
     return async dispatch => {
         try{
             const response = await axios
-                .get('https://l2sb.evilcode.space/php/get_asterios_rss_x1.php');
+                .get('https://l2lb.monster/php/get_asterios_rss_x1.php');
             let data = response.data;
             dispatch(save_rss_x1(data))
         }
@@ -27,7 +27,7 @@ export function load_rss_x1d5() {
     return async dispatch => {
         try{
             const response = await axios
-                .get('https://l2sb.evilcode.space/php/get_asterios_rss_x1d5.php');
+                .get('https://l2lb.monster/php/get_asterios_rss_x1d5.php');
             let data = response.data;
             dispatch(save_rss_x1d5(data))
         }
@@ -44,7 +44,7 @@ export function load_rss_x5() {
     return async dispatch => {
         try{
             const response = await axios
-                .get('https://l2sb.evilcode.space/php/get_asterios_rss_x5.php');
+                .get('https://l2lb.monster/php/get_asterios_rss_x5.php');
             let data = response.data;
             dispatch(save_rss_x5(data))
         }

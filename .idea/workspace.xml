@@ -2,56 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc7846bd-ad00-4195-a9e4-3e3764461d52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front/build/static/css/main.8a73ec0f.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.72c45d9a.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.72c45d9a.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/static/media/background3.3c0fde2bc238d28e71c2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/SubSkills/Subskills.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/SubSkills/Subskills.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/FatesWhisper_weapon-list/frames/webp/background3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/background3.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/subskills/100rangeincrease.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/subskills/10mpvampiric.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/subskills/10pmpregen.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/subskills/20mpincreaserecharge.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/subskills/20pud.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/subskills/30atkspeed.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/subskills/30pcritrate.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/subskills/5att.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/subskills/5holydark.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/subskills/5percenresistdamage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/subskills/5percentresist.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/subskills/5pmagicfail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/subskills/celestial.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/subskills/cp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/subskills/evasion.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/subskills/heal150.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/subskills/hp295.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/subskills/hpmp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/subskills/mp148.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/subskills/prayer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/img/subskills/spirit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/static/css/main.afb4505a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.d388cf66.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.d388cf66.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/php/get_ip.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/locales/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/locales/en/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/locales/ru/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/locales/ru/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/locales/ua/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/locales/ua/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/css/main.c95f0b09.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.b642c5fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.b642c5fa.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/media/background3.604e8f628a696b0f9ab4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/public/locales/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/public/locales/en/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/public/locales/ru/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/public/locales/ru/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/public/locales/ua/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/public/locales/ua/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Quests/Subclass/Subclass.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Quests/Subclass/Subclass.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Respawn_rb/Asterios_respawn_sub_rb_x1.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Respawn_rb/Asterios_respawn_sub_rb_x1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Respawn_rb/Asterios_respawn_sub_rb_x1d5.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Respawn_rb/Asterios_respawn_sub_rb_x1d5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Respawn_rb/Asterios_respawn_sub_rb_x5.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Respawn_rb/Asterios_respawn_sub_rb_x5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/css/main.899800ac.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.db1e8a9f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.db1e8a9f.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/pAsterios/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/pAsterios/test.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/components/Respawn_rb/Respawn_rb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Respawn_rb/Respawn_rb.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/img/l2sb_foto_contacts.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/i18next.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/i18next.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/redux/actions/rss.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/redux/actions/rss.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,24 +161,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/front/php" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\HRON\OpenServer\domains\l2sb\front\public\locales\ua" />
-      <recent name="C:\HRON\OpenServer\domains\l2sb\front\public\locales\ru" />
-      <recent name="C:\HRON\OpenServer\domains\l2sb\front\src" />
-      <recent name="C:\HRON\OpenServer\domains\l2sb\front\src\components\RespawnRb" />
-      <recent name="C:\HRON\OpenServer\domains\l2sb\front\php" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\HRON\OpenServer\domains\l2sb\front\src" />
       <recent name="C:\HRON\OpenServer\domains\l2sb\front" />
       <recent name="C:\HRON\OpenServer\domains\React Laravel template 1\front\src\components" />
       <recent name="C:\HRON\OpenServer\domains\React Laravel template 1\front\src\UXExtra" />
       <recent name="C:\HRON\OpenServer\domains\React Laravel template 1\back\app\Http\Controllers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\HRON\OpenServer\domains\l2sb\front\php" />
+      <recent name="C:\HRON\OpenServer\domains\l2sb\front\public\locales\ua" />
+      <recent name="C:\HRON\OpenServer\domains\l2sb\front\public\locales\ru" />
+      <recent name="C:\HRON\OpenServer\domains\l2sb\front\src" />
+      <recent name="C:\HRON\OpenServer\domains\l2sb\front\src\components\RespawnRb" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -301,7 +265,10 @@
       <workItem from="1666179098299" duration="281000" />
       <workItem from="1666181009942" duration="595000" />
       <workItem from="1666190409359" duration="16506000" />
-      <workItem from="1666276797194" duration="11677000" />
+      <workItem from="1666276797194" duration="12594000" />
+      <workItem from="1666309012291" duration="1085000" />
+      <workItem from="1666364298228" duration="1178000" />
+      <workItem from="1666369270538" duration="6137000" />
     </task>
     <servers />
   </component>
