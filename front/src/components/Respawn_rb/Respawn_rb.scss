@@ -52,11 +52,40 @@
       }
     }
   }
+  .gmt-wrapper{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    max-width: 270px;
+    min-width: 270px;
+    margin: 100px auto 0;
+    font-weight: bold;
+    color: #5ab2cf;
+    text-shadow: 0 0 3px black;
+    .title{
+      width: 100%;
+    }
+    .list{
+      width: 100%;
+      position: relative;
+      display: flex;
+      ul{
+        list-style: none;
+        width: 50%;
+        margin: 0;
+        li{
+          text-align: left;
+          text-indent: 40px;
+        }
+    }
+    }
+  }
   .key_bosses_cards{
     width: 75%;
     max-width: 600px;
     min-width: 320px;
-    margin: 100px auto;
+    margin: 50px auto;
     display: grid;
     grid-template-columns: repeat(auto-fill, 270px);
     column-gap: 50px;

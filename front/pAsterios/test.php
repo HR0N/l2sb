@@ -17,6 +17,7 @@ require_once __DIR__.'/libs/phpQuery-0.9.5.386-onefile/phpQuery-onefile.php';
 $url = "https://a.co/d/1V5xr3g";
 
 echo $url;
+$tgBot3->sendMessage("-894503163","☠️\nLonghorn Golkonda\n \n"."<code>/target Chest of Golkonda</code>");
 
 /*for($i=0;$i<5;$i++){
     $tgBot3->sendMessage("-718032249",$i);

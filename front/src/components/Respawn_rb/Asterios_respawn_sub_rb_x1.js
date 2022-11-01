@@ -51,6 +51,39 @@ function Asterios_respawn_sub_rb_x1(props) {
         </div>
         <h2 className={`component_title`}><span>Asterios</span></h2>
         {rss_x1 ? add_chest_targets_to_key_bosses_x1() : false}
+        <div className="gmt-wrapper">
+            <div className="title">TITLE</div>
+            <div className="list">
+                <ul>
+                    <li>GMT-1</li>
+                    <li>GMT-2</li>
+                    <li>GMT-3</li>
+                    <li>GMT-4</li>
+                    <li>GMT-5</li>
+                    <li>GMT-6</li>
+                    <li>GMT-7</li>
+                    <li>GMT-8</li>
+                    <li>GMT-9</li>
+                    <li>GMT-10</li>
+                    <li>GMT-11</li>
+                    <li>GMT-12</li>
+                </ul>
+                <ul>
+                    <li>GMT+1</li>
+                    <li>GMT+2</li>
+                    <li>GMT+3</li>
+                    <li>GMT+4</li>
+                    <li>GMT+5</li>
+                    <li>GMT+6</li>
+                    <li>GMT+7</li>
+                    <li>GMT+8</li>
+                    <li>GMT+9</li>
+                    <li>GMT+10</li>
+                    <li>GMT+11</li>
+                    <li>GMT+12</li>
+                </ul>
+            </div>
+        </div>
         {rss_x1 ?
             <div className={`key_bosses_cards`}>
                 <Card idx={0} data={rss_x1[1].Cabrio} link={link}/>

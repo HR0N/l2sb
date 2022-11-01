@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc7846bd-ad00-4195-a9e4-3e3764461d52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front/build/static/css/main.afb4505a.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.d388cf66.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.d388cf66.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/php/get_ip.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/css/main.899800ac.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.db1e8a9f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.db1e8a9f.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/pAsterios/parsing.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/pAsterios/parsing.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/pAsterios/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/pAsterios/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/Respawn_rb/Asterios_respawn_sub_rb_x1.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Respawn_rb/Asterios_respawn_sub_rb_x1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/components/Respawn_rb/Respawn_rb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Respawn_rb/Respawn_rb.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/i18next.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/i18next.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/redux/actions/rss.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/redux/actions/rss.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +152,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/front/php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
@@ -268,7 +259,10 @@
       <workItem from="1666276797194" duration="12594000" />
       <workItem from="1666309012291" duration="1085000" />
       <workItem from="1666364298228" duration="1178000" />
-      <workItem from="1666369270538" duration="6137000" />
+      <workItem from="1666369270538" duration="6654000" />
+      <workItem from="1666609618404" duration="238000" />
+      <workItem from="1667232102076" duration="746000" />
+      <workItem from="1667314442010" duration="2679000" />
     </task>
     <servers />
   </component>
@@ -294,10 +288,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1661092456937" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1666179384300">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1666609865413">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1666179384300" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1666609865413" />
     <state x="492" y="227" key="NewPhpClassDialog" timestamp="1661093466734">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
