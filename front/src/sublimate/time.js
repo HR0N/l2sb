@@ -1,7 +1,7 @@
 import moment from "moment";
 
 class Time {
-    aster_Time_format_to_l2sb = str => {
+    aster_Time_format_to_l2sb = (str, gmt = 3) => {
         let date = str.split(' ')[0].split('-');
         let time = str.split(' ')[1].split(':');
         let result = [date[0], +date[1] - 1, date[2], ...time];
@@ -9,14 +9,14 @@ class Time {
         // console.log(moment(result).format("DD.MM.YYYY | H:mm"));
         // console.log(moment.unix(moment(new Date).unix()).format("DD.MM.YYYY | H:mm"));
         // console.log(moment(result).format("DD.MM.YYYY | H:mm"));
-        return moment(result).format("DD.MM.YYYY - H:mm");
+        return moment(result).add(this.get_dif_gmt(gmt), 'hours').format("DD.MM.YYYY - H:mm");
     };
     new_Date_format_to_l2sb = obj => {
         let unix = moment(obj).unix();
         return moment.unix(unix).format("DD.MM.YYYY - H:mm");
     };
-    compare_dateTime_formats = (ast_date, new_date = new Date())=>{
-        let killed       = moment(ast_date);
+    compare_dateTime_formats = (ast_date, gmt = 3, new_date = new Date())=>{
+        let killed       = moment(ast_date).add(this.get_dif_gmt(gmt), 'hours');
         let time_now     = moment(new_date);
         let passed       = moment.duration(time_now.diff(killed));
         let start        = moment(killed).add(18, 'hours');
@@ -42,6 +42,7 @@ class Time {
             begun: begun,
         };
     };
+    get_dif_gmt(gmt){return -3 + gmt}
 };
 
 export default Time;

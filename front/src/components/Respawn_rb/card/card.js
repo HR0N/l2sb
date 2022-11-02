@@ -24,7 +24,7 @@ const circumference = 2 * Math.PI * radius;
 
 function Card(props) {
     const {i18n} = useTranslation();
-    const [compare, setCompare] = useState(time.compare_dateTime_formats(props.data[0]));
+    const [compare, setCompare] = useState(time.compare_dateTime_formats(props.data[0], props.gmt));
 
 
 
@@ -43,7 +43,7 @@ function Card(props) {
 
 
         const interval = setInterval(()=>{
-            setCompare(time.compare_dateTime_formats(props.data[0]));
+            setCompare(time.compare_dateTime_formats(props.data[0], props.gmt));
         }, 2000);  // todo:                                               . . : : interval refresh data : : . .
 
         setTimeout(()=>{setProgress(getPercent());}, 2000);
@@ -79,7 +79,7 @@ function Card(props) {
         </div>
         <div className="Card__info">
             <div className="resp">{i18next.t('rss.killed')}:</div>
-            <div className="info__row was-killed">{time.aster_Time_format_to_l2sb(props.data[0])}</div>
+            <div className="info__row was-killed">{time.aster_Time_format_to_l2sb(props.data[0], props.gmt)}</div>
             <br/>
             <div className="resp">{i18next.t('rss.respawn')}:</div>
             <div className="info__row start-resp">

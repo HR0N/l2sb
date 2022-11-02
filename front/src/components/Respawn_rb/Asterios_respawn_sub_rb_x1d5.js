@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, {useEffect, useState} from "react";
 import "./Respawn_rb.scss";
 import {connect, useSelector} from 'react-redux';
 import Card from "./card/card";
@@ -7,11 +7,16 @@ import background from "../../img/background3.webp"
 import {NavLink} from "react-router-dom";
 import {Helmet} from "react-helmet-async";
 import i18next from "../../i18next";
+import LocalStorage from "../../sublimate/localStorage";
+const ls = new LocalStorage();
 
 
 function Asterios_respawn_sub_rb_x1d5(props) {
     const rss_x1d5 = useSelector(state => props.rss_x1d5);  //  subscribe to redux data
     const link = "https://t.me/+ybkn6yQ8n6w4MDFi";
+
+    const [gmt, setGmt] = useState(ls.get('gmt') !== null ? ls.get('gmt') : 3);
+    const [showGmt, setShowGmt] = useState(false);
 
     useEffect(()=>{props.load_rss();}, []);
     useEffect(()=>{
@@ -31,6 +36,11 @@ function Asterios_respawn_sub_rb_x1d5(props) {
             rss_x5[1].Hallate[0]  = ('2022-09-29 21:12:23');}, 3000)*/
     };
     // console.log(rss_x5);
+    const change_gmt = (new_gmt)=>{
+        setGmt(new_gmt);
+        ls.set("gmt", new_gmt);
+        setShowGmt(!showGmt);
+    };
     return(<div className={`RespawnRb`}
     >
         <Helmet>
@@ -50,12 +60,47 @@ function Asterios_respawn_sub_rb_x1d5(props) {
         </div>
         <h2 className={`component_title`}><span>Asterios</span></h2>
         {rss_x1d5 ? add_chest_targets_to_key_bosses_x1d5() : false}
+        <div className={`gmt-wrapper ${showGmt ? "gmt-active":""}`}>
+            <div className="modal-backdrop" onClick={()=>{setShowGmt(!showGmt)}}> </div>
+            <div className="title" onClick={()=>{setShowGmt(!showGmt)}}>GMT {gmt>0?"+":""}{gmt !== 0?gmt:""}</div>
+            <div className="list">
+                <ul>
+                    <li onClick={()=>{change_gmt(-1)}}>GMT-1</li>
+                    <li onClick={()=>{change_gmt(-2)}}>GMT-2</li>
+                    <li onClick={()=>{change_gmt(-3)}}>GMT-3</li>
+                    <li onClick={()=>{change_gmt(-4)}}>GMT-4</li>
+                    <li onClick={()=>{change_gmt(-5)}}>GMT-5</li>
+                    <li onClick={()=>{change_gmt(-6)}}>GMT-6</li>
+                    <li onClick={()=>{change_gmt(-7)}}>GMT-7</li>
+                    <li onClick={()=>{change_gmt(-8)}}>GMT-8</li>
+                    <li onClick={()=>{change_gmt(-9)}}>GMT-9</li>
+                    <li onClick={()=>{change_gmt(-10)}}>GMT-10</li>
+                    <li onClick={()=>{change_gmt(-11)}}>GMT-11</li>
+                    <li onClick={()=>{change_gmt(-12)}}>GMT-12</li>
+                </ul>
+                <ul><li onClick={()=>{change_gmt(0)}}>GMT</li></ul>
+                <ul>
+                    <li onClick={()=>{change_gmt(1)}}>GMT+1</li>
+                    <li onClick={()=>{change_gmt(2)}}>GMT+2</li>
+                    <li onClick={()=>{change_gmt(3)}}>GMT+3</li>
+                    <li onClick={()=>{change_gmt(4)}}>GMT+4</li>
+                    <li onClick={()=>{change_gmt(5)}}>GMT+5</li>
+                    <li onClick={()=>{change_gmt(6)}}>GMT+6</li>
+                    <li onClick={()=>{change_gmt(7)}}>GMT+7</li>
+                    <li onClick={()=>{change_gmt(8)}}>GMT+8</li>
+                    <li onClick={()=>{change_gmt(9)}}>GMT+9</li>
+                    <li onClick={()=>{change_gmt(10)}}>GMT+10</li>
+                    <li onClick={()=>{change_gmt(11)}}>GMT+11</li>
+                    <li onClick={()=>{change_gmt(12)}}>GMT+12</li>
+                </ul>
+            </div>
+        </div>
         {rss_x1d5 ?
             <div className={`key_bosses_cards`}>
-                <Card idx={0} data={rss_x1d5[1].Cabrio} link={link}/>
-                <Card idx={1} data={rss_x1d5[1].Hallate} link={link}/>
-                <Card idx={2} data={rss_x1d5[1].Kernon} link={link}/>
-                <Card idx={3} data={rss_x1d5[1].Golkonda} link={link}/>
+                <Card idx={0} data={rss_x1d5[1].Cabrio} link={link} gmt={gmt}/>
+                <Card idx={1} data={rss_x1d5[1].Hallate} link={link} gmt={gmt}/>
+                <Card idx={2} data={rss_x1d5[1].Kernon} link={link} gmt={gmt}/>
+                <Card idx={3} data={rss_x1d5[1].Golkonda} link={link} gmt={gmt}/>
             </div>
             : false}
     </div>);
