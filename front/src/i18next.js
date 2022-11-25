@@ -16,7 +16,8 @@ const language = async function(){  // IP API - https://ip-api.com/docs/api:seri
     });
     if(!myStorage){
         let lang = await language;
-        i18n.changeLanguage(lang)
+        i18n.changeLanguage(lang);
+        window.location.reload();   // почему то при смене языка не обновляется компонент Header \ это костыль
     }
 };
 
